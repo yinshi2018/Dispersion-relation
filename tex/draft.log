@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.19)  16 NOV 2018 10:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.19)  8 APR 2019 09:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -388,7 +388,11 @@ Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 136
 Class revtex4-1 Info: cite was not loaded (OK!) on input line 136.
 Class revtex4-1 Info: mcite was not loaded (OK!) on input line 136.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 136.
-(./draft.aux)
+(./draft.aux
+
+LaTeX Warning: Label `eq:anodim' multiply defined.
+
+)
 \openout1 = `draft.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 136.
@@ -405,8 +409,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 136.
 LaTeX Font Info:    ... okay on input line 136.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 136.
 LaTeX Font Info:    ... okay on input line 136.
-
-(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count123
 \scratchdimen=\dimen121
@@ -468,67 +471,42 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 172.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+bbold on input line 216.
+LaTeX Font Info:    Try loading font information for U+bbold on input line 191.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/bbold/Ubbold.fd)
-
-Package natbib Warning: Citation `?' on page 1 undefined on input line 218.
-
-<./figures/FRG-QCD_rebosonised.pdf, id=64, 484.51575pt x 103.05862pt>
-File: ./figures/FRG-QCD_rebosonised.pdf Graphic file (type pdf)
-
-<use ./figures/FRG-QCD_rebosonised.pdf>
-Package pdftex.def Info: ./figures/FRG-QCD_rebosonised.pdf used on input line 2
-21.
-(pdftex.def)             Requested size: 229.49844pt x 48.81653pt.
+Underfull \hbox (badness 1137) in paragraph at lines 218--220
+\OT1/cmr/m/n/10 With the bro-ken of the $\OML/cmm/m/it/10 O\OT1/cmr/m/n/10 (4)$
+-symmetry the me-son
+ []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--237
+Underfull \hbox (badness 10000) in paragraph at lines 258--269
 
  []
 
-[1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./fig
-ures/FRG-QCD_rebosonised.pdf>]
+[1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+LaTeX Warning: Reference `a' on page 2 undefined on input line 334.
+
 Package epstopdf Info: Source file: <./figures/mphi.eps>
 (epstopdf)                    date: 2018-10-22 20:35:41
 (epstopdf)                    size: 95720 bytes
 (epstopdf)             Output file: <./figures/mphi-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-10-23 16:10:03
+(epstopdf)                    date: 2019-03-14 16:45:46
 (epstopdf)                    size: 72076 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/mphi-eps-convert
 ed-to.pdf ./figures/mphi.eps>
-(epstopdf)             \includegraphics on input line 383.
+(epstopdf)             \includegraphics on input line 344.
 Package epstopdf Info: Output file is already uptodate.
-
-<./figures/mphi-eps-converted-to.pdf, id=154, 853.1875pt x 284.06125pt>
+<./figures/mphi-eps-converted-to.pdf, id=76, 853.1875pt x 284.06125pt>
 File: ./figures/mphi-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./figures/mphi-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/mphi-eps-converted-to.pdf used on input line
- 383.
+ 344.
 (pdftex.def)             Requested size: 510.0pt x 169.80522pt.
-Package epstopdf Info: Source file: <./figures/trace.eps>
-(epstopdf)                    date: 2018-10-23 10:21:26
-(epstopdf)                    size: 55670 bytes
-(epstopdf)             Output file: <./figures/trace-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-10-23 16:10:04
-(epstopdf)                    size: 24173 bytes
-(epstopdf)             Command: <repstopdf --outfile=./figures/trace-eps-conver
-ted-to.pdf ./figures/trace.eps>
-(epstopdf)             \includegraphics on input line 398.
-Package epstopdf Info: Output file is already uptodate.
-
-<./figures/trace-eps-converted-to.pdf, id=155, 569.12625pt x 426.59375pt>
-File: ./figures/trace-eps-converted-to.pdf Graphic file (type pdf)
-
-<use ./figures/trace-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/trace-eps-converted-to.pdf used on input lin
-e 398.
-(pdftex.def)             Requested size: 234.60342pt x 175.8484pt.
+ [2]
 Package epstopdf Info: Source file: <./figures/chi2chi4.eps>
 (epstopdf)                    date: 2018-10-23 10:59:56
 (epstopdf)                    size: 76453 bytes
@@ -537,15 +515,15 @@ Package epstopdf Info: Source file: <./figures/chi2chi4.eps>
 (epstopdf)                    size: 43128 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/chi2chi4-eps-con
 verted-to.pdf ./figures/chi2chi4.eps>
-(epstopdf)             \includegraphics on input line 408.
+(epstopdf)             \includegraphics on input line 393.
 Package epstopdf Info: Output file is already uptodate.
 
-<./figures/chi2chi4-eps-converted-to.pdf, id=156, 853.1875pt x 284.06125pt>
+<./figures/chi2chi4-eps-converted-to.pdf, id=93, 853.1875pt x 284.06125pt>
 File: ./figures/chi2chi4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./figures/chi2chi4-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/chi2chi4-eps-converted-to.pdf used on input 
-line 408.
+line 393.
 (pdftex.def)             Requested size: 510.0pt x 169.80522pt.
 Package epstopdf Info: Source file: <./figures/chi13.eps>
 (epstopdf)                    date: 2018-10-23 10:53:15
@@ -555,15 +533,15 @@ Package epstopdf Info: Source file: <./figures/chi13.eps>
 (epstopdf)                    size: 91923 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/chi13-eps-conver
 ted-to.pdf ./figures/chi13.eps>
-(epstopdf)             \includegraphics on input line 418.
+(epstopdf)             \includegraphics on input line 403.
 Package epstopdf Info: Output file is already uptodate.
 
-<./figures/chi13-eps-converted-to.pdf, id=157, 853.1875pt x 284.06125pt>
+<./figures/chi13-eps-converted-to.pdf, id=94, 853.1875pt x 284.06125pt>
 File: ./figures/chi13-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./figures/chi13-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/chi13-eps-converted-to.pdf used on input lin
-e 418.
+e 403.
 (pdftex.def)             Requested size: 510.0pt x 169.80522pt.
 Package epstopdf Info: Source file: <./figures/r42.eps>
 (epstopdf)                    date: 2018-10-23 10:09:37
@@ -573,51 +551,69 @@ Package epstopdf Info: Source file: <./figures/r42.eps>
 (epstopdf)                    size: 27883 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/r42-eps-converte
 d-to.pdf ./figures/r42.eps>
-(epstopdf)             \includegraphics on input line 428.
+(epstopdf)             \includegraphics on input line 413.
 Package epstopdf Info: Output file is already uptodate.
 
-<./figures/r42-eps-converted-to.pdf, id=158, 569.12625pt x 426.59375pt>
+<./figures/r42-eps-converted-to.pdf, id=95, 569.12625pt x 426.59375pt>
 File: ./figures/r42-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./figures/r42-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/r42-eps-converted-to.pdf used on input line 
-428.
+413.
+(pdftex.def)             Requested size: 234.60342pt x 175.8484pt.
+Package epstopdf Info: Source file: <./figures/trace.eps>
+(epstopdf)                    date: 2018-10-23 10:21:26
+(epstopdf)                    size: 55670 bytes
+(epstopdf)             Output file: <./figures/trace-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-10-23 16:10:04
+(epstopdf)                    size: 24173 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/trace-eps-conver
+ted-to.pdf ./figures/trace.eps>
+(epstopdf)             \includegraphics on input line 485.
+Package epstopdf Info: Output file is already uptodate.
+
+<./figures/trace-eps-converted-to.pdf, id=99, 569.12625pt x 426.59375pt>
+File: ./figures/trace-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./figures/trace-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/trace-eps-converted-to.pdf used on input lin
+e 485.
 (pdftex.def)             Requested size: 234.60342pt x 175.8484pt.
 Package epstopdf Info: Source file: <./figures/mf.eps>
 (epstopdf)                    date: 2018-10-23 09:59:05
 (epstopdf)                    size: 46721 bytes
 (epstopdf)             Output file: <./figures/mf-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-10-23 16:10:06
+(epstopdf)                    date: 2019-04-07 20:11:54
 (epstopdf)                    size: 19564 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/mf-eps-converted
 -to.pdf ./figures/mf.eps>
-(epstopdf)             \includegraphics on input line 436.
+(epstopdf)             \includegraphics on input line 496.
 Package epstopdf Info: Output file is already uptodate.
 
-<./figures/mf-eps-converted-to.pdf, id=159, 569.12625pt x 426.59375pt>
+<./figures/mf-eps-converted-to.pdf, id=100, 569.12625pt x 426.59375pt>
 File: ./figures/mf-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./figures/mf-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/mf-eps-converted-to.pdf used on input line 4
-36.
+96.
 (pdftex.def)             Requested size: 234.60342pt x 175.8484pt.
 Package epstopdf Info: Source file: <./figures/fpi.eps>
 (epstopdf)                    date: 2018-10-23 09:58:38
 (epstopdf)                    size: 53285 bytes
 (epstopdf)             Output file: <./figures/fpi-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-10-23 16:10:06
-(epstopdf)                    size: 22626 bytes
+(epstopdf)                    date: 2019-03-18 19:19:18
+(epstopdf)                    size: 22620 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/fpi-eps-converte
 d-to.pdf ./figures/fpi.eps>
-(epstopdf)             \includegraphics on input line 444.
+(epstopdf)             \includegraphics on input line 504.
 Package epstopdf Info: Output file is already uptodate.
 
-<./figures/fpi-eps-converted-to.pdf, id=160, 569.12625pt x 426.59375pt>
+<./figures/fpi-eps-converted-to.pdf, id=101, 569.12625pt x 426.59375pt>
 File: ./figures/fpi-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./figures/fpi-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/fpi-eps-converted-to.pdf used on input line 
-444.
+504.
 (pdftex.def)             Requested size: 234.60342pt x 175.8484pt.
 Package epstopdf Info: Source file: <./figures/freeze.eps>
 (epstopdf)                    date: 2018-10-23 10:46:11
@@ -627,68 +623,64 @@ Package epstopdf Info: Source file: <./figures/freeze.eps>
 (epstopdf)                    size: 57851 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/freeze-eps-conve
 rted-to.pdf ./figures/freeze.eps>
-(epstopdf)             \includegraphics on input line 451.
+(epstopdf)             \includegraphics on input line 511.
 Package epstopdf Info: Output file is already uptodate.
 
-<./figures/freeze-eps-converted-to.pdf, id=161, 569.12625pt x 426.59375pt>
+<./figures/freeze-eps-converted-to.pdf, id=102, 569.12625pt x 426.59375pt>
 File: ./figures/freeze-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./figures/freeze-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/freeze-eps-converted-to.pdf used on input li
-ne 451.
+ne 511.
 (pdftex.def)             Requested size: 234.60342pt x 175.8484pt.
- [2]
-Overfull \hbox (17.88745pt too wide) in paragraph at lines 514--514
-[] 
- []
-
-[3 <./figures/mphi-eps-converted-to.pdf> <./figures/trace-eps-converted-to.pdf>
-]
-Overfull \hbox (10.1252pt too wide) in paragraph at lines 543--543
-[] 
- []
-
-[4 <./figures/chi2chi4-eps-converted-to.pdf> <./figures/chi13-eps-converted-to.
-pdf>]
+ [3 <./figures/mphi-eps-converted-to.pdf>] [4 <./figures/chi2chi4-eps-converted
+-to.pdf> <./figures/chi13-eps-converted-to.pdf>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 563.
-
-[5 <./figures/r42-eps-converted-to.pdf> <./figures/mf-eps-converted-to.pdf> <./
-figures/fpi-eps-converted-to.pdf> <./figures/freeze-eps-converted-to.pdf>]
-Overfull \vbox (24.44418pt too high) has occurred while \output is active []
+ on input line 558.
 
 
-Overfull \vbox (24.44418pt too high) has occurred while \output is active []
-
-
-[6]
-Overfull \hbox (22.2229pt too wide) in paragraph at lines 656--656
+Overfull \hbox (10.1252pt too wide) in paragraph at lines 587--587
 [] 
  []
 
+[5 <./figures/r42-eps-converted-to.pdf> <./figures/trace-eps-converted-to.pdf> 
+<./figures/mf-eps-converted-to.pdf> <./figures/fpi-eps-converted-to.pdf>]
 
-Overfull \hbox (6.06657pt too wide) in paragraph at lines 680--680
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 594.
+
+
+Overfull \hbox (22.2229pt too wide) in paragraph at lines 668--668
+[] 
+ []
+
+[6 <./figures/freeze-eps-converted-to.pdf>]
+Overfull \hbox (6.06657pt too wide) in paragraph at lines 692--692
 [] 
  []
 
 No file draft.bbl.
-
-Package natbib Warning: There were undefined citations.
-
 [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 739.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 751.
  (./draft.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 739.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 739.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 751.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 751.
 Package rerunfilecheck Info: File `draft.out' has not changed.
-(rerunfilecheck)             Checksum: 7E3BCB9729C927E257B021B9E617E06E;1102.
+(rerunfilecheck)             Checksum: 231186072249D252D3CD43D7065DD878;779.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 8435 strings out of 492995
- 118933 string characters out of 6132703
- 254776 words of memory out of 5000000
- 11781 multiletter control sequences out of 15000+600000
+ 8419 strings out of 492995
+ 118667 string characters out of 6132703
+ 238632 words of memory out of 5000000
+ 11771 multiletter control sequences out of 15000+600000
  17389 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,19n,28p,489b,398s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -702,7 +694,6 @@ r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/
 local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/lo
 cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/loca
 l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/
-texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/
 texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/te
 xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texli
 ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/
@@ -714,10 +705,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf
 ist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2017/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on draft.pdf (7 pages, 694916 bytes).
+Output written on draft.pdf (7 pages, 595174 bytes).
 PDF statistics:
- 354 PDF objects out of 1000 (max. 8388607)
- 290 compressed objects within 3 object streams
- 70 named destinations out of 1000 (max. 500000)
- 158 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 282 PDF objects out of 1000 (max. 8388607)
+ 233 compressed objects within 3 object streams
+ 65 named destinations out of 1000 (max. 500000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
