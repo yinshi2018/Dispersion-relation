@@ -141,7 +141,6 @@ prd,
 }
 
 \author{Shi Yin}
-% \email{}
 \affiliation{School of Physics, Dalian University of Technology, Dalian, 116024,
   P.R. China}
 
@@ -158,7 +157,10 @@ prd,
              %  but any date may be explicitly specified
 
 \begin{abstract}
-We study the...
+We study the finite temperature and density two flavor quark-meson model under the functional renormalisation group. The effect of broken $O(4)-$
+symmetry of the wave function  renormalisation and expansion point of effective potential on the thermodynamic quantities and baryon number fluctuation 
+are investigate. At the same time, the field dependent Yukawa coupling is also considered. We give results of the pion mass, the quark mass, the trace 
+anomaly, the baryon number fluctuation and the freeze-out curve.
 \end{abstract}
 
 %\pacs{Valid PACS appear here}% PACS, the Physics and Astronomy
@@ -178,16 +180,25 @@ We study the...
 
 \section{Introduction}
 
-The QCD phase structure and the search of the critical end point are the most popular research direction in both experimental and 
-theoretical field. 
-
+The QCD phase structure and the search of the critical end point (CEP) are the most popular research direction in both experimental and 
+theoretical field. The phase transition between the quark gluon plasma (QGP) and hadron is the main research objects. The research of the
+QGP-hadron phase transition can help us to help us better understand the nature of elementary particles. The experiment to looking for the 
+QGP is being made at the Large Hadron Collider (LHC) and the Relativistic Heavy-Ion Collider (RHIC).\par
+In terms of theoretical research, there many different methods to investigate the QCD phase structure. The most widely studied method is 
+the lattice QCD. A lot of properties of the QCD matter have been discussed under the lattice simulations. Although the lattice theory has the
+sign problem at high baryon chemical potential, it still gave us plenty of great outcomes. In order to avoid the problem that occurs in lattice 
+calculation, the study of the continuous non-perturbative field theory is in progress at the same time. For example, the Dyson-Schwinger 
+equation. And the Functional Renormalization Group (FRG) is the other good functional approach of the continuous theory. In these ways 
+we can study the behavior of the strong interaction matter under the finite temperature and density better.\par
+This work is done with the low energy effective model under the FRG approach. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 \section{dispersion relationship in the PQM model}
 The Low-energy effective model is a effective research tool to study the QCD matter under the finite temperature and density. In the 
-finite temperature quantum field theory, the $O(4)$-symmetry in the vacuum is broken. The $O(4)$-symmetry changes into a 
+finite temperature quantum field theory, the $O(4)$-symmetry in the vacuum is broken. The time component of momentum changes into the 
+summation of Masubara frequency. The $O(4)$-symmetry changes into a 
 $\mathbb{Z}_2\otimes O(3)$ symmetry, which leads to the split of the magnetic component and electric component. These two 
 components are related to the transversal and longitudinal direction to the heat bath. This division makes the 4-dimension momentum
 into two parts, the Matsubara mode part and the space part. For example, the internal momentum under the finite temperature should 
@@ -224,6 +235,12 @@ With the broken of the $O(4)$-symmetry the meson anomalous dimension will split 
 \end{align}
 
 
+\begin{figure*}[t]
+\label{fig:m}
+\includegraphics[width=1.0\textwidth]{m.pdf}
+\caption{The left diagram is the mass of the pion as a function of temperature, the right curves are the constituent quark mass. 
+These diagrams are obtained under fix point and physical point expansion of the effective potential.}
+\end{figure*}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -259,19 +276,19 @@ The effective action that depends on the scale of the quark-meson model can be w
 here we omited the higher-order terms. The integral sign can be written as $\int_x=\int_0^{1/T}dx_0\int d^3x$.The meson 
 field is $\phi=\left(\sigma,\vec{\pi}
 \right)$ . 
-$V_k(\rho)$ is field-dependent effective potential which is $O(4)$ invariant, with $\rho=\phi^2/2$.The $k$ is the infrared 
-cutoff scale in FRG; $\Lambda$ is the UV cutoff renormalization scale, in this work $\Lambda$ takes 700Mev ; $\mu$ is the chemical potential of quark. $T$ is the generators of flavor 
-space $\Tr(T^{i}T^{j})=\frac{1}{2}\delta^{ij}$ and
- $T^{0}=\frac{1}{\sqrt{2N_{f}}}\mathbb{1}_{N_{f}\times N_{f}}$. In this work, we only consider the situation of two flavors that $N_f=2$. 
- The linear term $-c\sigma$ breaks the chiral symmetry. At 
- the same time, the linear breaking 
- parameter $c$ is related to the mass of $\vec{\pi}$; $h_k$ is the Yukawa coupling. \\
+$V_k(\rho)$ is meson field-dependent effective potential which is $O(4)$ invariant, with $\rho=\phi^2/2$. The $k$ is the infrared 
+cutoff scale in FRG; $\Lambda$ is the UV cutoff renormalization scale, in this work $\Lambda$ takes 700Mev ; $\mu$ is the chemical 
+potential of quark. $T$ is the generators of flavor space $\Tr(T^{i}T^{j})=\frac{1}{2}\delta^{ij}$ and
+$T^{0}=\frac{1}{\sqrt{2N_{f}}}\mathbb{1}_{N_{f}\times N_{f}}$. In this work, we only consider the situation of two flavors that $N_f=2$. 
+The linear term $-c\sigma$ breaks the chiral symmetry. At 
+the same time, the linear breaking 
+parameter $c$ is related to the mass of $\vec{\pi}$; $h_k$ is the Yukawa coupling. \\
 
 
 In the effective action and the flow equation, we only consider the matter part that is composed of quark loop and meson loop. The 
 glue part is working as a input background. For the purpose to encode the information of de-confinement, we adopted the Polyakov 
-loop. The Polyakov loop plays the role of the back ground field potential which has the same effect as the gluon. It works in the model by the 
-expectation value of the traced Polyakov loop which can be written as
+loop. The Polyakov loop plays the role of the back ground field potential which has the same effect as the gluon. It works in the model 
+by the expectation value of the traced Polyakov loop which can be written as
 \begin{align}\label{}
 \begin{split}
 L=\frac{1}{N_c}\langle \Tr{\mathcal{P}} \rangle ,\qquad \bar{L}=\frac{1}{N_c}\langle \Tr{\mathcal{P^{\dagger}}} \rangle
@@ -313,12 +330,14 @@ x=\frac{k}{z_q}\sqrt{1+\bar{m}^{2}_{q,k}}-\mu \\
 \bar{x}=\frac{k}{z_q}\sqrt{1+\bar{m}^{2}_{q,k}}+\mu
 \end{split}
 \end{align} 
+The plus and minus sign in front of the chemical potential $\mu$ stand for the quark and anti-quark.
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 
-\subsection{The flow equations of the effective potential}
+\subsection{The flow equations of the effective potential and the Yukawa coupling}
 We use the three-dimension regulators throughout our calculation of the threshold functions. 
 Through the derivation of the effective action \ref{fqm} and \ref{cqm} we can get the flow equation of the effective potential under the 
 constant mesonic fields:
@@ -330,8 +349,8 @@ constant mesonic fields:
 &-4N_cN_fl^{(F,4)}_{0}(\bar{m}^{2}_{q,k},\eta_{q,k};T,\mu)]
 \end{split}
 \end{align}
-The $l_0^{(B/F,n)}$ stands for the threshold functions of the boson and fermion. The analytical form of the threshold functions are 
-given in the Appendix \ref{a}. Below are the quark mass and meson masses which are renormalized and dimensionless
+The $l_0^{(B/F,n)}$ stands for the threshold functions of the boson and fermion. The analytical form of the threshold 
+functions are given at \ref{}. Below are the quark mass and meson masses which are renormalized and dimensionless
 \begin{align}
 \begin{split}
 \bar{m}^{2}_{\pi,k}&=\frac{V'_k(\rho)}{k^2Z^{\bot}_{\phi,k}}\\
@@ -339,18 +358,11 @@ given in the Appendix \ref{a}. Below are the quark mass and meson masses which a
 \bar{m}^{2}_{q,k}&=\frac{h^{2}_{k}\rho}{2k^2Z^{2}_{q,k}}
 \end{split}
 \end{align}
-\begin{figure*}[t]
-\label{fig:mphi}
-\includegraphics[width=1.0\textwidth]{mphi.eps}
-\caption{blue color stands for the results with $Z^{\bot}_{\phi,k}=Z^{\|}_{\phi,k}$ and the red color stands for the $Z^{\bot}
-_{\phi,k}\neq Z^{\|}_{\phi,k} $. The left diagram is the results under the fix-point-expansion of the effective potential, and 
-the right picture is the results of the physical-point-expansion.}
-\end{figure*}
 
 In the finite temperature the meson wave function renormalization $Z_{\phi,k}$ is split into $Z^\|$ and $Z^\bot$. In the past 
-calculation we use a approximation that we assume $Z^\|=Z^\bot$. In this work, we abolished this approximation and observe if the change 
-have any influence on the results.By considering the difference between $Z^\bot_{\phi,k}$ and $Z^\|_{\phi,k}$ we can calculate the anomalous dimensions 
-respectively.The definition of the anomalous dimensions is given by
+calculation we use a approximation that we assume $Z^\|=Z^\bot$. In this work, we abolished this approximation and observe if the 
+change have any influence on the results.By considering the difference between $Z^\bot_{\phi,k}$ and $Z^\|_{\phi,k}$ we can calculate 
+the anomalous dimensions respectively.The definition of the anomalous dimensions is given by
 \begin{align}
 \eta_{\phi,k}^\bot=-\frac{\partial_tZ_{\phi,k}^\bot}{Z_{\phi,k}^\bot} ,\qquad \eta_{\phi,k}^\|=-\frac{\partial_tZ_{\phi,k}^\|}
 {Z_{\phi,k}^\|}\label{eq:anodim}
@@ -361,18 +373,19 @@ and the definition of the quark anomalous dimension is
 \eta_{q,k}=-\frac{\partial_tZ_{q,k}}{Z_{q,k}}
 \end{split}
 \end{align}
-The frequency and spatial momentum are independent when we calculating the anomalous dimensions. So we can easily obtain the longitudinal component
-of the meson anomalous dimension with the same derivation method of the transversal component. The analytic form of the transversal component is consistent
-with the anomalous dimension under $Z^{\bot}_{\phi,k}=Z^{\|}_{\phi,k}$. The calculation of anomalous dimensions is ultimately the calculation of the flow of the 
+The frequency and spatial momentum are independent when we calculating the anomalous dimensions. So we can easily obtain the 
+longitudinal component of the meson anomalous dimension with the same derivation method of the transversal component. The 
+analytic form of the transversal component is consistentwith the anomalous dimension under $Z^{\bot}_{\phi,k}=Z^{\|}_{\phi,k}$. The 
+calculation of anomalous dimensions is ultimately the calculation of the flow of the 
 wave-function renormalizations. We can use the Wetterich equation which is mentioned in Eq~\ref{cqm}.
 
 
 
-Here we consider two expansion ways of the effective potential. On one hand, the Taylor expansion of the effective 
+Here we consider two kinds of expansion point of the effective potential. On one hand, the Taylor expansion of the effective 
 potential is about a field value $\kappa$ which is unrenormalised and fixed. The effective potential can be written as
 \begin{align}\label{}
 \begin{split}
-\bar{V}_k(\bar{\rho})=\sum^{N}_{n=0}\frac{\bar{\lambda}_{n,k}}{n!}(\bar{\rho}-\bar{\kappa}_k)^n
+\bar{V}_k(\bar{\rho})=\sum^{N_v}_{n=0}\frac{\bar{\lambda}_{n,k}}{n!}(\bar{\rho}-\bar{\kappa}_k)^n
 \end{split}
 \end{align}
 with $\bar{\lambda}_{n,k}=\lambda_{n,k}/Z^{\bot n}_{\phi,k}$ and $\bar{\kappa}_k=Z^{\bot}_{\phi,k}\kappa$.
@@ -383,39 +396,73 @@ can be written as
 \bar{\kappa}_k=Z^{\bot}_{\phi,k}\kappa_k
 \end{split}
 \end{align} 
-
+Then we give the flow equation of the derivation of the effective potential
+\begin{align}\label{}
+\begin{split}
+\partial^{n}_{\bar{\rho}}&(\partial_t\big|_{\rho}\bar{V}_k(\bar{\rho}))\bigg|_{\bar{\rho}=\bar{\kappa}_k}\\
+=&(\partial_t\bar{\lambda}_{n,k}-n\eta_{\phi,k}\bar{\lambda}_{n,k})-(\partial_t\bar{\kappa}_k+\eta_{\phi,k}\bar{\kappa}_k)\bar{\lambda}_{n+1,k}
+\end{split}
+\end{align} 
+The definition of the pion decay constant is $f_\pi=\langle\sigma\rangle$
+which is equal to the expected value of the $\sigma$ field.\par
+The Yukawa coupling $h_k$ is the coupling coefficient of the quark and meson. Here we also consider the $\rho-$dependent $h$ and calculate its
+impact on the decouple speed of the meson mass. Similar to the expansion of the effective potential, the Yukawa coupling can be expanded at the point
+$\kappa_k$. So the $h_k$ can be written as
+\begin{align}\label{}
+\begin{split}
+\bar{h}_k(\bar{\rho})=\sum^{N_h}_{n=0}\frac{\bar{h}_{n,k}}{n!}(\bar{\rho}-\bar{\kappa}_k)^n
+\end{split}
+\end{align}
+We only study the impact of the expansion of $h$ under the $Z^{\|}_{\phi,k}=Z^{\bot}_{\phi,k}$, so the definition of the $\bar{h}_k(\bar{\rho})$ and the expansion
+coefficients is
+\begin{align}\label{}
+\begin{split}
+\bar{h}_k(\bar{\rho})=\frac{h_k(\rho)}{Z_{q,k}Z^{1/2}_{\phi,k}}
+\end{split}
+\end{align}
+\begin{align}\label{}
+\begin{split}
+\bar{h}_{n,k}=\frac{h_{n,k}}{Z_{q,k}Z^{(2n+1)/2}_{\phi,k}}
+\end{split}
+\end{align}
+The expression of the Yukawa coupling is
+\begin{align}
+\begin{split}
+\partial_t\bar{h}_k(\bar{\rho})&=(\frac{1}{2}\eta_{\phi,k}+\eta_{q,k})\bar{h}_k(\bar{\rho})\\
+&+8v_3\bar{h}^3_k(\bar{\rho})\bigg[L^{(4)}_{(1,1)}(\bar{m}^{2}_{q,k},\bar{m}^{2}_{\sigma,k},\eta_{q,k},\eta_{\phi,k};T,\mu)\\
+&-(N^{2}_{f}-1)L^{(4)}_{(1,1)}(\bar{m}^{2}_{q,k},\bar{m}^{2}_{\pi,k},\eta_{q,k},\eta_{\phi,k};T,\mu)\bigg]\\
+&+4v_3\bar{h}_k(\bar{\rho})\bar{h}'_k(\bar{\rho})\bar{\rho}\bigg[\bar{h}_k(\bar{\rho})+\bar{\rho}\bar{h}'_k(\bar{\rho})\bigg]\\
+&\times L^{(4)}_{(1,1)}(\bar{m}^{2}_{q,k},\bar{m}^{2}_{\sigma,k},\eta_{q,k},\eta_{\phi,k};T,\mu)\\
+&-2v_3k^2\bigg[(3\bar{h}'_k(\bar{\rho})+2\bar{\rho}\bar{h}''_k(\bar{\rho})l^{(B,4)}_{1}(\bar{m}^{2}_{\sigma,k},\eta_{\phi,k};T)\\
+&+3\bar{h}'_k(\bar{\rho})l^{(B,4)}_{1}(\bar{m}^{2}_{\pi,k},\eta_{\phi,k};T))\bigg]
+\end{split}
+\end{align} 
+Similar to the effective potential, the flow equation of the derivative Yukawa coupling is given by
+\begin{align}\label{}
+\begin{split}
+\partial^{n}_{\bar{\rho}}&(\partial_t\big|_{\rho}\bar{h}_k(\bar{\rho}))\bigg|_{\bar{\rho}=\bar{\kappa}_k} \\
+=&(\partial_t\bar{h}_{n,k}-n\eta_{\phi,k}\bar{h}_{n,k})-(\partial_t\bar{\kappa}_k+\eta_{\phi,k}\bar{\kappa}_k)\bar{h}_{n+1,k}
+\end{split}
+\end{align} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 \subsection{Baryon number fluctuation and kurtosis}
 \begin{figure*}[t]
-\label{fig:chi2chi4}
-\includegraphics[width=1.0\textwidth]{chi2chi4.eps}
-\caption{blue color stands for the results with $Z^{\bot}_{\phi,k}=Z^{\|}_{\phi,k}$ and the red color stands for the $Z^{\bot}
-_{\phi,k}\neq Z^{\|}_{\phi,k} $. The full and dotted lines are the results under the chemical potential of 50 MeV and 100 
-MeV. These results are under the physical point expansion of the effective potential. }
+\label{fig:4chi}
+\includegraphics[width=1.0\textwidth]{4chi.pdf}
+\caption{The first to the fourth order of the baryon number fluctuation, which are obtained under $Z^{\|}_{\phi}=Z^{\bot}_{\phi}$, $Z^{\|}_{\phi}\neq Z^{\bot}_{\phi}$ 
+and fix point, physical point expansion of the effective potential. }
 \end{figure*}
-
-
 
 \begin{figure*}[t]
-\label{fig:chi13}
-\includegraphics[width=1.0\textwidth]{chi13.eps}
-\caption{blue color stands for the results with $Z^{\bot}_{\phi,k}=Z^{\|}_{\phi,k}$ and the red color stands for the $Z^{\bot}
-_{\phi,k}\neq Z^{\|}_{\phi,k} $. The full and dotted lines are the results under the chemical potential of 50 MeV and 100 
-MeV. These results are under the physical point expansion of the effective potential. }
+\includegraphics[width=1.0\textwidth]{kur.pdf}
+\caption{The left curves are the kurtosis as the function of temperature. The right broken lines are the kurtosis as the function of collision energy.}
+\label{fig:r42}
 \end{figure*}
 
-
-
-
-\begin{figure}[t]
-\includegraphics[width=0.46\textwidth]{r42.eps}
-\caption{blue color stands for the results with $Z^{\bot}_{\phi,k}=Z^{\|}_{\phi,k}$ and the red color stands for the $Z^{\bot}
-_{\phi,k}\neq Z^{\|}_{\phi,k} $.}
-\label{fig:r42}
-\end{figure}
-
+The fluctuation of the baryon number is related to some observables. The kurtosis of the baryon number fluctuation at different collision energy 
+can be observed in the experiment like STAR. So the calculation of the baryon number fluctuation is important work. 
 The definition of the each order baryon number fluctuation can be written as
 \begin{align}\label{}
 \begin{split}
@@ -435,97 +482,85 @@ The definition of the kurtosis can be written as
 \begin{align}
 \kappa \sigma^2=\frac{\chi^{B}_{4}}{\chi^{B}_{2}}
 \end{align}\par
-At the same time, we also calculated the chemical freeze-out line as the function of the collision energy and the kurtosis of the baryon
-number fluctuation. The value of the kurtosis is determined by the temperature and the baryon chemical potential. We use the correspondence
-of the collision energy and temperature and chemical potential which is give in the Table~\ref{tab:cle}.
+At the same time, we calculated the chemical freeze-out line as the function of the collision energy and the kurtosis of the baryon
+number fluctuation. The value of the kurtosis is determined by the temperature and the baryon chemical potential. We use the 
+correspondence of the collision energy and chemical potential which is give in the Table~\ref{tab:cle}. We obtain the freeze-out 
+temperature by the three and two order of the baryon number fluctuation $\chi^B_3/\chi^B_2$ under the different baryon chemical 
+potential which are corresponding to the different collision energy. Then we can compare the numerical results between the fix point 
+expansion and physical point expansion of the effective potential $V_k(\rho)$ and the results of splitted meson wave function 
+renormalisation. There are many ways to determine the freeze-out temperature. 
 \begin{table}[h]
   \centering
   \begin{tabular}[c]{c|clclclclclcl}
     \hline \hline
-    $\sqrt{s}\,[\mathrm{GeV}]$ & 200 & 62.4 & 39 & 27 & 19.6 & 11.5 & 7.7\\ \hline
-    $\mu_{B,N_f=2}\,[\mathrm{MeV}]$&25.3&78.1&121&168.7&222.7&343&459.4\\ \hline
-    $T_f(\chi_3^{\mathrm{B}}/\chi_2^{\mathrm{B}})\,[\mathrm{MeV}]$&180&186&185&183&180&167&149\\ \hline
-    $T_f(\chi_2^{\mathrm{B}}/\chi_1^{\mathrm{B}})\,[\mathrm{MeV}]$&178&183&188&182&178&168&154\\ \hline
+    $\sqrt{s}\,(\mathrm{GeV})$ & 200 & 62.4 & 39 & 27 & 19.6 & 11.5 & 7.7\\ \hline
+    $\mu_{B,N_f=2}\,(\mathrm{MeV})$&25.3&78.1&121&168.7&222.7&343&459.4\\ \hline
   \end{tabular}
-  \caption{ }
+  \caption{The relationship of collision energy and baryon chemical potential }
   \label{tab:cle}
 \end{table}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-
-
-\subsection{numerical results}
-In the end, we give the numerical calculation results of the physical quantity. In this section we will show the results of the comparison in the two flavor PQM model. 
-Two comparisons have been made, one is $Z^{\|}_{\phi}=Z^{\bot}_{\phi}$ and $Z^{\|}_{\phi}\neq Z^{\bot}_{\phi}$, the other one is the fix point and physical 
-point expansion of the effective potential. As we can see in the \Fig{fig:mphi}, the mass of the pion and the sigma meson have been computed. The results are clear,
-
-
-As is shown in the \Fig{fig:chi2chi4}, the baryon chemical potential has little influence to the numerical result of 
-quadratic fluctuation. However, we can see clearly the influence of the change of wave function renormalization factors.
-
-
-The results of the quartic fluctuations under two kinds of wave function renormalizations have larger difference at the peak
- of the curves, the results of $Z^{\bot}_{\phi,k}\neq Z^{\|}_{\phi,k} $ are lower than the results of $Z^{\bot}_{\phi,k}= Z^{\|}_{\phi,k} $.
-
-
-
-
-
-
-
-
-
-
-
-
-\begin{figure}[t]
-\label{fig:trace}
-\includegraphics[width=0.46\textwidth]{trace.eps}
-\caption{}
-\end{figure}
-
-
-
-
-
-
-
-\begin{figure}[t]
-\includegraphics[width=0.46\textwidth]{mf.eps}
-\caption{blue color stands for the results with $Z^{\bot}_{\phi,k}=Z^{\|}_{\phi,k}$ and the red color stands for the $Z^{\bot}
-_{\phi,k}\neq Z^{\|}_{\phi,k} $.}
-\label{fig:mf}
-\end{figure}
-
-
-\begin{figure}[t]
-\includegraphics[width=0.46\textwidth]{fpi.eps}
-\caption{blue color stands for the results with $Z^{\bot}_{\phi,k}=Z^{\|}_{\phi,k}$ and the red color stands for the $Z^{\bot}
-_{\phi,k}\neq Z^{\|}_{\phi,k} $.}
-\label{fig:fpi}
-\end{figure}
-
-\begin{figure}[t]
-\includegraphics[width=0.46\textwidth]{freeze.eps}
-\caption{blue color stands for the results with $Z^{\bot}_{\phi,k}=Z^{\|}_{\phi,k}$ and the red color stands for the $Z^{\bot}
-_{\phi,k}\neq Z^{\|}_{\phi,k} $.}
-\label{fig:freeze}
-\end{figure}
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{conclusion}
+\section{numerical results and conclusion}
 In this work, we investigated the baryon number fluctuations and some thermodynamic quantities with in the functional 
 renormalization group. We made a comparison of the results between the approximation of the mesonic wave function 
 renormalizations and without the approximation. The calculation are accomplished under the fix point and physical point expansion of 
-the effective potential. 
+the effective potential.Now we give the initial conditions of our calculation. The initial UV scale is $\Lambda=700$MeV. At 
+$k=\Lambda$ the initial effective potential can be written as
+
+\begin{align}
+V_\Lambda(\rho)=\frac{\lambda_\Lambda}{2}\rho^2+\nu_\Lambda\rho
+\end{align}
+And the parameter we chosen in the equation above is shown in the table below
+\begin{table}[h]
+\begin{tabular}{ccccc}
+\hline
+ &$\lambda_\Lambda$& $\nu_\Lambda$ & c & h \\
+\hline
+ $\kappa\,Z^{\|}_{\phi}=Z^{\bot}_{\phi}\,h_k$& 10.15 & 8.11$(GeV^2)$ & 0.2568$(GeV^3)$ & 7.274\\
+ $\kappa\,Z^{\|}_{\phi}\neq Z^{\bot}_{\phi}\,h_k$& 10.15 & 8.17$(GeV^2)$ & 0.2568$(GeV^3)$ & 7.274\\
+ $\kappa_k\,Z^{\|}_{\phi}=Z^{\bot}_{\phi}\,h_k$& 5.00 & 17.86$(GeV^2)$ & 0.3696$(GeV^3)$ & 10.110\\
+ $\kappa_k\,Z^{\|}_{\phi}\neq Z^{\bot}_{\phi}\,h_k$& 11.00 & 17.91$(GeV^2)$ & 0.3684$(GeV^3)$ & 10.198\\
+ 
+ 
+\hline
+\end{tabular}
+ \caption{The setting of the initial condition parameters.}
+  \label{tab:para}
+\end{table}
+These four parameters are chosen by fitting the observables: $m_\pi=135.9$MeV, $m_\sigma=460.0$MeV, $f_\pi=92.1$MeV, $m_q=298.8$MeV.\par
+In the end, we give the numerical calculation results of the physical quantity. In this section we will show the results of the comparison in the two flavor PQM model. 
+Two comparisons have been made, one is $Z^{\|}_{\phi}=Z^{\bot}_{\phi}$ and $Z^{\|}_{\phi}\neq Z^{\bot}_{\phi}$, the other one is the fix point and physical 
+point expansion of the effective potential. \par
+As we can see in the \Fig{fig:m}, the pion mass and constituent quark mass as the function of temperature. It is clear that the pion mass under the physical point 
+is larger at the high temperature, which means the pion is decoupling quicker. For the meson mass is related to the expansion of the effective potential, the expansion point is 
+running with the cutoff scale k or not 
+will of course influence the value of the pion mass. However, the split of the meson wave function renormalisation make little effect on the mass.\par
+As is shown in the \Fig{fig:4chi}, because the baryon chemical potential has little influence to the numerical result of 
+the $\chi^{B}_{2}$ and $\chi^{B}_{4}$, however the $\chi^{B}_{1}$ and $\chi^{B}_{3}$ are more sensitive to the chemical potential. Consequently, we give the 
+odd order of the fluctuation under the chemical potential of 50 MeV and 100 MeV, and the even order under vanishing chemical potential. 
+The results of the quartic fluctuations under two kinds of wave function renormalizations have larger difference at the peak of the curves, 
+the results of $Z^{\bot}_{\phi,k}\neq Z^{\|}_{\phi,k} $ are little lower than the results of $Z^{\bot}_{\phi,k}= Z^{\|}_{\phi,k} $.\par
+In the \Fig{fig:r42} we show $\kappa \sigma^2=\chi^{B}_{4}/\chi^{B}_{2}$ the kurtosis of the baryon number fluctuation. We can tell from the curves, the two kinds of 
+$Z_\phi$ almost no effect on the kurtosis results. On the other hand, the influence of the running expansion point of the effective potential is greater. The physical point expansion 
+suppress the kurtosis quicker as the temperature rises than the fix point expansion. It is expected from the results of the four order of the fluctuation.\par
+In the \Fig{fig:fpitra} we give the pion decay constant and trace anomaly as a function of temperature. The left one is the pion decay constant. It is clear, the separation of 
+the meson wave function renormalisation doesn't make much change. However, the running expansion point of the effective potential brings some differences at high 
+temperature. The trace anomaly doesn't change much either under the different wave function renormalisation, and the physical point expansion suppress the value at high
+temperature.
 
 
-The result of the comparison is obvious, the approximation of the mesonic wave function renormalizations 
-$Z^{\|}_{\phi}=Z^{\bot}_{\phi}$ cause few difference in the numerical computation, thus this approximation is good enough to use in 
-the future work. And the different expansion methods of the effective potential do lead to some difference results of the meson mass.
+
+\begin{figure*}[t]
+\label{fig:fpitra}
+\includegraphics[width=1.0\textwidth]{fpitra.pdf}
+\caption{}
+\end{figure*}
+
+
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \acknowledgments
 Thanks
@@ -533,8 +568,9 @@ Thanks
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-Three-d flat regulators have been used in this work. The regulator functions of the meson field and quark field can be 
+\begin{appendix}
+\section{}
+Three-dimensional regulators have been used in this work. The regulator functions of the meson field and quark field can be 
 written as
 \begin{align}
 \begin{split}
@@ -557,7 +593,7 @@ G_q(q,\bar{m}^{2}_{q,k})&=\frac{1}{z^{2}_{q}(\tilde{q}_0+i\tilde{\mu})^2+1+\bar{
 \end{split}
 \end{align} 
 in the equation above we have $\tilde{q}_0=q_0/k$, $\tilde{\mu}=\mu/k$ and for the fermions we have
-$q_0=(2n_q+1)\pi T (n_q\in \mathbb{Z})$ for the bosons we have $q_0=2n_q\pi T$. Here $z=Z^\|/Z^\bot$ is the ratio of the 
+$q_0=(2n_q+1)\pi T \ (n_q\in \mathbb{Z})$ for the bosons we have $q_0=2n_q\pi T$. Here $z=Z^\|/Z^\bot$ is the ratio of the 
 two components of the wave function renormalizations. In this work we choose $z_q=1$ which means $Z^{\|}_{q}=
 Z^{\bot}_{q}$ and $z_\phi\neq 1$ which means $Z^{\|}_{\phi}\neq Z^{\bot}_{\phi}$. To obtain the threshold functions, we 
 define
@@ -608,144 +644,80 @@ then we can obtain the $\mathcal{BB}_{(2,2)}$ in a same way
 \end{split}
 \end{align} 
 The expression of the $\mathcal{BB}_{(1,1)}$ is 
-\begin{widetext}
+%\begin{widetext}
 \begin{align}
 \begin{split}
-\mathcal{BB}_{(1,1)}(\bar{m}^{2}_{\phi_a,k},\bar{m}^{2}_{\phi_b,k},z_\phi;T)&=-\frac{1}{z^{1/2}_{\phi}}\left\{ \left( 
+&\mathcal{BB}_{(1,1)}(\bar{m}^{2}_{\phi_a,k},\bar{m}^{2}_{\phi_b,k},z_\phi;T)=\\&-\frac{1}{z^{1/2}_{\phi}}\left\{ \left( 
 \frac{1}{2}+n_B(\bar{m}^{2}_{\phi_a,k},z_\phi;T) \right)\frac{1}{(1+\bar{m}^{2}_{\phi_a,k})^{1/2}} \right. \\
 &\left.\times \frac{1}{\bar{m}^{2}_{\phi_a,k}-\bar{m}^{2}_{\phi_b,k}}+\left( \frac{1}{2}+n_B(\bar{m}^{2}_{\phi_b,k},z_\phi;T) 
 \right)\right. \\
 &\left.\times \frac{1}{(1+\bar{m}^{2}_{\phi_b,k})^{1/2}}\frac{1}{\bar{m}^{2}_{\phi_b,k}-\bar{m}^{2}_{\phi_a,k}}\right\}
 \end{split}
 \end{align} 
-\end{widetext}
+%\end{widetext}
 then we can get the expression of the threshold functions of any $n$.
-At the same time, in our calculation there are also some other kind of threshold functions.
+The definition of the $L^{(4)}_{(1,1)}$ in the flow equation of the Yukawa coupling is
 \begin{align}
 \begin{split}
-{\mathcal{BB}\tilde{q}_0^2}_{(1,1)}&(\bar{m}^{2}_{\phi_a,k},\bar{m}^{2}_{\phi_b,k},z_\phi;T)\\
-&=-\frac{T}{k}\sum_{n_q}G_\phi(q,\bar{m}^{2}_{\phi_a,k})G_\phi(q,\bar{m}^{2}_{\phi_b,k})\tilde{q}_0^2
-\end{split}
-\end{align}
- The form of the threshold functions 
-$\mathcal{F}\tilde{q}_0^2$,  $\mathcal{F}\tilde{q}_0^4$ and $\mathcal{BB}\tilde{q}_0^2$ is like
-
-
-
-\begin{align}
-\begin{split}
-&{\mathcal{BB}\tilde{q}_0^2}_{(1,1)}(\bar{m}^{2}_{\phi_a,k},\bar{m}^{2}_{\phi_b,k},z_\phi;T)=\\
-&-Z_\phi^{1/2}\left\{ \left( 
-\frac{1}{2}+n_B(\bar{m}^{2}_{\phi_a,k},z_\phi;T) \right)\frac{(1+\bar{m}^{2}_{\phi_a,k})^{-1/2}}{\bar{m}^{2}_{\phi_b,k}-
-\bar{m}^{2}_{\phi_a,k}}\right.\\
-&\left.+\left( \frac{1}{2}+n_B(\bar{m}^{2}_{\phi_b,k},z_\phi;T) \right)\frac{(1+\bar{m}^{2}_{\phi_a,k})^{-1/2}}
-{\bar{m}^{2}_{\phi_a,k}-\bar{m}^{2}_{\phi_b,k}}\right\}
+L^{(4)}_{(1,1)}&(\bar{m}^{2}_{q,k},\bar{m}^{2}_{\phi,k},\eta_{q,k},\eta_{\phi,k};T,\mu)\\
+&=\frac{2}{3}\bigg[(1-\frac{\eta_{\phi,k}}{5})\mathcal{FB}_{(1,2)}(\bar{m}^{2}_{q,k},\bar{m}^{2}_{\phi,k};T,\mu)\\
+&+(1-\frac{\eta_{q,k}}{4})\mathcal{FB}_{(2,1)}(\bar{m}^{2}_{q,k},\bar{m}^{2}_{\phi,k};T,\mu)\bigg]
 \end{split}
 \end{align} 
-
-
-
+The higher order of the function $L$ can be obtain by the derivation of the square of mass. The expression of the threshold function $\mathcal{FB}$  
+is
+\begin{align}
+\begin{split}
+\mathcal{FB}_{(1,1)}&(\bar{m}^{2}_{q,k},\bar{m}^{2}_{\phi,k};T,\mu,p_0)\\
+&=\frac{T}{k}\sum_{n_q}G_{\phi}(p-q,\bar{m}^{2}_{\phi,k})G_q(q,\bar{m}^{2}_{q,k})
+\end{split}
+\end{align} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-
+\section{}
 In order to obtain the flow equation of the effective potential, the mesonic anomalous dimensions are needed. Because 
-we have divided the wave function renormalizations into the transverse and longitudinal components of it, so the 
+we have divided the wave function renormalizations into the transversal and longitudinal components, so the 
 anomalous dimensions should be divided either.
 The analytical form of the mesonic anomalous dimensions can be written like
 \begin{align}
 \begin{split}
 \eta_{\phi,k}^{\|}
-&=\frac{1}{6\pi^2}\left\{ 
- \frac{4}{k^2z_\phi^4}\bar{\kappa}_k(\bar{V}''_k(\bar{\kappa}_k))^2\left[ 
- 2\mathcal{BB}_{(2,2)}(\bar{m}^{2}_{\pi,k},\bar{m}^{2}_{\sigma,k};T)\right.\right.\\
-&\left.\left.-4{\mathcal{BB}\tilde{q}^{2}_{0}}_{(2,3)}(\bar{m}^{2}_{\pi,k},\bar{m}^{2}_{\sigma,k};T)-4{\mathcal{BB}
-\tilde{q}^{2}_{0}}_{(3,2)}(\bar{m}^{2}_{\pi,k},\bar{m}^{2}_{\sigma,k};T)\right]\right.\\
-&\left.\times(1-\frac{1}{5}\eta^{\bot}_{\phi,k})+\frac{N_c\bar{h}^{2}_{k}}{z_\phi}\mathcal{F}_{(3)}(\bar{m}^{2}_{q,k};T,\mu)(4-\eta_{q,k})
-\right\}   
+&=\frac{1}{6\pi^2}\bigg\{ 
+ \frac{4}{k^2z_\phi^4}\bar{\kappa}_k(\bar{V}''_k(\bar{\kappa}_k))^2\bigg[ 
+ -6\mathcal{BB}_{(2,2)}(\bar{m}^{2}_{\pi,k},\bar{m}^{2}_{\sigma,k};T)\\
+&+\frac{4}{z_\phi}(1+\bar{m}^{2}_{\sigma}){\mathcal{BB}}_{(2,3)}(\bar{m}^{2}_{\pi,k},\bar{m}^{2}_{\sigma,k};T)\\
+&+\frac{4}{z_\phi}(1+\bar{m}^{2}_{\pi}){\mathcal{BB}}_{(3,2)}(\bar{m}^{2}_{\pi,k},\bar{m}^{2}_{\sigma,k};T)\bigg]\\
+&\times(1-\frac{1}{5}\eta^{\bot}_{\phi,k})+\frac{N_c\bar{h}^{2}_{k}}{z_\phi}\mathcal{F}_{(3)}(\bar{m}^{2}_{q,k};T,\mu)(4-\eta_{q,k})\bigg\}   
 \end{split}
 \end{align} 
 and the other component
 \begin{align}
 \begin{split}
 \eta_{\phi,k}^{\bot}
-&=\frac{1}{6\pi^2}\left\{ 
+&=\frac{1}{6\pi^2}\bigg\{ 
 \frac{4}{k^2z_\phi^4}\bar{\kappa}_k(\bar{V}''_k(\bar{\kappa}_k))^2 \mathcal{BB}_{(2,2)}(\bar{m}^{2}_{\pi,k},\bar{m}^{2}_{\sigma,k};T)
-\right.\\&\left.+N_c\bar{h}^{2}_{k}\left[\mathcal{F}_{(2)}(\bar{m}^{2}_{q,k};T,\mu)(2\eta_{q,k}-3)\right.\right.\\
-&\left.\left.-4(\eta_{q,k}-2)\mathcal{F}_{(3)}(\bar{m}^2_{q,k};T,\mu)\right]
-\right\}   
+\\&+N_c\bar{h}^{2}_{k}\bigg[\mathcal{F}_{(2)}(\bar{m}^{2}_{q,k};T,\mu)(2\eta_{q,k}-3)\\
+&-4(\eta_{q,k}-2)\mathcal{F}_{(3)}(\bar{m}^2_{q,k};T,\mu)\bigg]
+\bigg\}   
 \end{split}
 \end{align} 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-The flow of the quark wave function renormalization are given by
-\begin{align}
-\begin{split}
-\eta_{q,k}(p_0,\vec{p})=&\frac{1}{Z_{q,k}(p_0,\vec{p})}\frac{1}{4N_cN_f}\\
-&Re\left[\frac{\partial^2}{\partial|p|^2}Tr\left( i\vec{\gamma}\cdot \vec{p}\left( -\frac{\delta^2\partial_t\Gamma_k}
-{\delta\bar{q}(-p)\delta q(p)} \right) \right)\bigg|_{\rho=\kappa}\right]
-\end{split}
-\end{align} 
-and the flow of the Yukawa coupling can be written as
-\begin{align}
-\begin{split}
-\partial_th_k(p_0,\vec{p})=&\frac{\sqrt{2N_f}}{\sigma}\frac{1}{4N_cN_f}\\
-&\times Re\left[ Tr\left( -\frac{\delta^2\partial_t\Gamma_k}{\delta\bar{q}(-p)\delta q(p)} \right)\bigg|_{\rho=\kappa} \right]
-\end{split}
-\end{align} 
-
-
-
-
-
 
 Now we can obtain the form of the quark anomalous dimension
 \begin{align}
 \begin{split}
 \eta_{q,k}=&\frac{1}{24\pi^2N_f}(4-\eta_{\phi,k})\bar{h}^{2}_{k}\\
-&\times\{ (N^{2}_{f}-1)\mathcal{FB}_{(1,2)}(\bar{m}^{2}_{q,k},\bar{m}^{2}_{\pi,k};T,\mu,p_{0,ex})\\
-&+\mathcal{FB}_{(1,2)}(\bar{m}^{2}_{q,k},\bar{m}^{2}_{\sigma,k};T,\mu,p_{0,ex}) \}
+&\times\bigg\{ (N^{2}_{f}-1)\mathcal{FB}_{(1,2)}(\bar{m}^{2}_{q,k},\bar{m}^{2}_{\pi,k};T,\mu,p_{0,ex})\\
+&+\mathcal{FB}_{(1,2)}(\bar{m}^{2}_{q,k},\bar{m}^{2}_{\sigma,k};T,\mu,p_{0,ex}) \bigg\}
 \end{split}
 \end{align} 
 
-
+\end{appendix}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 \end{document}
