@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.6)  3 JUN 2019 18:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.6)  4 JUN 2019 09:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -468,69 +468,69 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 160.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+bbold on input line 202.
+LaTeX Font Info:    Try loading font information for U+bbold on input line 201.
 
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/bbold/Ubbold.fd)
-Underfull \hbox (badness 1137) in paragraph at lines 229--231
+(/usr/local/texlive/2016/texmf-dist/tex/latex/bbold/Ubbold.fd) [1{/usr/local/te
+xlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 1137) in paragraph at lines 256--258
 \OT1/cmr/m/n/10 With the bro-ken of the $\OML/cmm/m/it/10 O\OT1/cmr/m/n/10 (4)$
 -symmetry the me-son
  []
 
-[1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<./figures/m.pdf, id=73, 650.43pt x 252.945pt>
+<./figures/m.pdf, id=92, 650.43pt x 252.945pt>
 File: ./figures/m.pdf Graphic file (type pdf)
  <use ./figures/m.pdf>
-Package pdftex.def Info: ./figures/m.pdf used on input line 240.
+Package pdftex.def Info: ./figures/m.pdf used on input line 267.
 (pdftex.def)             Requested size: 510.0pt x 198.3384pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--286
+Underfull \hbox (badness 10000) in paragraph at lines 302--313
 
  []
 
+[2]
 
-LaTeX Warning: Reference `' on page 2 undefined on input line 353.
+LaTeX Warning: Reference `' on page 3 undefined on input line 380.
 
-[2] [3 <./figures/m.pdf>] <./figures/4chi.pdf, id=167, 1156.32pt x 758.835pt>
+[3 <./figures/m.pdf>] <./figures/4chi.pdf, id=182, 1156.32pt x 758.835pt>
 File: ./figures/4chi.pdf Graphic file (type pdf)
 
 <use ./figures/4chi.pdf>
-Package pdftex.def Info: ./figures/4chi.pdf used on input line 453.
+Package pdftex.def Info: ./figures/4chi.pdf used on input line 480.
 (pdftex.def)             Requested size: 510.0pt x 334.68738pt.
- <./figures/kur.pdf, id=168, 650.43pt x 252.945pt>
+ <./figures/kur.pdf, id=183, 650.43pt x 252.945pt>
 File: ./figures/kur.pdf Graphic file (type pdf)
 
 <use ./figures/kur.pdf>
-Package pdftex.def Info: ./figures/kur.pdf used on input line 459.
+Package pdftex.def Info: ./figures/kur.pdf used on input line 486.
 (pdftex.def)             Requested size: 510.0pt x 198.3384pt.
-
+ [4]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4] [5 <./figures/4chi.pdf>]
-<./figures/fpitra.pdf, id=262, 650.43pt x 252.945pt>
+[5 <./figures/4chi.pdf>] <./figures/fpitra.pdf, id=280, 650.43pt x 252.945pt>
 File: ./figures/fpitra.pdf Graphic file (type pdf)
 
 <use ./figures/fpitra.pdf>
-Package pdftex.def Info: ./figures/fpitra.pdf used on input line 557.
+Package pdftex.def Info: ./figures/fpitra.pdf used on input line 584.
 (pdftex.def)             Requested size: 510.0pt x 198.3384pt.
-
-Overfull \hbox (10.1252pt too wide) in paragraph at lines 623--623
+ [6 <./figures/kur.pdf>]
+Overfull \hbox (10.1252pt too wide) in paragraph at lines 650--650
 [] 
  []
 
-[6 <./figures/kur.pdf>]
-Overfull \hbox (5.55849pt too wide) in paragraph at lines 694--694
+[7 <./figures/fpitra.pdf>]
+Overfull \hbox (5.55849pt too wide) in paragraph at lines 721--721
 [] 
  []
 
-[7 <./figures/fpitra.pdf>] (./dispersion.bbl) [8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 723.
+(./dispersion.bbl) [8]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 759.
  (./dispersion.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 723.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 723.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 759.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 759.
 Package rerunfilecheck Info: File `dispersion.out' has not changed.
-(rerunfilecheck)             Checksum: E9AE3CDBC5A21BD6F921F1826F5AEEA6;856.
+(rerunfilecheck)             Checksum: 24D51752CE71DE6C99D3457A6EFD3D50;1021.
 
 
 LaTeX Warning: There were undefined references.
@@ -540,13 +540,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8389 strings out of 493014
- 117537 string characters out of 6133352
- 239512 words of memory out of 5000000
- 11730 multiletter control sequences out of 15000+600000
+ 8425 strings out of 493014
+ 118161 string characters out of 6133352
+ 256802 words of memory out of 5000000
+ 11759 multiletter control sequences out of 15000+600000
  17389 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,18n,28p,394b,398s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,18n,28p,1194b,401s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/bbold-type1/bbold10.pf
 b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
@@ -568,10 +568,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf
 ist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2016/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on dispersion.pdf (8 pages, 389197 bytes).
+Output written on dispersion.pdf (8 pages, 397597 bytes).
 PDF statistics:
- 524 PDF objects out of 1000 (max. 8388607)
- 301 compressed objects within 4 object streams
- 69 named destinations out of 1000 (max. 500000)
- 109 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 558 PDF objects out of 1000 (max. 8388607)
+ 334 compressed objects within 4 object streams
+ 76 named destinations out of 1000 (max. 500000)
+ 125 words of extra memory for PDF output out of 10000 (max. 10000000)
 

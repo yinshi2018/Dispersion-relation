@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{0}%
+\begin{thebibliography}{4}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -50,4 +50,50 @@
 \providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
 \let\auto@bib@innerbib\@empty
 %</preamble>
+\bibitem [{\citenamefont {Schaefer}\ and\ \citenamefont
+  {Wambach}(2005)}]{Schaefer:2004en}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.-J.}\ \bibnamefont
+  {Schaefer}}\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Wambach}},\ }\href {\doibase 10.1016/j.nuclphysa.2005.04.012} {\bibfield
+  {journal} {\bibinfo  {journal} {Nucl. Phys.}\ }\textbf {\bibinfo {volume}
+  {A757}},\ \bibinfo {pages} {479} (\bibinfo {year} {2005})},\ \Eprint
+  {http://arxiv.org/abs/nucl-th/0403039} {arXiv:nucl-th/0403039 [nucl-th]}
+  \BibitemShut {NoStop}%
+%%CITATION = NUCL-TH/0403039;%%
+\bibitem [{\citenamefont {Pawlowski}\ and\ \citenamefont
+  {Rennecke}(2014)}]{Pawlowski:2014zaa}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
+  {Pawlowski}}\ and\ \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Rennecke}},\ }\href {\doibase 10.1103/PhysRevD.90.076002} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume}
+  {D90}},\ \bibinfo {pages} {076002} (\bibinfo {year} {2014})},\ \Eprint
+  {http://arxiv.org/abs/1403.1179} {arXiv:1403.1179 [hep-ph]} \BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1403.1179;%%
+\bibitem [{\citenamefont {Fu}\ and\ \citenamefont
+  {Pawlowski}(2015)}]{Fu:2015naa}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.-j.}\ \bibnamefont
+  {Fu}}\ and\ \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
+  {Pawlowski}},\ }\href {\doibase 10.1103/PhysRevD.92.116006} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume}
+  {D92}},\ \bibinfo {pages} {116006} (\bibinfo {year} {2015})},\ \Eprint
+  {http://arxiv.org/abs/1508.06504} {arXiv:1508.06504 [hep-ph]} \BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1508.06504;%%
+\bibitem [{\citenamefont {Helmboldt}\ \emph {et~al.}(2015)\citenamefont
+  {Helmboldt}, \citenamefont {Pawlowski},\ and\ \citenamefont
+  {Strodthoff}}]{Helmboldt:2014iya}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~J.}\ \bibnamefont
+  {Helmboldt}}, \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
+  {Pawlowski}}, \ and\ \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Strodthoff}},\ }\href {\doibase 10.1103/PhysRevD.91.054010} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume}
+  {D91}},\ \bibinfo {pages} {054010} (\bibinfo {year} {2015})},\ \Eprint
+  {http://arxiv.org/abs/1409.8414} {arXiv:1409.8414 [hep-ph]} \BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1409.8414;%%
 \end{thebibliography}%
