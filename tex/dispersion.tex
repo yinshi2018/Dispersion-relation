@@ -123,10 +123,10 @@ prd,
 \newcommand{\sx}{\sigma_{x}}
 \newcommand{\sy}{\sigma_{y}}
 
-\newcommand{\tkcomment}[1]{\textcolor{blue}{#1}}
-\newcommand{\tkremark}[1]{\textcolor{blue}{[#1]}}
-\newcommand{\jlcomment}[1]{\textcolor{green}{[#1]}}
-\newcommand{\wjfu}[1]{\textcolor{red}{[#1]}}
+%%%%%%%%%%%%%% for corrections %%%%%%%%%%%
+\newcommand{\colsy}[1]{\textcolor{blue}{#1}}
+\newcommand{\colrw}[1]{\textcolor{cyan}{#1}}
+\newcommand{\colwjf}[1]{\textcolor{red}{#1}}
 
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -137,7 +137,7 @@ prd,
 
 \preprint{}
 
-\title{Nontrivial dispersion relation and QCD thermodynamics in the low energy effective model
+\title{Mesonic dynamics and QCD phase transition
 }
 
 \author{Shi Yin}
@@ -176,6 +176,8 @@ We study the finite temperature and density two flavor quark-meson model under t
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Introduction}
+\label{sec:int}
+
 
 The QCD phase structure and the search of the critical end point (CEP) are the most popular research direction in both experimental and theoretical field. The phase transition between the quark gluon plasma (QGP) and hadron is the main research objects. The research of the QGP-hadron phase transition can help us to help us better understand the nature of elementary particles. The experiment to looking for the QGP is being made at the Large Hadron Collider (LHC) and the Relativistic Heavy-Ion Collider (RHIC).
 
@@ -186,12 +188,6 @@ This work is done with the low energy effective model under the FRG approach.
 
 
 
-
-
-
-\section{Two-flavor PQM model and its nontrivial dispersion relation}
-\label{sec:PQM}
-
 The low-energy effective models, e.g. the quark-meson (QM) model \cite{Schaefer:2004en}, Nambu--Jona-Lasinio (NJL) model, and their Polyakov-loop improved variants: PQM and PNJL, are suitable to be employed to study the QCD phase transitions. They have been investigated quite a lot in literatures, see, e.g., \cite{} for more details. In this work, we adopt the scale-dependent effective action for the two-flavor PQM model, as follows 
 \begin{align}
 \Gamma_k=&\int_x \bigg\{Z_{q,k}\bar{q} \Big [\gamma_\mu \partial_\mu -\gamma_0(\mu+igA_0) \Big ]q \nonumber\\[2ex]
@@ -200,20 +196,39 @@ The low-energy effective models, e.g. the quark-meson (QM) model \cite{Schaefer:
 \end{align}
 with $\mu=(0, 1, ..., 3)$ and $i=(1, 2, 3)$. In \Eq{eq:action} we have used notation $\int_{x}=\int_0^{1/T}d x_0 \int d^3 x$, where the imaginary time formalism for the field theory at finite temperature is used, and the temporal length reads $\beta=1/T$. Apparently, when the temperature is nonzero, the $O(4)$-symmetry in the Euclidean space is broken into that of $\mathbb{Z}_2\otimes O(3)$, which leads to the split of the magnetic and electric components of correlations functions. They correspond to the components transversal and longitudinal to the heat bath, respectively. In this work, we take this split into account in the two-point correlation function for the mesons, as shown in the second line on the r.h.s. of \Eq{eq:action}, where $Z_{\phi,k}^{\parallel}$ and $Z_{\phi,k}^{\perp}$ indicate the longitudinal and transversal wave function renormalizations for the temporal and spacial components, respectively. 
 
-The reason why we concentrate on the split of the wave function renormalization especially for the mesons is due to the facts as follows. Firstly, in comparison to the quark wave function renormalization $Z_{q,k}$ and the scale dependent Yukawa coupling $h_k$ in \Eq{eq:action}, it is found that the meson wave function renormalization $Z_{\phi,k}$ plays the most significant role beyond the local potential approximation (LPA) \cite{Pawlowski:2014zaa,Fu:2015naa}. In the LPA, the propagators are classical, i.e., $Z_{q,k}=Z_{\phi,k}=1$ and the Yukawa coupling $h$ is a constant and independent of the RG scale $k$. Secondly, In Ref. \cite{Helmboldt:2014iya} calculations based on the full momentum-dependent two-point correlation functions of mesons are compared with those from LPA and LPA$'$, and here in LPA$'$ a momentum-independent $Z_{\phi,k}$ is included, and it is found that there is a good agreement between the full momentum calculation and the LPA$'$, which indicates that the dispersion relation for the meson, resulting from a scale dependent $Z_{\phi,k}$, have already captured most momentum dependence of the two-point correlation function.
+The reason why we concentrate on the split of the wave function renormalization especially for the mesons is due to the facts as follows. Firstly, in comparison to the quark wave function renormalization $Z_{q,k}$ and the scale dependent Yukawa coupling $h_k$ in \Eq{eq:action}, it is found that the meson wave function renormalization $Z_{\phi,k}$ plays the most significant role beyond the local potential approximation (LPA) \cite{Pawlowski:2014zaa,Fu:2015naa}. In the LPA, the propagators are classical, i.e., $Z_{q,k}=Z_{\phi,k}=1$ and the Yukawa coupling $h$ is a constant and independent of the scale $k$. Secondly, In Ref. \cite{Helmboldt:2014iya} calculations based on the full momentum-dependent two-point correlation functions of mesons are compared with those from LPA and LPA$'$, and here in LPA$'$ a momentum-independent $Z_{\phi,k}$ is included, and it is found that there is a good agreement between the full momentum calculation and the LPA$'$, while not LPA, which indicates that the dispersion relation for the meson, resulting from a scale dependent $Z_{\phi,k}$, have already captured most momentum dependence of the two-point correlation function. 
 
-
-
-
-
-
-
-
-
-
+Considering the importance of the wave function renormalization for the mesons and the success of LPA$'$, in this work we would like to investigate the effects of the splitting of $Z_{\phi,k}$ in the LPA$'$ as shown in \Eq{eq:action}, which is a natural choice at finite temperature as discussed above. Furthermore, we will also study the interplay between the splitting of $Z_{\phi,k}$ and other truncation approaches, e.g., the field dependent Yukawa coupling $h_k(\rho)$ which encodes higher order quark-meson scattering processes \cite{Pawlowski:2014zaa}, fixed point expansion for the effective potential $V_k(\rho)$ in \Eq{eq:action} versus the physical point expansion, etc. Their influences on the QCD phase transition and observables, e.g. fluctuations of the baryon number, will be investigated in detail.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Functional renormalization group and flow equations}
+\label{sec:FRG}
+
+To proceed, we describe other notations in the effective action in \Eq{eq:action}. $\phi=\left(\sigma,\vec{\pi}\right)$ is a meson field with four components. The effective potential $V_k(\rho)$ with $\rho=\phi^2/2$ is $O(4)$ invariant and the c-term $c\sigma$ breaks the chiral symmetry explicitly. The mesons interact with quarks through the scalar and pseudo-scalar channels with a mesonic field dependent Yukawa coupling $h_k(\rho)$, and $T^0$ and $T^i$ are the generators in the flavor space with the convention as follows: $\Tr(T^{i}T^{j})=\frac{1}{2}\delta^{ij}$ and $T^{0}=\frac{1}{\sqrt{2N_{f}}}\mathbb{1}_{N_{f}\times N_{f}}$ with $N_{f}=2$. Besides the wave function renormalization for the meson, we also introduce one for the quark, i.e., $Z_{q,k}$. Since it plays a minor role in the chiral dynamics in comparison to $Z_{\phi,k}$, the splitting of $Z_{q,k}$ into the transversal and longitudinal components are neglected for simplicity in calculations. Finally, $\mu$ in the first line on the r.h.s. of \Eq{eq:action} denotes the quark chemical potential, and here the temporal gluon background field $A_0$, which encodes the Polyakov dynamics, are also taken into account.
+
+The renormalization group (RG) scale $k$ in \Eq{eq:action} is an infrared cutoff, below which quantum fluctuations are suppressed in the effective action. The evolution of the effective action with $k$ is described by the Wetterich equation \cite{Wetterich:1992yh}, which reads 
+\begin{align}
+  \partial_t\Gamma_k[\Phi]&=\frac{1}{2}\mathrm{Tr}\big(G_{\phi\phi,k}\partial_t R^{\phi}_{k}\big)-\mathrm{Tr}\big(G_{q\bar{q},k}\partial_t R^{q}_{k}\big)\,, \label{eq:WetterichEqPQM}
+\end{align}
+with the RG time $t=\ln (k/\Lambda)$ and the initial ultraviolet (UV) cutoff $\Lambda$, where $R^{\phi}_{k}$ and $R^{q}_{k}$ are the regulators for the meson and quark fields, respectively, and they are given in Eqs.~(\ref{eq:Rphi}) and ~(\ref{eq:Rq}). The scale dependent meson and quark propagators are given by
+\begin{align}
+  G_{\phi\phi/q\bar{q}}[\Phi]=\left( \frac{1}{\frac{\delta^2\Gamma_k[\Phi]}{\delta\Phi^2}+R^{\Phi}_{k}} \right)_{\phi\phi/q\bar{q}}\,, \label{eq:props}
+\end{align}
+with $\Phi=(q,\bar q,\phi)$ denoting all species of fields.
+
+Inserting the effective action in \Eq{eq:action} into the flow equation \eq{eq:WetterichEqPQM}, one arrives at the flow equation for the effective potential, which reads
+\begin{align}
+  \partial_t V_k(\rho)=&\frac{k^4}{4\pi^2} \bigg [\big(N^2_f-1\big) l^{(B)}_{0}(\bar{m}^{2}_{\pi,k},\eta^{\perp}_{\phi,k},z_\phi;T)\nonumber\\[2ex]
+&+l^{(B)}_{0}(\bar{m}^{2}_{\sigma,k},\eta^{\perp}_{\phi,k},z_\phi;T)\nonumber\\[2ex]
+&-4N_cN_fl^{(F)}_{0}(\bar{m}^{2}_{q,k},\eta_{q,k};T,\mu)\bigg]\,,
+\end{align}
+
+
+\colwjf{I am here}
+
+
 
 
 
@@ -593,25 +608,44 @@ temperature.
 Thanks
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{appendix}
-\section{}
-Three-dimensional regulators have been used in this work. The regulator functions of the meson field and quark field can be 
-written as
+\appendix
+
+\section{Some useful formulas}
+\label{app:formula}
+
+In this work we use the $3d$- flat or Litim regulators \cite{Litim:2000ci,Litim:2001up}, which are very suited for the computations at finite temperature and densities, since the summation for the Matsubara frequencies is not affected by the $3d$ regulators, and can be performed analytically. The regulators in \Eq{eq:WetterichEqPQM} read
 \begin{align}
-\begin{split}
-R^{\phi}_{k}(q_0,\vec{q})&=Z^{\bot}_{\phi,k}\vec{q}^2r_B(\vec{q}^2/k^2) ,\\
-R^{q}_{k}(q_0,\vec{q})&=Z_{q,k}i\vec{\gamma}\cdot\vec{q}r_F(\vec{q}^2/k^2)
-\end{split}
+  R^{\phi}_{k}(q_0,\bm{q})&=Z^{\perp}_{\phi,k}\bm{q}^2 r_B(\bm{q}^2/k^2)\,, \label{eq:Rphi}\\[2ex] 
+  R^{q}_{k}(q_0,\bm{q})&=Z_{q,k}i\bm{\gamma} \cdot \bm{q} r_F(\bm{q}^2/k^2)\,, \label{eq:Rq}
 \end{align} 
+with 
+\begin{align}
+  r_B(x)&=\left( \frac{1}{x}-1 \right)\Theta(1-x)\,,\\[2ex] 
+  r_F(x)&=\left( \frac{1}{\sqrt{x}}-1 \right)\Theta(1-x)\,,  \label{}
+\end{align} 
+where $\Theta(x)$ is the Heaviside step function. Note that since $Z^{\perp}_{\phi,k}\neq Z^{\parallel}_{\phi,k}$, it is  the transversal wave function renormalization for the meson appearing in \Eq{eq:Rphi}.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 in which
-\begin{align}
-\begin{split}
-r_B(x)&=\left( \frac{1}{x}-1 \right)\Theta(1-x) ,\\
-r_F(x)&=\left( \frac{1}{\sqrt{x}}-1 \right)\Theta(1-x)
-\end{split}
-\end{align} 
 Then we give a definition to the meson and quark propagator
 \begin{align}
 \begin{split}
@@ -743,7 +777,6 @@ Now we can obtain the form of the quark anomalous dimension
 \end{split}
 \end{align} 
 
-\end{appendix}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % The \nocite command causes all entries in a bibliography to be
