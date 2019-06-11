@@ -222,18 +222,29 @@ Inserting the effective action in \Eq{eq:action} into the flow equation \eq{eq:W
 \begin{align}
   \partial_t V_k(\rho)=&\frac{k^4}{4\pi^2} \bigg [\big(N^2_f-1\big) l^{(B)}_{0}(\bar{m}^{2}_{\pi,k},\eta^{\perp}_{\phi,k},z_\phi;T)\nonumber\\[2ex]
 &+l^{(B)}_{0}(\bar{m}^{2}_{\sigma,k},\eta^{\perp}_{\phi,k},z_\phi;T)\nonumber\\[2ex]
-&-4N_cN_fl^{(F)}_{0}(\bar{m}^{2}_{q,k},\eta_{q,k};T,\mu)\bigg]\,,
+&-4N_c N_f l^{(F)}_{0}(\bar{m}^{2}_{q,k},\eta_{q,k};T,\mu)\bigg]\,, \label{eq:flowV}
 \end{align}
 with the RG invariant dimensionless meson and quark masses as follows
 \begin{align}
   \bar{m}^{2}_{\pi,k}&=\frac{V'_k(\rho)}{k^2Z^{\perp}_{\phi,k}}\,, \qquad \bar{m}^{2}_{\sigma,k}=\frac{V'_k(\rho)+2\rho V''_k(\rho)}{k^2 Z^{\perp}_{\phi,k}}\,,\\[2ex]
   \bar{m}^{2}_{q,k}&=\frac{h^{2}_{k}\rho}{2k^2Z^{2}_{q,k}}\,.
 \end{align}
-The anomalous dimensions for the mesons and quark are given by
+\colwjf{The threshold functions $l^{(B)}_{0}$ and $l^{(F)}_{0}$ are presented in \ref{}}, and the anomalous dimensions for the mesons and quark are defined as
 \begin{align}
-  \eta_{\phi,k}^{\perp}&=-\frac{\partial_t Z_{\phi,k}^{\perp}}{Z_{\phi,k}^{\perp}}\,,\quad \eta_{\phi,k}^{\parallel}=-\frac{\partial_t Z_{\phi,k}^{\parallel}}
-{Z_{\phi,k}^{\parallel}}\,,\quad \eta_{q,k}=-\frac{\partial_t Z_{q,k}}{Z_{q,k}}\,, \label{}
+  \eta_{\phi,k}^{\perp}&=-\frac{\partial_t Z_{\phi,k}^{\perp}}{Z_{\phi,k}^{\perp}}\,,\quad \eta_{\phi,k}^{\parallel}=-\frac{\partial_t Z_{\phi,k}^{\parallel}}{Z_{\phi,k}^{\parallel}}\,,\quad \eta_{q,k}=-\frac{\partial_t Z_{q,k}}{Z_{q,k}}\,. \label{}
 \end{align}
+Note that $z_\phi \equiv Z_{\phi,k}^{\parallel}/Z_{\phi,k}^{\perp}$ enters into the flow of $V_k(\rho)$ through the mesonic fluctuations as shown in \Eq{eq:flowV}. 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -252,48 +263,6 @@ The anomalous dimensions for the mesons and quark are given by
 
 
 
-
-
-\section{Dispersion relationship in the PQM model}
-\label{sec:}
-
-The Low-energy effective model is a effective research tool to study the QCD matter under the finite temperature and density. In the 
-finite temperature quantum field theory, the $O(4)$-symmetry in the vacuum is broken. The time component of momentum changes into the 
-summation of Masubara frequency. The $O(4)$-symmetry changes into a 
-$\mathbb{Z}_2\otimes O(3)$ symmetry, which leads to the split of the magnetic component and electric component. These two 
-components are related to the transversal and longitudinal direction to the heat bath. This division makes the 4-dimension momentum
-into two parts, the Matsubara mode part and the space part. For example, the internal momentum under the finite temperature should 
-be divided into $q_0=2\pi T(n+\frac{1}{2})$ and $\vec{q}$. Naturally, this division will divide the propagator into these two parts and 
-the wave function renormalization coefficient is also. So we should study the QCD matter in the case of considering the difference 
-between the two components of the dressing function $Z$. \par
-
-However, in the past research of the Polyakov-Quark-Meson model under functional renormalization group, we always employ an 
-approximation that assume $Z^{\bot}=Z^{\|}$. Under this approximation we can simplify calculations as much as possible without 
-losing too much information. Nevertheless, the transversal component plays a major role in the physics we should also study their 
-nontrivial influence on the Matsubara frequency and the space momentum.\par
-
-In the theory of the PQM we have two kind of dressing functions, the meson $Z_{\phi}$ and the quark $Z_{q}$. In the previous 
-research of PQM model, the approximation that $Z^{\bot}=Z^{\|}=Z$ is widely used. The transversal and longitudinal components are
-assumed to be equal. However, the magnitude of this approximation has not been studied. Thus, it is necessary to check the 
-reliability of this approximation.\par
-
-In this work, we investigate the affect of the meson dressing function and compare the numerical results which are obtained under 
-$Z^{\bot}_{\phi}=Z^{\|}_{\phi}=Z_{\phi}$ with $Z^{\bot}_{\phi}\neq Z^{\|}_{\phi}$. The wave function renormalizations are scale-
-dependent, if we want to discuss the affect of them, the numerical calculation must be performed beyond the local potential 
-approximation (LPA). The flow of the dressing function should meet the function written below
-\begin{align}
-\partial_tZ^{\bot}_{\phi,k}\neq 0,\qquad \partial_tZ^{\|}_{\phi,k}\neq 0
-\end{align}
-Therefore, the flow of $Z_{\phi,k}$ also working in the meson anomalous dimensions, which follows
-\begin{align}
-\eta_{\phi,k}=-\frac{\partial_tZ_{\phi,k}}{Z_{\phi,k}}\label{eq:anodim1}
-\end{align}
-With the broken of the $O(4)$-symmetry the meson anomalous dimension will split into
-
-\begin{align}
-\eta_{\phi,k}^\bot=-\frac{\partial_tZ_{\phi,k}^\bot}{Z_{\phi,k}^\bot} ,\qquad \eta_{\phi,k}^\|=-\frac{\partial_tZ_{\phi,k}^\|}
-{Z_{\phi,k}^\|}\label{eq:anodim}
-\end{align}
 
 
 \begin{figure*}[t]
