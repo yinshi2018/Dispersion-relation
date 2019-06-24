@@ -233,9 +233,27 @@ with the RG invariant dimensionless meson and quark masses as follows
 \begin{align}
   \eta_{\phi,k}^{\perp}&=-\frac{\partial_t Z_{\phi,k}^{\perp}}{Z_{\phi,k}^{\perp}}\,,\quad \eta_{\phi,k}^{\parallel}=-\frac{\partial_t Z_{\phi,k}^{\parallel}}{Z_{\phi,k}^{\parallel}}\,,\quad \eta_{q,k}=-\frac{\partial_t Z_{q,k}}{Z_{q,k}}\,. \label{}
 \end{align}
-Note that $z_\phi \equiv Z_{\phi,k}^{\parallel}/Z_{\phi,k}^{\perp}$ enters into the flow of $V_k(\rho)$ through the mesonic fluctuations as shown in \Eq{eq:flowV}. 
+Note that $z_\phi \equiv Z_{\phi,k}^{\parallel}/Z_{\phi,k}^{\perp}$ enters into the flow of $V_k(\rho)$ through the mesonic fluctuations as shown in \Eq{eq:flowV}. The transversal anomalous dimension for the  $\pi$-meson is obtained by employing the projection as follows
+\begin{align}
+  \eta_{\phi,k}^{\perp}&=-\frac{1}{3Z_{\phi,k}^{\perp}}\delta_{ij}\frac{\partial}{\partial (|\bm{p}|^2)}\frac{\delta^2 \partial_t \Gamma_k}{\delta \pi_i(-p) \delta \pi_j(p)}\Bigg|_{\substack{p_0=0\\ \bm{p}=0}}\,,\label{eq:etaphiperp}
+\end{align}
+and the longitudinal one reads
+\begin{align}
+  \eta_{\phi,k}^{\parallel}&=-\frac{1}{3Z_{\phi,k}^{\parallel}}\delta_{ij}\frac{\partial}{\partial (p_0^2)}\frac{\delta^2 \partial_t \Gamma_k}{\delta \pi_i(-p) \delta \pi_j(p)}\Bigg|_{\substack{p_0=0\\ \bm{p}=0}}\,.\label{eq:etaphipara}
+\end{align}
 
 
+
+and we neglect the difference of the anomalous dimension between the $\pi$ and $\sigma$ mesons
+
+%
+\begin{align}
+  \eta_{q}&(p_0,\bm{p})=\frac{1}{4 Z_{q,k}(p_0,\bm{p})}\nonumber \\[2ex]
+          &\times\mathrm{Re}\left[\frac{\partial}{\partial (|\bm{p}|^2)}\mathrm{tr}
+            \left(i \bm{\gamma}\cdot\bm{p}\left(-\frac{\delta^2}{\delta\bar{q}(p)
+            \delta q(p)}\partial_t \Gamma_k\right)\right)\right]\,.   \label{eq:etapsi}
+\end{align}
+%
 
 
 
@@ -601,8 +619,36 @@ Thanks
 
 \appendix
 
-\section{Some useful formulas}
-\label{app:formula}
+\section{Anomalous dimensions}
+\label{app:anom}
+
+Inserting the effective action in \Eq{eq:action} and its the flow equation in \Eq{eq:WetterichEqPQM} into \Eq{eq:etaphiperp}, and employing the $3d$- regulators in \Eq{eq:Rphi} and \Eq{eq:Rq}, one obtains the transversal anomalous dimension for the meson, as follows
+\begin{align}
+  \eta_{\phi,k}^{\perp}&=\frac{1}{6\pi^2}\Bigg\{\frac{4}{k^2 z_\phi^4} \bar{\kappa}_k(\bar{V}''_k(\bar{\kappa}_k))^2\mathcal{BB}_{(2,2)}(\bar{m}^{2}_{\pi,k},\bar{m}^{2}_{\sigma,k};T)\nonumber\\[2ex]
+&+N_c\bar{h}^{2}_{k}\bigg[\mathcal{F}_{(2)}(\bar{m}^{2}_{q,k};T,\mu)(2\eta_{q,k}-3)\nonumber\\[2ex]
+&-4(\eta_{q,k}-2)\mathcal{F}_{(3)}(\bar{m}^2_{q,k};T,\mu)\bigg]\Bigg\}\,,   
+\end{align} 
+and relevant threshold functions are given in \app{app:thresholdfun}. In the same way, the longitudinal anomalous dimension for the meson in \Eq{eq:etaphipara} reads
+\begin{align}
+  \eta_{\phi,k}^{\parallel}&=\frac{1}{6\pi^2}\Bigg\{\frac{4}{k^2 z_\phi^4}\bar{\kappa}_k(\bar{V}''_k(\bar{\kappa}_k))^2\bigg[-6\mathcal{BB}_{(2,2)}(\bar{m}^{2}_{\pi,k},\bar{m}^{2}_{\sigma,k};T)\nonumber\\[2ex]
+&+\frac{4}{z_\phi}(1+\bar{m}^{2}_{\sigma}){\mathcal{BB}}_{(2,3)}(\bar{m}^{2}_{\pi,k},\bar{m}^{2}_{\sigma,k};T)\nonumber\\[2ex]
+&+\frac{4}{z_\phi}(1+\bar{m}^{2}_{\pi}){\mathcal{BB}}_{(3,2)}(\bar{m}^{2}_{\pi,k},\bar{m}^{2}_{\sigma,k};T)\bigg]\nonumber\\[2ex]
+&\times(1-\frac{1}{5}\eta^{\bot}_{\phi,k})+\colwjf{\frac{N_c\bar{h}^{2}_{k}}{z_\phi}}\mathcal{F}_{(3)}(\bar{m}^{2}_{q,k};T,\mu)(4-\eta_{q,k})\bigg\}   
+\end{align} 
+
+
+
+
+
+
+
+ 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Threshold functions}
+\label{app:thresholdfun}
+
 
 In this work we use the $3d$- flat or Litim regulators \cite{Litim:2000ci,Litim:2001up}, which are very suited for the computations at finite temperature and densities, since the summation for the Matsubara frequencies is not affected by the $3d$ regulators, and can be performed analytically. The regulators in \Eq{eq:WetterichEqPQM} read
 \begin{align}
@@ -616,6 +662,33 @@ with
 \end{align} 
 where $\Theta(x)$ is the Heaviside step function. Note that since $Z^{\perp}_{\phi,k}\neq Z^{\parallel}_{\phi,k}$, it is  the transversal wave function renormalization for the meson appearing in \Eq{eq:Rphi}.
 
+In the threshold functions we usually need the dimensionless meson and quark propagators as follows
+\begin{align}
+  G_\phi(q,\bar{m}^{2}_{\phi,k})&=\frac{1}{z_\phi\tilde{q}^{2}_{0}+1+\bar{m}^{2}_{\phi,k}}\,,\\[2ex] 
+  G_q(q,\bar{m}^{2}_{q,k})&=\frac{1}{(\tilde{q}_0+i\tilde{\mu})^2+1+\bar{m}^{2}_{q,k}}\,,
+\end{align} 
+with $\tilde{\mu}=\mu/k$ and $\tilde{q}_0=q_0/k$, where the Matsubara frequency is  $q_0=2n_q\pi  T$ for bosons and $(2n_q+1)\pi T $ for fermions with $n_q\in \mathbb{Z}$.
+
+The definition of the threshold functions $\mathcal{B}_{(n)}$ and $\mathcal{F}_{(n)}$ is given by
+\begin{align}
+  \mathcal{B}_{(n)}(\bar{m}^{2}_{\phi,k};T)&=\frac{T}{k}\sum_{n_q}\Big(G_{\phi}(q,\bar{m}^{2}_{\phi,k})\Big)^n\,, \\[2ex]
+  \mathcal{F}_{(n)}(\bar{m}^{2}_{q,k};T,\mu)&=\frac{T}{k}\sum_{n_q}\Big(G_q(q,\bar{m}^{2}_{q,k})\Big)^n\,.
+\end{align}
+After performing the Matsubara sum, one arrives at
+\begin{align}
+    \mathcal{B}_{(1)}(\bar{m}^{2}_{\phi,k};T)=&\frac{1}{\sqrt{z_\phi(1+\bar{m}^{2}_{\phi,k})}}\bigg(\frac{1}{2}+n_{B}(\bar{m}^{2}_{\phi,k},z_\phi;T)\bigg)\,,
+\end{align}
+and
+\begin{align}
+    &\mathcal{F}_{(1)}(\bar{m}^{2}_{q,k};T,\mu)=\frac{1}{2\sqrt{1+\bar{m}^{2}_{q,k}}}\nonumber\\[2ex]
+    &\hspace{.3cm}\times\Big(1-n_{F}(\bar{m}^{2}_{q,k};T,\mu)-n_{F}(\bar{m}^{2}_{q,k};T,-\mu)\Big)\,,
+\end{align}
+with the bosonic and fermionic distribution functions as follows
+\begin{align}
+  n_B(\bar{m}^{2}_{\phi,k},z_\phi;T)=\frac{1}{\exp\lbrace \frac{1}{T}\frac{k}{z_\phi^{1/2}}\sqrt{1+\bar{m}^{2}_{\phi,k}}
+\rbrace-1}\,,
+\end{align} 
+and
 
 
 
@@ -630,17 +703,52 @@ where $\Theta(x)$ is the Heaviside step function. Note that since $Z^{\perp}_{\p
 
 
 
-
-
-
-in which
-Then we give a definition to the meson and quark propagator
 \begin{align}
 \begin{split}
-G_\phi(q,\bar{m}^{2}_{\phi,k})&=\frac{1}{z_\phi\tilde{q}^{2}_{0}+1+\bar{m}^{2}_{\phi,k}} ,\\
-G_q(q,\bar{m}^{2}_{q,k})&=\frac{1}{z^{2}_{q}(\tilde{q}_0+i\tilde{\mu})^2+1+\bar{m}^{2}_{q,k}}
+n_F(\bar{m}^{2}_{q,k},z_q;T)=\frac{1}{\exp\lbrace \frac{1}{T}\frac{k}{z_q}\sqrt{1+\bar{m}^{2}_{q,k}}-\mu 
+\rbrace+1}
 \end{split}
 \end{align} 
+With the addition of the Polyakov loop, the distribution function of the fermion can be modified by the following form
+\begin{align}
+\begin{split}
+n_F(x,z_q,T,L,\bar{L})=\frac{1+2\bar{L}e^{x/T}+Le^{2x/T}}{1+3\bar{L}e^{x/T}+3Le^{2x/T}+e^{3x/T}} 
+\end{split}
+\end{align} 
+The $x$ stands for
+\begin{align}
+\begin{split}
+x=\frac{k}{z_q}\sqrt{1+\bar{m}^{2}_{q,k}}-\mu \\
+\bar{x}=\frac{k}{z_q}\sqrt{1+\bar{m}^{2}_{q,k}}+\mu
+\end{split}
+\end{align} 
+
+
+
+
+
+
+
+\begin{align}
+  n_{B}(m^{2};T)=&\frac{1}{\exp\bigg\{\frac{k}{T}\Big(1+m^{2}\Big)^{1/2}\bigg\}-1}\,.
+\end{align}
+and
+\begin{align}
+  &n_{F}(m^{2};T,\mu)\nonumber\\[2ex]
+  =&\frac{1}{\exp\bigg\{\frac{1}{T}\Big[k(1+m^{2})^{1/2}-\mu\Big]\bigg\}+1}\,, \label{eq:nF}
+\end{align}
+
+
+
+
+
+
+
+
+
+
+
+
 in the equation above we have $\tilde{q}_0=q_0/k$, $\tilde{\mu}=\mu/k$ and for the fermions we have
 $q_0=(2n_q+1)\pi T \ (n_q\in \mathbb{Z})$ for the bosons we have $q_0=2n_q\pi T$. Here $z=Z^\|/Z^\bot$ is the ratio of the 
 two components of the wave function renormalizations. In this work we choose $z_q=1$ which means $Z^{\|}_{q}=
