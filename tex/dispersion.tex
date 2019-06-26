@@ -229,11 +229,13 @@ with the RG invariant dimensionless meson and quark masses as follows
   \bar{m}^{2}_{\pi,k}&=\frac{V'_k(\rho)}{k^2Z^{\perp}_{\phi,k}}\,, \qquad \bar{m}^{2}_{\sigma,k}=\frac{V'_k(\rho)+2\rho V''_k(\rho)}{k^2 Z^{\perp}_{\phi,k}}\,,\\[2ex]
   \bar{m}^{2}_{q,k}&=\frac{h^{2}_{k}\rho}{2k^2Z^{2}_{q,k}}\,.
 \end{align}
-\colwjf{The threshold functions $l^{(B)}_{0}$ and $l^{(F)}_{0}$ are presented in \ref{}}, and the anomalous dimensions for the mesons and quark are defined as
+The threshold functions $l^{(B)}_{0}$ and $l^{(F)}_{0}$ are presented in Eqs. (\ref{eq:l0B}) and (\ref{eq:l0F}), and the anomalous dimensions for the mesons and quark are defined as
 \begin{align}
   \eta_{\phi,k}^{\perp}&=-\frac{\partial_t Z_{\phi,k}^{\perp}}{Z_{\phi,k}^{\perp}}\,,\quad \eta_{\phi,k}^{\parallel}=-\frac{\partial_t Z_{\phi,k}^{\parallel}}{Z_{\phi,k}^{\parallel}}\,,\quad \eta_{q,k}=-\frac{\partial_t Z_{q,k}}{Z_{q,k}}\,. \label{}
 \end{align}
-Note that $z_\phi \equiv Z_{\phi,k}^{\parallel}/Z_{\phi,k}^{\perp}$ enters into the flow of $V_k(\rho)$ through the mesonic fluctuations as shown in \Eq{eq:flowV}. The transversal anomalous dimension for the  $\pi$-meson is obtained by employing the projection as follows
+Note that $z_\phi \equiv Z_{\phi,k}^{\parallel}/Z_{\phi,k}^{\perp}$ enters into the flow of $V_k(\rho)$ through the mesonic fluctuations as shown in \Eq{eq:flowV}. 
+
+The transversal anomalous dimension for the  $\pi$-meson is obtained by employing the projection as follows
 \begin{align}
   \eta_{\phi,k}^{\perp}&=-\frac{1}{3Z_{\phi,k}^{\perp}}\delta_{ij}\frac{\partial}{\partial (|\bm{p}|^2)}\frac{\delta^2 \partial_t \Gamma_k}{\delta \pi_i(-p) \delta \pi_j(p)}\Bigg|_{\substack{p_0=0\\ \bm{p}=0}}\,,\label{eq:etaphiperp}
 \end{align}
@@ -241,20 +243,21 @@ and the longitudinal one reads
 \begin{align}
   \eta_{\phi,k}^{\parallel}&=-\frac{1}{3Z_{\phi,k}^{\parallel}}\delta_{ij}\frac{\partial}{\partial (p_0^2)}\frac{\delta^2 \partial_t \Gamma_k}{\delta \pi_i(-p) \delta \pi_j(p)}\Bigg|_{\substack{p_0=0\\ \bm{p}=0}}\,.\label{eq:etaphipara}
 \end{align}
+Their explicit expressions are given in Eqs. (\ref{eq:etaphiperp2}) and (\ref{eq:etaphipara2}), respectively. The difference of the anomalous dimension between the $\pi$ and $\sigma$ mesons is neglected here. Note that even they are different, choosing the $\pi$-meson anomalous dimension for $\eta_\phi$, as done in this work, could minimize the errors of calculation, at least when the baryon chemical potential is not very high, since the mass of the pion is less than that of $\sigma$-meson, because of its nature of Goldstone particle, and the number of the degree of freedom for the pion is also larger. But we should mention that, in the region of the high baryon chemical potential in the phase diagram, especially near the CEP, the $\sigma$-mode is the most relevant collective mode and the mass of the $\sigma$-meson is vanishing, it is necessary to distinguish the anomalous dimensions of $\pi$ and $\sigma$, which will be investigated in the future.
 
-
-
-and we neglect the difference of the anomalous dimension between the $\pi$ and $\sigma$ mesons
-
-%
+The anomalous dimension for the quark is obtained by projecting the inverse quark propagator onto the vector channel, as follows
 \begin{align}
   \eta_{q}&(p_0,\bm{p})=\frac{1}{4 Z_{q,k}(p_0,\bm{p})}\nonumber \\[2ex]
           &\times\mathrm{Re}\left[\frac{\partial}{\partial (|\bm{p}|^2)}\mathrm{tr}
             \left(i \bm{\gamma}\cdot\bm{p}\left(-\frac{\delta^2}{\delta\bar{q}(p)
-            \delta q(p)}\partial_t \Gamma_k\right)\right)\right]\,.   \label{eq:etapsi}
+            \delta q(p)}\partial_t \Gamma_k\right)\right)\right]\Bigg|_{\substack{p_{0,ex}\\ \bm{p}=0}}\,.   \label{eq:etapsi}
 \end{align}
-%
-
+where the spacial component of the external momentum is chosen to be vanishing, as same as the mesonic anomalous dimensions in Eqs. (\ref{eq:etaphiperp}) and (\ref{eq:etaphipara}). Note that because of the fermionic property of the quark, its lowest Matsubara frequency is nonvanishing, and we denote it here as $p_{0,ex}$, which is described in \app{app:anom}.  Projecting of the inverse quark propagator onto the scalar channel leads us to the flow of the Yukawa coupling \cite{Pawlowski:2014zaa}, which reads
+\begin{align}
+  \partial_t h_k(\rho)&=\frac{1}{2 \sigma}\mathrm{Re}\left[\mathrm{tr}\left(-\frac{\delta^2}{\delta\bar{q}(p)
+            \delta q(p)}\partial_t \Gamma_k\right)\right]\Bigg|_{\substack{p_{0,ex}\\ \bm{p}=0}}\,.  \label{eq:dth}
+\end{align}
+The analytic expressions of \Eq{eq:etapsi} and \Eq{eq:dth} are given in \Eq{eq:etapsi2} and \Eq{eq:dth2}, respectively.
 
 
 
@@ -474,17 +477,9 @@ coefficients is
 \end{split}
 \end{align}
 The expression of the Yukawa coupling is
-\begin{align}
-\begin{split}
-\partial_t\bar{h}_k(\bar{\rho})&=(\frac{1}{2}\eta_{\phi,k}+\eta_{q,k})\bar{h}_k(\bar{\rho})\\
-&+8v_3\bar{h}^3_k(\bar{\rho})\bigg[L^{(4)}_{(1,1)}(\bar{m}^{2}_{q,k},\bar{m}^{2}_{\sigma,k},\eta_{q,k},\eta_{\phi,k};T,\mu)\\
-&-(N^{2}_{f}-1)L^{(4)}_{(1,1)}(\bar{m}^{2}_{q,k},\bar{m}^{2}_{\pi,k},\eta_{q,k},\eta_{\phi,k};T,\mu)\bigg]\\
-&+4v_3\bar{h}_k(\bar{\rho})\bar{h}'_k(\bar{\rho})\bar{\rho}\bigg[\bar{h}_k(\bar{\rho})+\bar{\rho}\bar{h}'_k(\bar{\rho})\bigg]\\
-&\times L^{(4)}_{(1,1)}(\bar{m}^{2}_{q,k},\bar{m}^{2}_{\sigma,k},\eta_{q,k},\eta_{\phi,k};T,\mu)\\
-&-2v_3k^2\bigg[(3\bar{h}'_k(\bar{\rho})+2\bar{\rho}\bar{h}''_k(\bar{\rho})l^{(B,4)}_{1}(\bar{m}^{2}_{\sigma,k},\eta_{\phi,k};T)\\
-&+3\bar{h}'_k(\bar{\rho})l^{(B,4)}_{1}(\bar{m}^{2}_{\pi,k},\eta_{\phi,k};T))\bigg]\,,\label{eq:dth}  
-\end{split}
-\end{align} 
+
+
+
 Similar to the effective potential, the flow equation of the derivative Yukawa coupling is given by
 \begin{align}\label{}
 \begin{split}
@@ -619,35 +614,40 @@ Thanks
 
 \appendix
 
-\section{Anomalous dimensions}
+\section{Anomalous dimensions and Yukawa coupling}
 \label{app:anom}
 
 Inserting the effective action in \Eq{eq:action} and its the flow equation in \Eq{eq:WetterichEqPQM} into \Eq{eq:etaphiperp}, and employing the $3d$- regulators in \Eq{eq:Rphi} and \Eq{eq:Rq}, one obtains the transversal anomalous dimension for the meson, as follows
 \begin{align}
   \eta_{\phi,k}^{\perp}&=\frac{1}{6\pi^2}\Bigg\{\frac{4}{k^2 z_\phi^4} \bar{\kappa}_k(\bar{V}''_k(\bar{\kappa}_k))^2\mathcal{BB}_{(2,2)}(\bar{m}^{2}_{\pi,k},\bar{m}^{2}_{\sigma,k};T)\nonumber\\[2ex]
 &+N_c\bar{h}^{2}_{k}\bigg[\mathcal{F}_{(2)}(\bar{m}^{2}_{q,k};T,\mu)(2\eta_{q,k}-3)\nonumber\\[2ex]
-&-4(\eta_{q,k}-2)\mathcal{F}_{(3)}(\bar{m}^2_{q,k};T,\mu)\bigg]\Bigg\}\,, \label{eq:etaphiperp}  
+&-4(\eta_{q,k}-2)\mathcal{F}_{(3)}(\bar{m}^2_{q,k};T,\mu)\bigg]\Bigg\}\,, \label{eq:etaphiperp2}  
 \end{align} 
 and relevant threshold functions are given in \app{app:thresholdfun}. In the same way, the longitudinal anomalous dimension for the meson in \Eq{eq:etaphipara} reads
 \begin{align}
   \eta_{\phi,k}^{\parallel}&=\frac{1}{6\pi^2}\Bigg\{\frac{4}{k^2 z_\phi^4}\bar{\kappa}_k(\bar{V}''_k(\bar{\kappa}_k))^2\bigg[-6\mathcal{BB}_{(2,2)}(\bar{m}^{2}_{\pi,k},\bar{m}^{2}_{\sigma,k};T)\nonumber\\[2ex]
 &+\frac{4}{z_\phi}(1+\bar{m}^{2}_{\sigma}){\mathcal{BB}}_{(2,3)}(\bar{m}^{2}_{\pi,k},\bar{m}^{2}_{\sigma,k};T)\nonumber\\[2ex]
 &+\frac{4}{z_\phi}(1+\bar{m}^{2}_{\pi}){\mathcal{BB}}_{(3,2)}(\bar{m}^{2}_{\pi,k},\bar{m}^{2}_{\sigma,k};T)\bigg]\nonumber\\[2ex]
-&\times(1-\frac{1}{5}\eta^{\bot}_{\phi,k})+\frac{N_c\bar{h}^{2}_{k}}{z_\phi}\mathcal{F}_{(3)}(\bar{m}^{2}_{q,k};T,\mu)(4-\eta_{q,k})\bigg\}\,, \label{eq:etaphipara}  
+&\times(1-\frac{1}{5}\eta^{\bot}_{\phi,k})+\frac{N_c\bar{h}^{2}_{k}}{z_\phi}\mathcal{F}_{(3)}(\bar{m}^{2}_{q,k};T,\mu)(4-\eta_{q,k})\bigg\}\,, \label{eq:etaphipara2}  
 \end{align} 
 
 The anomalous dimension for the quark in \Eq{eq:etapsi} is given by
 \begin{align}
 \eta_{q,k}=&\frac{1}{24\pi^2N_f}(4-\eta_{\phi,k}^{\perp})\bar{h}^{2}_{k}\nonumber\\[2ex]
 &\times\bigg\{ (N^{2}_{f}-1)\mathcal{FB}_{(1,2)}(\bar{m}^{2}_{q,k},\bar{m}^{2}_{\pi,k};T,\mu,p_{0,ex})\nonumber\\[2ex]
-&+\mathcal{FB}_{(1,2)}(\bar{m}^{2}_{q,k},\bar{m}^{2}_{\sigma,k};T,\mu,p_{0,ex})\bigg\}\,,
+&+\mathcal{FB}_{(1,2)}(\bar{m}^{2}_{q,k},\bar{m}^{2}_{\sigma,k};T,\mu,p_{0,ex})\bigg\}\,, \label{eq:etapsi2}
 \end{align} 
-where $p_{0,ex}=\pi T$ for the finite temperature part and $\big[k^2+(\pi T)^2\exp\{-2k/(5 T)\}\big]^{1/2}$ for the vacuum part in the threshold function $\mathcal{FB}$'s in \Eq{eq:FB}. Note that the modification of the lowest-order Matsubara frequency in the vacuum part is employed to suppress the artificial temperature dependence of thermodynamics in the low temperature regime, see e.g. \cite{Fu:2015naa,Fu:2016tey} for more discussions. 
+where $p_{0,ex}=\pi T$ for the finite temperature part and $\big[k^2+(\pi T)^2\exp\{-2k/(5 T)\}\big]^{1/2}$ for the vacuum part in the threshold function $\mathcal{FB}$'s in \Eq{eq:FB}. Note that the modification of the lowest-order Matsubara frequency in the vacuum part is employed to suppress the artificial temperature dependence of thermodynamics in the low temperature regime, see e.g. \cite{Fu:2015naa,Fu:2016tey} for more discussions. The flow of the field-dependent Yukawa coupling in \Eq{eq:dth} is firstly derived in \cite{Pawlowski:2014zaa} and is also presented here for convenience, which reads
+\begin{align}
+  \partial_t&\big|_{\rho}\bar{h}_k(\bar{\rho})=\left(\frac{1}{2}\eta_{\phi,k}+\eta_{q,k}\right)\bar{h}_k(\bar{\rho})\nonumber\\[2ex]
+&+\frac{\bar{h}^3_k(\bar{\rho})}{4\pi^2N_f}\bigg[L^{(4)}_{(1,1)}(\bar{m}^{2}_{q,k},\bar{m}^{2}_{\sigma,k},\eta_{q,k},\eta_{\phi,k}^{\perp};T,\mu,p_{0,ex})\nonumber\\[2ex]
+&-(N^{2}_{f}-1)L^{(4)}_{(1,1)}(\bar{m}^{2}_{q,k},\bar{m}^{2}_{\pi,k},\eta_{q,k},\eta_{\phi,k}^{\perp};T,\mu,p_{0,ex})\bigg]\nonumber\\[2ex]
+&+\frac{1}{2\pi^2}\bar{h}_k(\bar{\rho})\bar{h}'_k(\bar{\rho})\bar{\rho}\bigg[\bar{h}_k(\bar{\rho})+\bar{\rho}\bar{h}'_k(\bar{\rho})\bigg]\nonumber\\[2ex]
+&\times L^{(4)}_{(1,1)}(\bar{m}^{2}_{q,k},\bar{m}^{2}_{\sigma,k},\eta_{q,k},\eta_{\phi,k}^{\perp};T,\mu,p_{0,ex})\nonumber\\[2ex]
+&-\frac{k^2}{4\pi^2}\bigg[\left(3\bar{h}'_k(\bar{\rho})+2\bar{\rho}\bar{h}''_k(\bar{\rho})\right)l^{(B,4)}_{1}(\bar{m}^{2}_{\sigma,k},\eta_{\phi,k}^{\perp};T)\nonumber\\[2ex]
+&+3\bar{h}'_k(\bar{\rho})l^{(B,4)}_{1}(\bar{m}^{2}_{\pi,k},\eta_{\phi,k}^{\perp};T)\bigg]\,.\label{eq:dth2}  
+\end{align} 
 
-
-
-
- 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -715,7 +715,11 @@ The threshold functions in the flow of effective potential in \Eq{eq:flowV} are 
 and
 \begin{align}
   &l_0^{(F,d)}(\bar{m}^{2}_{q,k},\eta_{q,k};T,\mu)\nonumber\\[2ex]
-  =&\frac{2}{d-1}\left( 1-\frac{\eta_{q,k}}{d} \right)\mathcal{F}_{(1)}(\bar{m}^{2}_{q,k};T,\mu)\,,\label{eq:l0F}
+  =&\frac{2}{d-1}\left( 1-\frac{\eta_{q,k}}{d} \right)\mathcal{F}_{(1)}(\bar{m}^{2}_{q,k};T,\mu)\,.\label{eq:l0F}
+\end{align} 
+In \Eq{eq:dth2}, one also needs $l^{(B,4)}_{1}$, which is obtained from 
+\begin{align}
+  l_1^{(B/F,d)}(m^{2})=&-\frac{\partial}{\partial m^{2}}l_0^{(B/F,d)}(m^{2})\,.\label{}
 \end{align} 
 
 Furthermore, we also need other threshold functions, such as

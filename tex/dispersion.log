@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.6)  26 JUN 2019 09:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.6)  26 JUN 2019 21:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -387,14 +387,7 @@ Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 136
 Class revtex4-1 Info: cite was not loaded (OK!) on input line 136.
 Class revtex4-1 Info: mcite was not loaded (OK!) on input line 136.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 136.
-(./dispersion.aux
-
-LaTeX Warning: Label `eq:etaphiperp' multiply defined.
-
-
-LaTeX Warning: Label `eq:etaphipara' multiply defined.
-
-)
+(./dispersion.aux)
 \openout1 = `dispersion.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 136.
@@ -411,7 +404,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 136.
 LaTeX Font Info:    ... okay on input line 136.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 136.
 LaTeX Font Info:    ... okay on input line 136.
- (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count123
 \scratchdimen=\dimen121
@@ -475,45 +469,42 @@ LaTeX Font Info:    Try loading font information for U+bbold on input line 197.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/bbold/Ubbold.fd) [1{/usr/local/te
-xlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-LaTeX Warning: Reference `' on page 2 undefined on input line 232.
-
-<./figures/m.pdf, id=100, 650.43pt x 252.945pt>
+xlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+<./figures/m.pdf, id=135, 650.43pt x 252.945pt>
 File: ./figures/m.pdf Graphic file (type pdf)
  <use ./figures/m.pdf>
-Package pdftex.def Info: ./figures/m.pdf used on input line 288.
+Package pdftex.def Info: ./figures/m.pdf used on input line 291.
 (pdftex.def)             Requested size: 510.0pt x 198.3384pt.
- [2]
-Underfull \hbox (badness 10000) in paragraph at lines 323--334
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--337
 
  []
 
-[3 <./figures/m.pdf>]
+[3]
 
-LaTeX Warning: Reference `' on page 4 undefined on input line 401.
+LaTeX Warning: Reference `' on page 4 undefined on input line 404.
 
-[4] <./figures/4chi.pdf, id=213, 1156.32pt x 758.835pt>
+[4 <./figures/m.pdf>] <./figures/4chi.pdf, id=229, 1156.32pt x 758.835pt>
 File: ./figures/4chi.pdf Graphic file (type pdf)
 
 <use ./figures/4chi.pdf>
-Package pdftex.def Info: ./figures/4chi.pdf used on input line 501.
+Package pdftex.def Info: ./figures/4chi.pdf used on input line 496.
 (pdftex.def)             Requested size: 510.0pt x 334.68738pt.
- <./figures/kur.pdf, id=214, 650.43pt x 252.945pt>
+ <./figures/kur.pdf, id=230, 650.43pt x 252.945pt>
 File: ./figures/kur.pdf Graphic file (type pdf)
 
 <use ./figures/kur.pdf>
-Package pdftex.def Info: ./figures/kur.pdf used on input line 507.
+Package pdftex.def Info: ./figures/kur.pdf used on input line 502.
 (pdftex.def)             Requested size: 510.0pt x 198.3384pt.
  [5]
-<./figures/fpitra.pdf, id=234, 650.43pt x 252.945pt>
+<./figures/fpitra.pdf, id=252, 650.43pt x 252.945pt>
 File: ./figures/fpitra.pdf Graphic file (type pdf)
 
 <use ./figures/fpitra.pdf>
-Package pdftex.def Info: ./figures/fpitra.pdf used on input line 605.
+Package pdftex.def Info: ./figures/fpitra.pdf used on input line 600.
 (pdftex.def)             Requested size: 510.0pt x 198.3384pt.
  [6 <./figures/4chi.pdf>]
-Overfull \hbox (6.11406pt too wide) in paragraph at lines 637--637
+Overfull \hbox (6.11406pt too wide) in paragraph at lines 632--632
 [] 
  []
 
@@ -522,28 +513,25 @@ Overfull \hbox (6.11406pt too wide) in paragraph at lines 637--637
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/fpitra.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
 >] [8] (./dispersion.bbl [9]) [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 770.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 774.
  (./dispersion.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 770.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 770.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 774.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 774.
 Package rerunfilecheck Info: File `dispersion.out' has not changed.
-(rerunfilecheck)             Checksum: E5467B9CD65A7DECF56665572C5461A2;918.
+(rerunfilecheck)             Checksum: FB65B3D2701B1765DCA2505F17802D45;938.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 8481 strings out of 493014
- 118948 string characters out of 6133352
- 269509 words of memory out of 5000000
- 11794 multiletter control sequences out of 15000+600000
+ 8486 strings out of 493014
+ 119015 string characters out of 6133352
+ 284576 words of memory out of 5000000
+ 11797 multiletter control sequences out of 15000+600000
  17389 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,18n,28p,1223b,491s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,18n,28p,1223b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/bbold-type1/bbold10.pf
 b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
@@ -567,10 +555,10 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2016/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on dispersion.pdf (10 pages, 424405 bytes).
+Output written on dispersion.pdf (10 pages, 426767 bytes).
 PDF statistics:
- 643 PDF objects out of 1000 (max. 8388607)
- 414 compressed objects within 5 object streams
- 97 named destinations out of 1000 (max. 500000)
+ 660 PDF objects out of 1000 (max. 8388607)
+ 431 compressed objects within 5 object streams
+ 99 named destinations out of 1000 (max. 500000)
  117 words of extra memory for PDF output out of 10000 (max. 10000000)
 
