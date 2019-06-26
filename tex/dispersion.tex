@@ -220,9 +220,9 @@ with $\Phi=(q,\bar q,\phi)$ denoting all species of fields.
 
 Inserting the effective action in \Eq{eq:action} into the flow equation \eq{eq:WetterichEqPQM}, one arrives at the flow equation for the effective potential, which reads
 \begin{align}
-  \partial_t V_k(\rho)=&\frac{k^4}{4\pi^2} \bigg [\big(N^2_f-1\big) l^{(B)}_{0}(\bar{m}^{2}_{\pi,k},\eta^{\perp}_{\phi,k},z_\phi;T)\nonumber\\[2ex]
-&+l^{(B)}_{0}(\bar{m}^{2}_{\sigma,k},\eta^{\perp}_{\phi,k},z_\phi;T)\nonumber\\[2ex]
-&-4N_c N_f l^{(F)}_{0}(\bar{m}^{2}_{q,k},\eta_{q,k};T,\mu)\bigg]\,, \label{eq:flowV}
+  \partial_t V_k(\rho)=&\frac{k^4}{4\pi^2} \bigg [\big(N^2_f-1\big) l^{(B,4)}_{0}(\bar{m}^{2}_{\pi,k},\eta^{\perp}_{\phi,k},z_\phi;T)\nonumber\\[2ex]
+&+l^{(B,4)}_{0}(\bar{m}^{2}_{\sigma,k},\eta^{\perp}_{\phi,k},z_\phi;T)\nonumber\\[2ex]
+&-4N_c N_f l^{(F,4)}_{0}(\bar{m}^{2}_{q,k},\eta_{q,k};T,\mu)\bigg]\,, \label{eq:flowV}
 \end{align}
 with the RG invariant dimensionless meson and quark masses as follows
 \begin{align}
@@ -482,7 +482,7 @@ The expression of the Yukawa coupling is
 &+4v_3\bar{h}_k(\bar{\rho})\bar{h}'_k(\bar{\rho})\bar{\rho}\bigg[\bar{h}_k(\bar{\rho})+\bar{\rho}\bar{h}'_k(\bar{\rho})\bigg]\\
 &\times L^{(4)}_{(1,1)}(\bar{m}^{2}_{q,k},\bar{m}^{2}_{\sigma,k},\eta_{q,k},\eta_{\phi,k};T,\mu)\\
 &-2v_3k^2\bigg[(3\bar{h}'_k(\bar{\rho})+2\bar{\rho}\bar{h}''_k(\bar{\rho})l^{(B,4)}_{1}(\bar{m}^{2}_{\sigma,k},\eta_{\phi,k};T)\\
-&+3\bar{h}'_k(\bar{\rho})l^{(B,4)}_{1}(\bar{m}^{2}_{\pi,k},\eta_{\phi,k};T))\bigg]
+&+3\bar{h}'_k(\bar{\rho})l^{(B,4)}_{1}(\bar{m}^{2}_{\pi,k},\eta_{\phi,k};T))\bigg]\,,\label{eq:dth}  
 \end{split}
 \end{align} 
 Similar to the effective potential, the flow equation of the derivative Yukawa coupling is given by
@@ -626,18 +626,23 @@ Inserting the effective action in \Eq{eq:action} and its the flow equation in \E
 \begin{align}
   \eta_{\phi,k}^{\perp}&=\frac{1}{6\pi^2}\Bigg\{\frac{4}{k^2 z_\phi^4} \bar{\kappa}_k(\bar{V}''_k(\bar{\kappa}_k))^2\mathcal{BB}_{(2,2)}(\bar{m}^{2}_{\pi,k},\bar{m}^{2}_{\sigma,k};T)\nonumber\\[2ex]
 &+N_c\bar{h}^{2}_{k}\bigg[\mathcal{F}_{(2)}(\bar{m}^{2}_{q,k};T,\mu)(2\eta_{q,k}-3)\nonumber\\[2ex]
-&-4(\eta_{q,k}-2)\mathcal{F}_{(3)}(\bar{m}^2_{q,k};T,\mu)\bigg]\Bigg\}\,,   
+&-4(\eta_{q,k}-2)\mathcal{F}_{(3)}(\bar{m}^2_{q,k};T,\mu)\bigg]\Bigg\}\,, \label{eq:etaphiperp}  
 \end{align} 
 and relevant threshold functions are given in \app{app:thresholdfun}. In the same way, the longitudinal anomalous dimension for the meson in \Eq{eq:etaphipara} reads
 \begin{align}
   \eta_{\phi,k}^{\parallel}&=\frac{1}{6\pi^2}\Bigg\{\frac{4}{k^2 z_\phi^4}\bar{\kappa}_k(\bar{V}''_k(\bar{\kappa}_k))^2\bigg[-6\mathcal{BB}_{(2,2)}(\bar{m}^{2}_{\pi,k},\bar{m}^{2}_{\sigma,k};T)\nonumber\\[2ex]
 &+\frac{4}{z_\phi}(1+\bar{m}^{2}_{\sigma}){\mathcal{BB}}_{(2,3)}(\bar{m}^{2}_{\pi,k},\bar{m}^{2}_{\sigma,k};T)\nonumber\\[2ex]
 &+\frac{4}{z_\phi}(1+\bar{m}^{2}_{\pi}){\mathcal{BB}}_{(3,2)}(\bar{m}^{2}_{\pi,k},\bar{m}^{2}_{\sigma,k};T)\bigg]\nonumber\\[2ex]
-&\times(1-\frac{1}{5}\eta^{\bot}_{\phi,k})+\colwjf{\frac{N_c\bar{h}^{2}_{k}}{z_\phi}}\mathcal{F}_{(3)}(\bar{m}^{2}_{q,k};T,\mu)(4-\eta_{q,k})\bigg\}   
+&\times(1-\frac{1}{5}\eta^{\bot}_{\phi,k})+\frac{N_c\bar{h}^{2}_{k}}{z_\phi}\mathcal{F}_{(3)}(\bar{m}^{2}_{q,k};T,\mu)(4-\eta_{q,k})\bigg\}\,, \label{eq:etaphipara}  
 \end{align} 
 
-
-
+The anomalous dimension for the quark in \Eq{eq:etapsi} is given by
+\begin{align}
+\eta_{q,k}=&\frac{1}{24\pi^2N_f}(4-\eta_{\phi,k}^{\perp})\bar{h}^{2}_{k}\nonumber\\[2ex]
+&\times\bigg\{ (N^{2}_{f}-1)\mathcal{FB}_{(1,2)}(\bar{m}^{2}_{q,k},\bar{m}^{2}_{\pi,k};T,\mu,p_{0,ex})\nonumber\\[2ex]
+&+\mathcal{FB}_{(1,2)}(\bar{m}^{2}_{q,k},\bar{m}^{2}_{\sigma,k};T,\mu,p_{0,ex})\bigg\}\,,
+\end{align} 
+where $p_{0,ex}=\pi T$ for the finite temperature part and $\big[k^2+(\pi T)^2\exp\{-2k/(5 T)\}\big]^{1/2}$ for the vacuum part in the threshold function $\mathcal{FB}$'s in \Eq{eq:FB}. Note that the modification of the lowest-order Matsubara frequency in the vacuum part is employed to suppress the artificial temperature dependence of thermodynamics in the low temperature regime, see e.g. \cite{Fu:2015naa,Fu:2016tey} for more discussions. 
 
 
 
@@ -664,214 +669,91 @@ where $\Theta(x)$ is the Heaviside step function. Note that since $Z^{\perp}_{\p
 
 In the threshold functions we usually need the dimensionless meson and quark propagators as follows
 \begin{align}
-  G_\phi(q,\bar{m}^{2}_{\phi,k})&=\frac{1}{z_\phi\tilde{q}^{2}_{0}+1+\bar{m}^{2}_{\phi,k}}\,,\\[2ex] 
-  G_q(q,\bar{m}^{2}_{q,k})&=\frac{1}{(\tilde{q}_0+i\tilde{\mu})^2+1+\bar{m}^{2}_{q,k}}\,,
+  G_\phi(q,\bar{m}^{2}_{\phi,k})&=\frac{1}{z_\phi\tilde{q}^{2}_{0}+1+\bar{m}^{2}_{\phi,k}}\,, \label{eq:Gphi}\\[2ex] 
+  G_q(q,\bar{m}^{2}_{q,k})&=\frac{1}{(\tilde{q}_0+i\tilde{\mu})^2+1+\bar{m}^{2}_{q,k}}\,, \label{eq:Gq}
 \end{align} 
 with $\tilde{\mu}=\mu/k$ and $\tilde{q}_0=q_0/k$, where the Matsubara frequency is  $q_0=2n_q\pi  T$ for bosons and $(2n_q+1)\pi T $ for fermions with $n_q\in \mathbb{Z}$.
 
 The definition of the threshold functions $\mathcal{B}_{(n)}$ and $\mathcal{F}_{(n)}$ is given by
 \begin{align}
-  \mathcal{B}_{(n)}(\bar{m}^{2}_{\phi,k};T)&=\frac{T}{k}\sum_{n_q}\Big(G_{\phi}(q,\bar{m}^{2}_{\phi,k})\Big)^n\,, \\[2ex]
-  \mathcal{F}_{(n)}(\bar{m}^{2}_{q,k};T,\mu)&=\frac{T}{k}\sum_{n_q}\Big(G_q(q,\bar{m}^{2}_{q,k})\Big)^n\,.
+  \mathcal{B}_{(n)}(\bar{m}^{2}_{\phi,k};T)&=\frac{T}{k}\sum_{n_q}\Big(G_{\phi}(q,\bar{m}^{2}_{\phi,k})\Big)^n\,,\label{eq:Bn} \\[2ex]
+  \mathcal{F}_{(n)}(\bar{m}^{2}_{q,k};T,\mu)&=\frac{T}{k}\sum_{n_q}\Big(G_q(q,\bar{m}^{2}_{q,k})\Big)^n\,.\label{eq:Fn}
 \end{align}
 After performing the Matsubara sum, one arrives at
 \begin{align}
-    \mathcal{B}_{(1)}(\bar{m}^{2}_{\phi,k};T)=&\frac{1}{\sqrt{z_\phi(1+\bar{m}^{2}_{\phi,k})}}\bigg(\frac{1}{2}+n_{B}(\bar{m}^{2}_{\phi,k},z_\phi;T)\bigg)\,,
+    \mathcal{B}_{(1)}(\bar{m}^{2}_{\phi,k};T)=&\frac{1}{\sqrt{z_\phi(1+\bar{m}^{2}_{\phi,k})}}\bigg(\frac{1}{2}+n_{B}(\bar{m}^{2}_{\phi,k},z_\phi;T)\bigg)\,,\label{eq:B1}
 \end{align}
 and
 \begin{align}
     &\mathcal{F}_{(1)}(\bar{m}^{2}_{q,k};T,\mu)=\frac{1}{2\sqrt{1+\bar{m}^{2}_{q,k}}}\nonumber\\[2ex]
-    &\hspace{.3cm}\times\Big(1-n_{F}(\bar{m}^{2}_{q,k};T,\mu)-n_{F}(\bar{m}^{2}_{q,k};T,-\mu)\Big)\,,
+    &\hspace{.3cm}\times\Big(1-n_{F}(\bar{m}^{2}_{q,k};T,\mu)-n_{F}(\bar{m}^{2}_{q,k};T,-\mu)\Big)\,,\label{eq:F1}
 \end{align}
-with the bosonic and fermionic distribution functions as follows
+with the bosonic and fermionic distribution functions being
 \begin{align}
-  n_B(\bar{m}^{2}_{\phi,k},z_\phi;T)=\frac{1}{\exp\lbrace \frac{1}{T}\frac{k}{z_\phi^{1/2}}\sqrt{1+\bar{m}^{2}_{\phi,k}}
-\rbrace-1}\,,
+  n_B(\bar{m}^{2}_{\phi,k},z_\phi;T)&=\frac{1}{\exp\bigg\{\frac{1}{T}\frac{k}{z_\phi^{1/2}}\sqrt{1+\bar{m}^{2}_{\phi,k}}\bigg\}-1}\,,
 \end{align} 
 and
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 \begin{align}
-\begin{split}
-n_F(\bar{m}^{2}_{q,k},z_q;T)=\frac{1}{\exp\lbrace \frac{1}{T}\frac{k}{z_q}\sqrt{1+\bar{m}^{2}_{q,k}}-\mu 
-\rbrace+1}
-\end{split}
+  n_F(\bar{m}^{2}_{q,k};T,\mu)&=\frac{1}{\exp\bigg\{\frac{1}{T}\Big[k\sqrt{1+\bar{m}^{2}_{q,k}}-\mu\Big]\bigg\}+1}\,.
 \end{align} 
-With the addition of the Polyakov loop, the distribution function of the fermion can be modified by the following form
+Note that when the Polaykov loop is taken into account, the fermionic distribution function is modified as follows
 \begin{align}
-\begin{split}
-n_F(x,z_q,T,L,\bar{L})=\frac{1+2\bar{L}e^{x/T}+Le^{2x/T}}{1+3\bar{L}e^{x/T}+3Le^{2x/T}+e^{3x/T}} 
-\end{split}
+n_F(\bar{m}^{2}_{q,k};T,\mu,L,\bar{L})&=\frac{1+2\bar{L}e^{x/T}+Le^{2x/T}}{1+3\bar{L}e^{x/T}+3Le^{2x/T}+e^{3x/T}}\,,
 \end{align} 
-The $x$ stands for
+with $x=k\sqrt{1+\bar{m}^{2}_{q,k}}-\mu$, and $n_{F}(\bar{m}^{2}_{q,k};T,-\mu)$ in \Eq{eq:F1} is replaced with $n_F(\bar{m}^{2}_{q,k};T,-\mu,\bar L, L)$ accordingly. With \Eq{eq:B1} and \Eq{eq:F1}, high-order threshold functions in Eqs. (\ref{eq:Bn}) and (\ref{eq:Fn}) are readily obtained as
 \begin{align}
-\begin{split}
-x=\frac{k}{z_q}\sqrt{1+\bar{m}^{2}_{q,k}}-\mu \\
-\bar{x}=\frac{k}{z_q}\sqrt{1+\bar{m}^{2}_{q,k}}+\mu
-\end{split}
-\end{align} 
-
-
-
-
-
-
-
-\begin{align}
-  n_{B}(m^{2};T)=&\frac{1}{\exp\bigg\{\frac{k}{T}\Big(1+m^{2}\Big)^{1/2}\bigg\}-1}\,.
-\end{align}
-and
-\begin{align}
-  &n_{F}(m^{2};T,\mu)\nonumber\\[2ex]
-  =&\frac{1}{\exp\bigg\{\frac{1}{T}\Big[k(1+m^{2})^{1/2}-\mu\Big]\bigg\}+1}\,, \label{eq:nF}
+  \mathcal{B}_{(n+1)}(\bar{m}^{2}_{\phi,k};T)&=-\frac{1}{n}\frac{\partial}{\partial \bar{m}^{2}_{\phi,k}}\mathcal{B}_{(n)}(\bar{m}^{2}_{\phi,k};T)\,,\\[2ex]
+  \mathcal{F}_{(n+1)}(\bar{m}^{2}_{q,k};T,\mu)&=-\frac{1}{n}\frac{\partial}{\partial \bar{m}^{2}_{q,k}}
+                                    \mathcal{F}_{(n)}(\bar{m}^{2}_{q,k};T,\mu)\,. 
 \end{align}
 
-
-
-
-
-
-
-
-
-
-
-
-in the equation above we have $\tilde{q}_0=q_0/k$, $\tilde{\mu}=\mu/k$ and for the fermions we have
-$q_0=(2n_q+1)\pi T \ (n_q\in \mathbb{Z})$ for the bosons we have $q_0=2n_q\pi T$. Here $z=Z^\|/Z^\bot$ is the ratio of the 
-two components of the wave function renormalizations. In this work we choose $z_q=1$ which means $Z^{\|}_{q}=
-Z^{\bot}_{q}$ and $z_\phi\neq 1$ which means $Z^{\|}_{\phi}\neq Z^{\bot}_{\phi}$. To obtain the threshold functions, we 
-define
-
-
-in the equations above the form of the distribution functions are
+The threshold functions in the flow of effective potential in \Eq{eq:flowV} are given by
 \begin{align}
-\begin{split}
-n_B(\bar{m}^{2}_{\phi,k},z_\phi;T)=\frac{1}{\exp\lbrace \frac{1}{T}\frac{k}{z_\phi^{1/2}}\sqrt{1+\bar{m}^{2}_{\phi,k}}
-\rbrace-1}
-\end{split}
+  &l_0^{(B,d)}(\bar{m}^{2}_{\phi,k},\eta^\perp_{\phi,k},z_\phi;T)\nonumber\\[2ex]
+  =&\frac{2}{d-1}\left( 1- \frac{\eta^{\bot}_{\phi,k}}{d+1}\right)\mathcal{B}_{(1)}(\bar{m}^{2}_{\phi,k},z_\phi;T)\,,\label{eq:l0B}
 \end{align} 
 and
 \begin{align}
-\begin{split}
-n_F(\bar{m}^{2}_{q,k},z_\phi;T)=\frac{1}{\exp\lbrace \frac{1}{T}\frac{k}{z_q}\sqrt{1+\bar{m}^{2}_{q,k}}-\mu 
-\rbrace+1}
-\end{split}
-\end{align} 
-In the effective potential's flow equation, there are bosonic and fermionic threshold functions. The anomalous dimension 
-of the mesonic field has change into the transverse component of it. The form of the threshold functions are
-\begin{align}
-\begin{split}
-l_0^{(B,d)}(\bar{m}^{2}_{\phi,k},\eta^\bot_{\phi,k};T)=\frac{2}{d-1}\left( 1- \frac{\eta^{\bot}_{\phi,k}}{d+1}\right) 
-\mathcal{B}_{(1)}(\bar{m}^{2}_{\phi,k},z_\phi;T)
-\end{split}
-\end{align} 
-and
-\begin{align}
-\begin{split}
-l_0^{(F,d)}&(\bar{m}^{2}_{q,k},\eta_{q,k};T,\mu)\\&=\frac{2}{d-1}\left( 1-\frac{\eta_{q,k}}{d} \right)\mathcal{F}_{(1)}
-(\bar{m}^{2}_{q,k},z_q=1;T,\mu)
-\end{split}
-\end{align} 
-The definition of the threshold function $\mathcal{BB}_{(1,1)}$ is
-\begin{align}
-\begin{split}
-\mathcal{BB}_{(1,1)}&(\bar{m}^{2}_{\phi_a,k},\bar{m}^{2}_{\phi_b,k},z_\phi;T)\\
-&=-\frac{T}{k}\sum_{n_q}G_\phi(q,\bar{m}^{2}_{\phi_a,k})G_\phi(q,\bar{m}^{2}_{\phi_b,k})
-\end{split}
-\end{align} 
-then we can obtain the $\mathcal{BB}_{(2,2)}$ in a same way
-\begin{align}
-\begin{split}
-\mathcal{BB}_{(2,2)}&(\bar{m}^{2}_{\phi_a,k},\bar{m}^{2}_{\phi_b,k},z_\phi;T)\\
-&=\frac{\partial^2}{\partial\bar{m}^{2}_{\phi_a,k}\partial\bar{m}^{2}_{\phi_b,k}}\mathcal{BB}_{(1,1)}(\bar{m}^{2}_{\phi_a,k}
-\bar{m}^{2}_{\phi_b,k},z_\phi;T)
-\end{split}
-\end{align} 
-The expression of the $\mathcal{BB}_{(1,1)}$ is 
-%\begin{widetext}
-\begin{align}
-\begin{split}
-&\mathcal{BB}_{(1,1)}(\bar{m}^{2}_{\phi_a,k},\bar{m}^{2}_{\phi_b,k},z_\phi;T)=\\&-\frac{1}{z^{1/2}_{\phi}}\left\{ \left( 
-\frac{1}{2}+n_B(\bar{m}^{2}_{\phi_a,k},z_\phi;T) \right)\frac{1}{(1+\bar{m}^{2}_{\phi_a,k})^{1/2}} \right. \\
-&\left.\times \frac{1}{\bar{m}^{2}_{\phi_a,k}-\bar{m}^{2}_{\phi_b,k}}+\left( \frac{1}{2}+n_B(\bar{m}^{2}_{\phi_b,k},z_\phi;T) 
-\right)\right. \\
-&\left.\times \frac{1}{(1+\bar{m}^{2}_{\phi_b,k})^{1/2}}\frac{1}{\bar{m}^{2}_{\phi_b,k}-\bar{m}^{2}_{\phi_a,k}}\right\}
-\end{split}
-\end{align} 
-%\end{widetext}
-then we can get the expression of the threshold functions of any $n$.
-The definition of the $L^{(4)}_{(1,1)}$ in the flow equation of the Yukawa coupling is
-\begin{align}
-\begin{split}
-L^{(4)}_{(1,1)}&(\bar{m}^{2}_{q,k},\bar{m}^{2}_{\phi,k},\eta_{q,k},\eta_{\phi,k};T,\mu)\\
-&=\frac{2}{3}\bigg[(1-\frac{\eta_{\phi,k}}{5})\mathcal{FB}_{(1,2)}(\bar{m}^{2}_{q,k},\bar{m}^{2}_{\phi,k};T,\mu)\\
-&+(1-\frac{\eta_{q,k}}{4})\mathcal{FB}_{(2,1)}(\bar{m}^{2}_{q,k},\bar{m}^{2}_{\phi,k};T,\mu)\bigg]
-\end{split}
-\end{align} 
-The higher order of the function $L$ can be obtain by the derivation of the square of mass. The expression of the threshold function $\mathcal{FB}$  
-is
-\begin{align}
-\begin{split}
-\mathcal{FB}_{(1,1)}&(\bar{m}^{2}_{q,k},\bar{m}^{2}_{\phi,k};T,\mu,p_0)\\
-&=\frac{T}{k}\sum_{n_q}G_{\phi}(p-q,\bar{m}^{2}_{\phi,k})G_q(q,\bar{m}^{2}_{q,k})
-\end{split}
+  &l_0^{(F,d)}(\bar{m}^{2}_{q,k},\eta_{q,k};T,\mu)\nonumber\\[2ex]
+  =&\frac{2}{d-1}\left( 1-\frac{\eta_{q,k}}{d} \right)\mathcal{F}_{(1)}(\bar{m}^{2}_{q,k};T,\mu)\,,\label{eq:l0F}
 \end{align} 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-\section{}
-In order to obtain the flow equation of the effective potential, the mesonic anomalous dimensions are needed. Because 
-we have divided the wave function renormalizations into the transversal and longitudinal components, so the 
-anomalous dimensions should be divided either.
-The analytical form of the mesonic anomalous dimensions can be written like
+Furthermore, we also need other threshold functions, such as
 \begin{align}
-\begin{split}
-\eta_{\phi,k}^{\|}
-&=\frac{1}{6\pi^2}\bigg\{ 
- \frac{4}{k^2z_\phi^4}\bar{\kappa}_k(\bar{V}''_k(\bar{\kappa}_k))^2\bigg[ 
- -6\mathcal{BB}_{(2,2)}(\bar{m}^{2}_{\pi,k},\bar{m}^{2}_{\sigma,k};T)\\
-&+\frac{4}{z_\phi}(1+\bar{m}^{2}_{\sigma}){\mathcal{BB}}_{(2,3)}(\bar{m}^{2}_{\pi,k},\bar{m}^{2}_{\sigma,k};T)\\
-&+\frac{4}{z_\phi}(1+\bar{m}^{2}_{\pi}){\mathcal{BB}}_{(3,2)}(\bar{m}^{2}_{\pi,k},\bar{m}^{2}_{\sigma,k};T)\bigg]\\
-&\times(1-\frac{1}{5}\eta^{\bot}_{\phi,k})+\frac{N_c\bar{h}^{2}_{k}}{z_\phi}\mathcal{F}_{(3)}(\bar{m}^{2}_{q,k};T,\mu)(4-\eta_{q,k})\bigg\}   
-\end{split}
-\end{align} 
-and the other component
+  &\mathcal{BB}_{(n_1,n_2)}(m_1^2,m_2^2;T)\nonumber\\[2ex]
+=&\frac{T}{k}\sum_{n_q}\Big(G_\phi(q,\bar{m}^{2}_{\phi_a,k})\Big)^{n_1} \Big(G_\phi(q,\bar{m}^{2}_{\phi_b,k})\Big)^{n_2}\,.\label{eq:BBn1n2}
+\end{align}
+in the expressions of the mesonic anomalous dimension in Eqs. (\ref{eq:etaphiperp}) and (\ref{eq:etaphipara}). Inserting \Eq{eq:Gphi} into \Eq{eq:BBn1n2}, one is led to
 \begin{align}
-\begin{split}
-\eta_{\phi,k}^{\bot}
-&=\frac{1}{6\pi^2}\bigg\{ 
-\frac{4}{k^2z_\phi^4}\bar{\kappa}_k(\bar{V}''_k(\bar{\kappa}_k))^2 \mathcal{BB}_{(2,2)}(\bar{m}^{2}_{\pi,k},\bar{m}^{2}_{\sigma,k};T)
-\\&+N_c\bar{h}^{2}_{k}\bigg[\mathcal{F}_{(2)}(\bar{m}^{2}_{q,k};T,\mu)(2\eta_{q,k}-3)\\
-&-4(\eta_{q,k}-2)\mathcal{F}_{(3)}(\bar{m}^2_{q,k};T,\mu)\bigg]
-\bigg\}   
-\end{split}
+  &\mathcal{BB}_{(1,1)}(\bar{m}^{2}_{\phi_a,k},\bar{m}^{2}_{\phi_b,k};T)\nonumber\\[2ex]
+  =&-\frac{1}{z^{1/2}_{\phi}}\Bigg\{\left(\frac{1}{2}+n_B(\bar{m}^{2}_{\phi_a,k},z_\phi;T) \right)\frac{1}{(1+\bar{m}^{2}_{\phi_a,k})^{1/2}} \nonumber\\[2ex]
+&\times \frac{1}{\bar{m}^{2}_{\phi_a,k}-\bar{m}^{2}_{\phi_b,k}}+\left( \frac{1}{2}+n_B(\bar{m}^{2}_{\phi_b,k},z_\phi;T) 
+\right)\nonumber\\[2ex]
+&\times \frac{1}{(1+\bar{m}^{2}_{\phi_b,k})^{1/2}}\frac{1}{\bar{m}^{2}_{\phi_b,k}-\bar{m}^{2}_{\phi_a,k}}\Bigg\}\,.\label{eq:BB11}
 \end{align} 
+In the same way, one could obtain higher-order ones by employing, e.g.,
+\begin{align}
+  &\mathcal{BB}_{(n_1+1,n_2)}(\bar{m}^{2}_{\phi_a,k},\bar{m}^{2}_{\phi_b,k};T)\nonumber\\[2ex]
+  =&-\frac{1}{n_1}\frac{\partial}{\partial \bar{m}^{2}_{\phi_a,k}}\mathcal{BB}_{(n_1,n_2)}(\bar{m}^{2}_{\phi_a,k},\bar{m}^{2}_{\phi_b,k};T)\,.
+\end{align}
 
+In the flow of the Yukawa coupling in (\ref{eq:dth}), the threshold function $L$ is introduced, which reads
+\begin{align}
+  &L^{(4)}_{(1,1)}(\bar{m}^{2}_{q,k},\bar{m}^{2}_{\phi,k},\eta_{q,k},\eta_{\phi,k};T,\mu,p_0)\nonumber\\[2ex]
+  =&\frac{2}{3}\bigg[\left(1-\frac{\eta_{\phi,k}^{\perp}}{5}\right)\mathcal{FB}_{(1,2)}(\bar{m}^{2}_{q,k},\bar{m}^{2}_{\phi,k};T,\mu,p_0)\nonumber\\[2ex]
+&+\left(1-\frac{\eta_{q,k}}{4}\right)\mathcal{FB}_{(2,1)}(\bar{m}^{2}_{q,k},\bar{m}^{2}_{\phi,k};T,\mu,p_0)\bigg]\,,
+\end{align} 
+where the fermionic and bosonic mixing threshold functions $\mathcal{FB}$'s are given by
+\begin{align}
+ &\mathcal{FB}_{(n_f,n_b)}(\bar{m}^{2}_{q,k},\bar{m}^{2}_{\phi,k};T,\mu,p_0)\nonumber \\[2ex] 
+  =&\frac{T}{k}\sum_{n_q}\Big(G_{q}(q,\bar{m}^{2}_{q,k})\Big)^{n_f}\Big(G_{\phi}(q-p,\bar{m}^{2}_{\phi,k})\Big)^{n_b}\,.\label{eq:FB}
+\end{align}
+The explicit expression for $\mathcal{FB}_{(1,1)}$ is readily obtained after summing the Matsubara frequency, which can be found in, e.g. \cite{Fu:2015naa}. Higher-order $\mathcal{FB}$'s are obtained from $\mathcal{FB}_{(1,1)}$ by performing derivatives w.r.t. relevant masses as same as other threshold functions mentioned above.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Now we can obtain the form of the quark anomalous dimension
-\begin{align}
-\begin{split}
-\eta_{q,k}=&\frac{1}{24\pi^2N_f}(4-\eta_{\phi,k})\bar{h}^{2}_{k}\\
-&\times\bigg\{ (N^{2}_{f}-1)\mathcal{FB}_{(1,2)}(\bar{m}^{2}_{q,k},\bar{m}^{2}_{\pi,k};T,\mu,p_{0,ex})\\
-&+\mathcal{FB}_{(1,2)}(\bar{m}^{2}_{q,k},\bar{m}^{2}_{\sigma,k};T,\mu,p_{0,ex}) \bigg\}
-\end{split}
-\end{align} 
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

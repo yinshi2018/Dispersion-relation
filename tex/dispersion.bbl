@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{7}%
+\begin{thebibliography}{8}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -104,6 +104,20 @@
   {B301}},\ \bibinfo {pages} {90} (\bibinfo {year} {1993})}\BibitemShut
   {NoStop}%
 %%CITATION = PHLTA,B301,90;%%
+\bibitem [{\citenamefont {Fu}\ \emph {et~al.}(2016)\citenamefont {Fu},
+  \citenamefont {Pawlowski}, \citenamefont {Rennecke},\ and\ \citenamefont
+  {Schaefer}}]{Fu:2016tey}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.-j.}\ \bibnamefont
+  {Fu}}, \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont {Pawlowski}},
+  \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Rennecke}}, \ and\
+  \bibinfo {author} {\bibfnamefont {B.-J.}\ \bibnamefont {Schaefer}},\ }\href
+  {\doibase 10.1103/PhysRevD.94.116020} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume} {D94}},\ \bibinfo {pages}
+  {116020} (\bibinfo {year} {2016})},\ \Eprint
+  {http://arxiv.org/abs/1608.04302} {arXiv:1608.04302 [hep-ph]} \BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1608.04302;%%
 \bibitem [{\citenamefont {Litim}(2000)}]{Litim:2000ci}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~F.}\ \bibnamefont
