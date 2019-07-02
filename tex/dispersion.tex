@@ -190,7 +190,7 @@ This work is done with the low energy effective model under the FRG approach.
 
 The low-energy effective models, e.g. the quark-meson (QM) model \cite{Schaefer:2004en}, Nambu--Jona-Lasinio (NJL) model, and their Polyakov-loop improved variants: PQM and PNJL, are suitable to be employed to study the QCD phase transitions. They have been investigated quite a lot in literatures, see, e.g., \cite{} for more details. In this work, we adopt the scale-dependent effective action for the two-flavor PQM model, as follows 
 \begin{align}
-\Gamma_k=&\int_x \bigg\{Z_{q,k}\bar{q} \Big [\gamma_\mu \partial_\mu -\gamma_0(\mu+igA_0) \Big ]q \nonumber\\[2ex]
+\Gamma_k=&\int_x \bigg\{Z_{q,k}\bar{q} \Big [\gamma_\mu \partial_\mu -\gamma_0(\hat\mu+igA_0) \Big ]q \nonumber\\[2ex]
 &+\frac{1}{2}\Big [Z_{\phi,k}^{\parallel}(\partial_0 \phi)^2+Z_{\phi,k}^{\perp}(\partial_i \phi)^2 \Big]\nonumber\\[2ex]
 &+h_k(\rho)\bar{q}\big(T^0\sigma+i\gamma_5\vec{T}\cdot \vec{\pi}\big)q+V_k(\rho)-c\sigma \bigg\}\,,\label{eq:action}
 \end{align}
@@ -201,12 +201,13 @@ The reason why we concentrate on the split of the wave function renormalization 
 Considering the importance of the wave function renormalization for the mesons and the success of LPA$'$, in this work we would like to investigate the effects of the splitting of $Z_{\phi,k}$ in the LPA$'$ as shown in \Eq{eq:action}, which is a natural choice at finite temperature as discussed above. Furthermore, we will also study the interplay between the splitting of $Z_{\phi,k}$ and other truncation approaches, e.g., the field dependent Yukawa coupling $h_k(\rho)$ which encodes higher order quark-meson scattering processes \cite{Pawlowski:2014zaa}, fixed point expansion for the effective potential $V_k(\rho)$ in \Eq{eq:action} versus the physical point expansion, etc. Their influences on the QCD phase transition and observables, e.g. fluctuations of the baryon number, will be investigated in detail.
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Functional renormalization group and flow equations}
 \label{sec:FRG}
 
-To proceed, we describe other notations in the effective action in \Eq{eq:action}. $\phi=\left(\sigma,\vec{\pi}\right)$ is a meson field with four components. The effective potential $V_k(\rho)$ with $\rho=\phi^2/2$ is $O(4)$ invariant and the c-term $c\sigma$ breaks the chiral symmetry explicitly. The mesons interact with quarks through the scalar and pseudo-scalar channels with a mesonic field dependent Yukawa coupling $h_k(\rho)$, and $T^0$ and $T^i$ are the generators in the flavor space with the convention as follows: $\Tr(T^{i}T^{j})=\frac{1}{2}\delta^{ij}$ and $T^{0}=\frac{1}{\sqrt{2N_{f}}}\mathbb{1}_{N_{f}\times N_{f}}$ with $N_{f}=2$. Besides the wave function renormalization for the meson, we also introduce one for the quark, i.e., $Z_{q,k}$. Since it plays a minor role in the chiral dynamics in comparison to $Z_{\phi,k}$, the splitting of $Z_{q,k}$ into the transversal and longitudinal components are neglected for simplicity in calculations. Finally, $\mu$ in the first line on the r.h.s. of \Eq{eq:action} denotes the quark chemical potential, and here the temporal gluon background field $A_0$, which encodes the Polyakov dynamics, are also taken into account.
+To proceed, we describe other notations in the effective action in \Eq{eq:action}. $\phi=\left(\sigma,\vec{\pi}\right)$ is a meson field with four components. The effective potential $V_k(\rho)$ with $\rho=\phi^2/2$ is $O(4)$ invariant and the c-term $c\sigma$ breaks the chiral symmetry explicitly. The mesons interact with quarks through the scalar and pseudo-scalar channels with a mesonic field dependent Yukawa coupling $h_k(\rho)$, and $T^0$ and $T^i$ are the generators in the flavor space with the convention as follows: $\Tr(T^{i}T^{j})=\frac{1}{2}\delta^{ij}$ and $T^{0}=\frac{1}{\sqrt{2N_{f}}}\mathbb{1}_{N_{f}\times N_{f}}$ with $N_{f}=2$. Besides the wave function renormalization for the meson, we also introduce one for the quark, i.e., $Z_{q,k}$. Since it plays a minor role in the chiral dynamics in comparison to $Z_{\phi,k}$, the splitting of $Z_{q,k}$ into the transversal and longitudinal components are neglected for simplicity in calculations. Finally, $\hat\mu=\mathrm{diag}(\mu_u,\mu_d)$ in the first line on the r.h.s. of \Eq{eq:action} denotes the matrix of the quark chemical potential, and $\mu=\mu_u=\mu_d$ is assumed in the following unless stating specifically. $A_0$ is the temporal gluon background field, through which the Polyakov dynamics is taken into account.
 
 The renormalization group (RG) scale $k$ in \Eq{eq:action} is an infrared cutoff, below which quantum fluctuations are suppressed in the effective action. The evolution of the effective action with $k$ is described by the Wetterich equation \cite{Wetterich:1992yh}, which reads 
 \begin{align}
@@ -260,6 +261,79 @@ where the spacial component of the external momentum is chosen to be vanishing, 
 The analytic expressions of \Eq{eq:etapsi} and \Eq{eq:dth} are given in \Eq{eq:etapsi2} and \Eq{eq:dth2}, respectively.
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Equation of state and baryon number fluctuations}
+\label{sec:EoS}
+
+In the PQM model (\ref{eq:action}) the thermodynamical potential density reads
+\begin{align}
+  \Omega[T,\mu]&=V_{k=0}(\rho)-c\sigma+V_{\text{\tiny{glue}}}(L, \bar L)\,,\label{eq:omega}
+\end{align}
+where all the fields are on their respective equations of motion. $L$ is the traced Polyakov loop and $\bar L$ is its complex conjugate. They are related to the temporal gluonic background field $A_0$ in \Eq{eq:action} through the equations as follows
+\begin{align}
+L(\bm x)=\frac{1}{N_c}\langle \Tr{\mathcal{P}(\bm x)} \rangle ,\qquad \bar{L} (\bm x)=\frac{1}{N_c}\langle \Tr{\mathcal{P}^{\dagger}(\bm x)} \rangle\,,\label{}
+\end{align}
+with the Polyakov loop $\mathcal{P}(\bm x)$ which reads
+\begin{align}
+\mathcal{P}(\bm x)=\mathcal{P}\exp\bigg( ig\int_{0}^{\beta}d\tau A_0(\bm x,\tau) \bigg)\,,\label{}
+\end{align}
+where the path-ordering operator $\mathcal{P}$ has been employed.
+
+In this work we employ the polynomial parametrization of the glue potential \cite{Ratti:2005jh}, which reads 
+\begin{align}
+  \bar V_{\text{\tiny{glue}}}(L,\bar L)=& -\frac{b_2(T)}{2}L\bar{L}-\frac{b_3}{6}(L^3+\bar{L}^3)+\frac{b_4}{4}(L\bar{L})^2\,,\label{eq:Glueppoly}
+\end{align}
+with the dimensionless glue potential $\bar V_{\text{\tiny{glue}}}=V_{\text{\tiny{glue}}}/T^4$. The temperature dependence of the glue potential is encoded in the coefficient of the quadratic term in the Polyakov loop, to wit,
+\begin{align}
+  b_2(T)&=a_1+\frac{a_2}{1+t_r}+\frac{a_3}{(1+t_r)^2}+\frac{a_4}{(1+t_r)^3}\,,\label{eq:b2}
+\end{align}
+with the reduced temperature $t_r=(T-T_c)/T_c$. The parameters in the glue potential are determined by fitting the thermodynamics and the Polyakov loop dynamics in the Yang-Mills (YM) theory, which are $a_1=6.75$, $a_2=-1.95$, $a_3=2.625$, $a_4=-7.44$,  $b_3=0.75$, and $b_4=7.5$. It has been found that the unquenched effect on the glue potential in QCD is well captured from that in the YM theory \cite{Haas:2013qwp}, by employing the rescale for the reduced temperature as follows
+\begin{align}
+  (t_r)_{\text{\tiny{YM}}}&\rightarrow \alpha\,(t_r)_{\text{\tiny{glue}}}\,,\label{}
+\end{align}
+with
+\begin{align}
+  (t_r)_{\text{\tiny{glue}}}&=(T-T_c^\text{\tiny{glue}})/T_c^\text{\tiny{glue}}\,,\label{}
+\end{align}
+and $\alpha \simeq 0.57$. In this work we adopt $T_c^\text{\tiny{glue}}=208$ MeV for $N_f=2$ flavor QCD, which is obtained from the renormalization group analysis in QCD, see \cite{Schaefer:2007pw} for details.
+
+The pressure and the energy density are given by
+\begin{align}
+  p&=-\Omega[T,\mu]\,,\\[2ex]
+ \varepsilon&=-p+Ts +\sum_{i=u,d}\mu_i n_i\,,\label{}
+\end{align}
+with the entropy density and quark number density reading 
+\begin{align}
+  s&=\frac{\partial p}{\partial T}\qquad \text{and}\qquad n_i=\frac{\partial p}{\partial \mu_i}\,,\label{}
+\end{align}
+respectively. The interaction measure or the trace anomaly is given as follows
+\begin{align}
+  \Delta&=\varepsilon-3p\,.\label{}
+\end{align}
+
+In this work we will also investigate the fluctuations of the baryon and quark numbers, which are obtained through high-order derivatives of the pressure w.r.t. their respective chemical potentials. Taking the baryon number fluctuations for instance, the $n$-th order one reads
+\begin{align}
+   \chi_n^{B}&=\frac{\partial^n}{\partial (\mu_B/T)^n}\frac{p}{T^4}\,,\label{eq:suscept}
+\end{align}
+which is also called as the $n$-th order generalized susceptibility of the baryon number. $ \chi_n^{B}$'s in \Eq{eq:suscept} are related to the cumulants of the baryon number distributions, e.g.,
+\begin{align}
+  \chi_1^B&=\frac{1}{VT^3}\langle N_B \rangle\,,\\[2ex]
+  \chi_2^B&=\frac{1}{VT^3}\langle(\delta N_B)^2\rangle\,,\\[2ex]
+  \chi_3^B&=\frac{1}{VT^3}\langle(\delta N_B)^3\rangle\,,\\[2ex]
+  \chi_4^B&=\frac{1}{VT^3}\Big(\langle(\delta N_B)^4\rangle-3\langle(\delta N_B)^2\rangle^2\Big)\,,
+\end{align}
+up to the fourth order. Here $\langle ...\rangle$ denotes the ensemble average and $\delta N_B=N_B-\langle N_B\rangle$.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Numerical calculations and results}
+\label{sec:num}
+
+
 
 
 
@@ -296,92 +370,6 @@ These diagrams are obtained under fix point and physical point expansion of the 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-
-\section{polyakov-quark-meson model under the FRG approximation}
-As is shown in the previous work, the Polyakov-quark-meson model of two-flavor can be studied with the flow equation of the 
-scale-dependent effective action 
-$\Gamma_k[\Phi]$, $\Phi$ is the superfield, it can be written as
- $\Phi=(q,\overline{q},\phi,...)$.  The flow equation within the framework of FRG can be written as
-\begin{align}\label{fqm}
-\begin{split}
-\partial_t\Gamma_k[\Phi]=\frac{1}{2}Tr\big(G_{\phi\phi}\partial_tR^{\phi}_{k}\big)-Tr\big(G_{q\bar{q}}\partial_tR^{q}_{k}\big)
-\end{split}
-\end{align}
-\begin{align}\label{cqm}
-\begin{split}
-G_{\phi\phi/q\bar{q}}[\Phi]=\left( \frac{1}{\frac{\delta^2\Gamma_k[\Phi]}{\delta\Phi^2}+R^{\Phi}_{k}} \right)_{\phi\phi/
-q\bar{q}}
-\end{split}
-\end{align}
-
-is the propagator which is full field-dependent.
-The effective action that depends on the scale of the quark-meson model can be written like this
-\begin{align}
-\begin{split}
-\Gamma_k=\int_x\big\{Z_{q,k}\overline{q} [\gamma_\mu \partial_\mu -\gamma_0(\mu+igA_0) ]q+\frac{1}{2}Z_{\phi,k}
-(\partial_\mu \phi)^2\\+h_k\overline{q}
-(T^0\sigma+i\gamma_5\vec{T}\cdot \vec{\pi})q+V_k(\rho)-c\sigma \big\}+\cdot\cdot\cdot\label{eq:effact}
-\end{split}
-\end{align}
-here we omited the higher-order terms. The integral sign can be written as $\int_x=\int_0^{1/T}dx_0\int d^3x$.The meson 
-field is $\phi=\left(\sigma,\vec{\pi}
-\right)$ . 
-$V_k(\rho)$ is meson field-dependent effective potential which is $O(4)$ invariant, with $\rho=\phi^2/2$. The $k$ is the infrared 
-cutoff scale in FRG; $\Lambda$ is the UV cutoff renormalization scale, in this work $\Lambda$ takes 700Mev ; $\mu$ is the chemical 
-potential of quark. $T$ is the generators of flavor space $\Tr(T^{i}T^{j})=\frac{1}{2}\delta^{ij}$ and
-$T^{0}=\frac{1}{\sqrt{2N_{f}}}\mathbb{1}_{N_{f}\times N_{f}}$. In this work, we only consider the situation of two flavors that $N_f=2$. 
-The linear term $-c\sigma$ breaks the chiral symmetry. At 
-the same time, the linear breaking 
-parameter $c$ is related to the mass of $\vec{\pi}$; $h_k$ is the Yukawa coupling. \\
-
-
-In the effective action and the flow equation, we only consider the matter part that is composed of quark loop and meson loop. The 
-glue part is working as a input background. For the purpose to encode the information of de-confinement, we adopted the Polyakov 
-loop. The Polyakov loop plays the role of the back ground field potential which has the same effect as the gluon. It works in the model 
-by the expectation value of the traced Polyakov loop which can be written as
-\begin{align}\label{}
-\begin{split}
-L=\frac{1}{N_c}\langle \Tr{\mathcal{P}} \rangle ,\qquad \bar{L}=\frac{1}{N_c}\langle \Tr{\mathcal{P^{\dagger}}} \rangle
-\end{split}
-\end{align}
-and
-\begin{align}\label{}
-\begin{split}
-\mathcal{P}(\vec{x})=\mathcal{P}\exp\bigg( ig\int_{0}^{\beta}d\tau A_0(\vec{x},\tau) \bigg)
-\end{split}
-\end{align}
-$L$ and $\bar{L}$ can be considered as the order-parameter of the phase transition from confinement to the de-confinement.\par
-
-
-The bosonic and the fernionic distribution satisfy the equation given below
-\begin{align}
-\begin{split}
-n_B(\bar{m}^{2}_{\phi,k},z_\phi;T)=\frac{1}{\exp\lbrace \frac{1}{T}\frac{k}{z_\phi^{1/2}}\sqrt{1+\bar{m}^{2}_{\phi,k}}
-\rbrace-1}
-\end{split}
-\end{align} 
-and
-\begin{align}
-\begin{split}
-n_F(\bar{m}^{2}_{q,k},z_q;T)=\frac{1}{\exp\lbrace \frac{1}{T}\frac{k}{z_q}\sqrt{1+\bar{m}^{2}_{q,k}}-\mu 
-\rbrace+1}
-\end{split}
-\end{align} 
-With the addition of the Polyakov loop, the distribution function of the fermion can be modified by the following form
-\begin{align}
-\begin{split}
-n_F(x,z_q,T,L,\bar{L})=\frac{1+2\bar{L}e^{x/T}+Le^{2x/T}}{1+3\bar{L}e^{x/T}+3Le^{2x/T}+e^{3x/T}} 
-\end{split}
-\end{align} 
-The $x$ stands for
-\begin{align}
-\begin{split}
-x=\frac{k}{z_q}\sqrt{1+\bar{m}^{2}_{q,k}}-\mu \\
-\bar{x}=\frac{k}{z_q}\sqrt{1+\bar{m}^{2}_{q,k}}+\mu
-\end{split}
-\end{align} 
-The plus and minus sign in front of the chemical potential $\mu$ stand for the quark and anti-quark.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

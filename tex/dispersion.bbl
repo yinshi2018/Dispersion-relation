@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{8}%
+\begin{thebibliography}{11}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -104,6 +104,45 @@
   {B301}},\ \bibinfo {pages} {90} (\bibinfo {year} {1993})}\BibitemShut
   {NoStop}%
 %%CITATION = PHLTA,B301,90;%%
+\bibitem [{\citenamefont {Ratti}\ \emph {et~al.}(2006)\citenamefont {Ratti},
+  \citenamefont {Thaler},\ and\ \citenamefont {Weise}}]{Ratti:2005jh}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Ratti}}, \bibinfo {author} {\bibfnamefont {M.~A.}\ \bibnamefont {Thaler}}, \
+  and\ \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Weise}},\ }\href
+  {\doibase 10.1103/PhysRevD.73.014019} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume} {D73}},\ \bibinfo {pages}
+  {014019} (\bibinfo {year} {2006})},\ \Eprint
+  {http://arxiv.org/abs/hep-ph/0506234} {arXiv:hep-ph/0506234 [hep-ph]}
+  \BibitemShut {NoStop}%
+%%CITATION = HEP-PH/0506234;%%
+\bibitem [{\citenamefont {Haas}\ \emph {et~al.}(2013)\citenamefont {Haas},
+  \citenamefont {Stiele}, \citenamefont {Braun}, \citenamefont {Pawlowski},\
+  and\ \citenamefont {Schaffner-Bielich}}]{Haas:2013qwp}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~M.}\ \bibnamefont
+  {Haas}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Stiele}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Braun}}, \bibinfo
+  {author} {\bibfnamefont {J.~M.}\ \bibnamefont {Pawlowski}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Schaffner-Bielich}},\ }\href
+  {\doibase 10.1103/PhysRevD.87.076004} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume} {D87}},\ \bibinfo {pages}
+  {076004} (\bibinfo {year} {2013})},\ \Eprint {http://arxiv.org/abs/1302.1993}
+  {arXiv:1302.1993 [hep-ph]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1302.1993;%%
+\bibitem [{\citenamefont {Schaefer}\ \emph {et~al.}(2007)\citenamefont
+  {Schaefer}, \citenamefont {Pawlowski},\ and\ \citenamefont
+  {Wambach}}]{Schaefer:2007pw}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.-J.}\ \bibnamefont
+  {Schaefer}}, \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
+  {Pawlowski}}, \ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Wambach}},\ }\href {\doibase 10.1103/PhysRevD.76.074023} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume}
+  {D76}},\ \bibinfo {pages} {074023} (\bibinfo {year} {2007})},\ \Eprint
+  {http://arxiv.org/abs/0704.3234} {arXiv:0704.3234 [hep-ph]} \BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:0704.3234;%%
 \bibitem [{\citenamefont {Fu}\ \emph {et~al.}(2016)\citenamefont {Fu},
   \citenamefont {Pawlowski}, \citenamefont {Rennecke},\ and\ \citenamefont
   {Schaefer}}]{Fu:2016tey}%
