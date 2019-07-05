@@ -333,6 +333,28 @@ up to the fourth order. Here $\langle ...\rangle$ denotes the ensemble average a
 \section{Numerical calculations and results}
 \label{sec:num}
 
+We employ the approach of Taylor expansion to solve the flow of the effective potential in \Eq{eq:flowV} numerically. Expanding around the expansion point $\kappa$, one is led to 
+\begin{align}\label{}
+  V_k(\rho)&=\sum^{N_v}_{n=0}\frac{\lambda_{n,k}}{n!}(\rho-\kappa_k)^n\,,\label{}
+\end{align}
+where a subscript $k$ is affixed to the expansion point $\kappa$, indicating that the expansion point can be RG scale dependent, and $N_v$ is the highest order which is included in the calculations. The convergency is obtained when the calculated results are almost no longer influenced by the increment of $N_v$, after it is above some value. We adopt two commonly used expansion approaches in the literatures. It is more convenient to work with the renormalized variables, to wit,
+\begin{align}\label{}
+  \bar V_k(\bar \rho)&=\sum^{N_v}_{n=0}\frac{\bar \lambda_{n,k}}{n!}(\bar \rho-\bar \kappa_k)^n\,,\label{eq:barVk}
+\end{align}
+with $\bar V_k(\bar \rho)=V_k(\rho)$, $\bar \lambda_{n,k}=\lambda_{n,k}/(Z^{\perp}_{\phi,k})^n$, $\bar \rho=Z^{\perp}_{\phi,k} \rho$, and $\bar \kappa_k=Z^{\perp}_{\phi,k}\kappa_k$. Inserting \Eq{eq:barVk} into its flow equation (\ref{eq:flowV}), one is led to
+\begin{align}\label{}
+  &\partial^n_{\bar \rho}\left(\partial_t\big|_{\rho} \bar V_k(\bar \rho)\right)\Big|_{\bar \rho=\bar \kappa_k}\nonumber\\[2ex]
+=&\partial_t \bar \lambda_{n,k}-n\eta_{\phi,k}^{\perp}\bar{\lambda}_{n,k}-(\partial_t \bar \kappa_k+\eta_{\phi,k}^{\perp}\bar \kappa_k)\bar \lambda_{n+1,k}\,,\label{}
+\end{align}
+
+
+
+
+
+
+
+
+ One is the fixed expansion point with $\partial_t \kappa_k=0$, i.e., the bare expansion point $\kappa_k$ is independent of the scale $k$.
 
 
 
@@ -377,46 +399,7 @@ These diagrams are obtained under fix point and physical point expansion of the 
 
 
 \subsection{The flow equations of the effective potential and the Yukawa coupling}
-We use the three-dimension regulators throughout our calculation of the threshold functions. 
-Through the derivation of the effective action \ref{fqm} and \ref{cqm} we can get the flow equation of the effective potential under the 
-constant mesonic fields:
 
-\begin{align}
-\begin{split}
-\partial_tV_k(\rho)=&\frac{k^4}{4\pi^2}[(N^2_f-1)l^{(B,4)}_{0}(\bar{m}^{2}_{\pi,k},\eta^{\bot}_{\phi,k};T)\\
-&+l^{(B,4)}_{0}(\bar{m}^{2}_{\sigma,k},\eta^{\bot}_{\phi,k};T)\\
-&-4N_cN_fl^{(F,4)}_{0}(\bar{m}^{2}_{q,k},\eta_{q,k};T,\mu)]
-\end{split}
-\end{align}
-The $l_0^{(B/F,n)}$ stands for the threshold functions of the boson and fermion. The analytical form of the threshold 
-functions are given at \ref{}. Below are the quark mass and meson masses which are renormalized and dimensionless
-\begin{align}
-\begin{split}
-\bar{m}^{2}_{\pi,k}&=\frac{V'_k(\rho)}{k^2Z^{\bot}_{\phi,k}}\\
-\bar{m}^{2}_{\sigma,k}&=\frac{V'_k(\rho)+2\rho V''_k(\rho)}{k^2Z^{\bot}_{\phi,k}}\\
-\bar{m}^{2}_{q,k}&=\frac{h^{2}_{k}\rho}{2k^2Z^{2}_{q,k}}
-\end{split}
-\end{align}
-
-In the finite temperature the meson wave function renormalization $Z_{\phi,k}$ is split into $Z^\|$ and $Z^\bot$. In the past 
-calculation we use a approximation that we assume $Z^\|=Z^\bot$. In this work, we abolished this approximation and observe if the 
-change have any influence on the results.By considering the difference between $Z^\bot_{\phi,k}$ and $Z^\|_{\phi,k}$ we can calculate 
-the anomalous dimensions respectively.The definition of the anomalous dimensions is given by
-\begin{align}
-\eta_{\phi,k}^\bot=-\frac{\partial_tZ_{\phi,k}^\bot}{Z_{\phi,k}^\bot} ,\qquad \eta_{\phi,k}^\|=-\frac{\partial_tZ_{\phi,k}^\|}
-{Z_{\phi,k}^\|}\label{eq:anodim}
-\end{align}
-and the definition of the quark anomalous dimension is
-\begin{align}
-\begin{split}
-\eta_{q,k}=-\frac{\partial_tZ_{q,k}}{Z_{q,k}}
-\end{split}
-\end{align}
-The frequency and spatial momentum are independent when we calculating the anomalous dimensions. So we can easily obtain the 
-longitudinal component of the meson anomalous dimension with the same derivation method of the transversal component. The 
-analytic form of the transversal component is consistentwith the anomalous dimension under $Z^{\bot}_{\phi,k}=Z^{\|}_{\phi,k}$. The 
-calculation of anomalous dimensions is ultimately the calculation of the flow of the 
-wave-function renormalizations. We can use the Wetterich equation which is mentioned in Eq~\ref{cqm}.
 
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.6)  2 JUL 2019 14:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.6)  5 JUL 2019 13:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -470,99 +470,90 @@ LaTeX Font Info:    Try loading font information for U+bbold on input line 197.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/bbold/Ubbold.fd) [1{/usr/local/te
 xlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
-<./figures/m.pdf, id=169, 650.43pt x 252.945pt>
+<./figures/m.pdf, id=172, 650.43pt x 252.945pt>
 File: ./figures/m.pdf Graphic file (type pdf)
  <use ./figures/m.pdf>
-Package pdftex.def Info: ./figures/m.pdf used on input line 365.
+Package pdftex.def Info: ./figures/m.pdf used on input line 387.
 (pdftex.def)             Requested size: 510.0pt x 198.3384pt.
 
-
-LaTeX Warning: Reference `fqm' on page 4 undefined on input line 381.
-
-
-LaTeX Warning: Reference `cqm' on page 4 undefined on input line 381.
-
-
-LaTeX Warning: Reference `' on page 4 undefined on input line 392.
-
-
-LaTeX Warning: Reference `cqm' on page 4 undefined on input line 419.
-
-[4] <./figures/4chi.pdf, id=187, 1156.32pt x 758.835pt>
+<./figures/4chi.pdf, id=173, 1156.32pt x 758.835pt>
 File: ./figures/4chi.pdf Graphic file (type pdf)
-
-<use ./figures/4chi.pdf>
-Package pdftex.def Info: ./figures/4chi.pdf used on input line 484.
+ <use ./figures/4chi.pdf>
+Package pdftex.def Info: ./figures/4chi.pdf used on input line 467.
 (pdftex.def)             Requested size: 510.0pt x 334.68738pt.
- <./figures/kur.pdf, id=188, 650.43pt x 252.945pt>
-File: ./figures/kur.pdf Graphic file (type pdf)
 
-<use ./figures/kur.pdf>
-Package pdftex.def Info: ./figures/kur.pdf used on input line 490.
+<./figures/kur.pdf, id=174, 650.43pt x 252.945pt>
+File: ./figures/kur.pdf Graphic file (type pdf)
+ <use ./figures/kur.pdf>
+Package pdftex.def Info: ./figures/kur.pdf used on input line 473.
 (pdftex.def)             Requested size: 510.0pt x 198.3384pt.
- [5 <./figures/m.pdf>]
+
+[4]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6 <./figures/4chi.pdf>] <./figures/fpitra.pdf, id=339, 650.43pt x 252.945pt>
+[5 <./figures/m.pdf>] <./figures/fpitra.pdf, id=270, 650.43pt x 252.945pt>
 File: ./figures/fpitra.pdf Graphic file (type pdf)
 
 <use ./figures/fpitra.pdf>
-Package pdftex.def Info: ./figures/fpitra.pdf used on input line 588.
+Package pdftex.def Info: ./figures/fpitra.pdf used on input line 571.
 (pdftex.def)             Requested size: 510.0pt x 198.3384pt.
-
-Overfull \hbox (6.11406pt too wide) in paragraph at lines 620--620
+ [6 <./figures/4chi.pdf>]
+Overfull \hbox (6.11406pt too wide) in paragraph at lines 603--603
 [] 
  []
 
-[7 <./figures/kur.pdf>] [8 <./figures/fpitra.pdf>] [9] (./dispersion.bbl)
-[10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 762.
+[7 <./figures/kur.pdf> <./figures/fpitra.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/fpitra.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+>] [8] (./dispersion.bbl [9]) [10]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 745.
  (./dispersion.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 762.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 762.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 745.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 745.
 Package rerunfilecheck Info: File `dispersion.out' has not changed.
 (rerunfilecheck)             Checksum: EFAD618A8BF529F190318222C8687B09;1014.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
+
 
  ) 
 Here is how much of TeX's memory you used:
- 8515 strings out of 493014
- 119483 string characters out of 6133352
- 245867 words of memory out of 5000000
- 11815 multiletter control sequences out of 15000+600000
+ 8511 strings out of 493014
+ 119457 string characters out of 6133352
+ 284869 words of memory out of 5000000
+ 11812 multiletter control sequences out of 15000+600000
  17389 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,18n,28p,1334b,398s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,18n,28p,1334b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/bbold-type1/bbold10.pf
-b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
-usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/
-local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/lo
-cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/loca
-l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/
-texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/
-texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/lo
-cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
-l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive
-/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/20
-16/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2016/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2016/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on dispersion.pdf (10 pages, 430839 bytes).
+b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texliv
+e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2016
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2016/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on dispersion.pdf (10 pages, 420239 bytes).
 PDF statistics:
- 690 PDF objects out of 1000 (max. 8388607)
- 461 compressed objects within 5 object streams
- 110 named destinations out of 1000 (max. 500000)
+ 687 PDF objects out of 1000 (max. 8388607)
+ 459 compressed objects within 5 object streams
+ 109 named destinations out of 1000 (max. 500000)
  125 words of extra memory for PDF output out of 10000 (max. 10000000)
 
