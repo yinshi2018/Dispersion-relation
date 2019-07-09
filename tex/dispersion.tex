@@ -350,12 +350,21 @@ Two different expansion approaches are commonly used in the literature: one is t
 \begin{align}
   \partial_t \bar \kappa_k+\eta_{\phi,k}^{\perp}\bar \kappa_k&=0\,.\label{eq:dtkappafix}
 \end{align}
-It follows immediately that the second term on the r.h.s. of \Eq{eq:drhoV} is vanishing for the fixed expansion. Consequently, $\bar \lambda_{n,k}$'s of different orders are decoupled and there is no feedback from the high order coupling to low order flows, which results in excellent convergency in the fixed point expansion.
+It follows immediately that the second term on the r.h.s. of \Eq{eq:drhoV} is vanishing for the fixed point expansion. Consequently, $\bar \lambda_{n,k}$'s of different orders are decoupled and there is no feedback from the high order coupling to low order flows. Therefore,  the convergency property is well controlled in the fixed point expansion. For more discussions about the fixed point expansion, see, e.g. \cite{Pawlowski:2014zaa}. Another approach is the running physical expansion, which demands that the expansion point is the solution of equation of motion for every value of $k$, to wit,
+\begin{align}
+  \frac{\partial}{\partial \bar \rho}\Big(\bar V_k(\bar \rho)-\bar c_k (2\bar \rho)^{\frac{1}{2}}\Big)\bigg|_{\bar \rho=\bar \kappa_k}&=0\,,\label{eq:eosrho}
+\end{align}
+with $\bar c_k=c/(Z^{\perp}_{\phi,k})^{1/2}$ being the renormalized strength of the explicit chiral symmetry breaking in the effective action \eq{eq:action}. Note that the bare $c$ is scale independent, thus one has $\partial_t \bar c_k=(1/2)\eta_{\phi,k}^{\perp}\bar c_k$. Combining \Eq{eq:drhoV} and \Eq{eq:eosrho}, 
+one arrives at the flow of the physical expansion point, which reads
+\begin{align}
+  \partial_t \bar \kappa_k&=-\frac{\bar c_k^2}{\bar{\lambda}_{1,k}^3+\bar c_k^2\bar{\lambda}_{2,k}}\bigg[\partial_{\bar \rho}\left(\partial_t\big|_{\rho} \bar V_k(\bar \rho)\right)\Big|_{\bar \rho=\bar \kappa_k}\nonumber \\[2ex]
+          &+\eta_{\phi,k}^{\perp}\left(\frac{\bar{\lambda}_{1,k}}{2}+\bar\kappa_k\bar{\lambda}_{2,k}\right)\bigg]\,,\label{}
+\end{align}
 
 
 
 
- One is the fixed expansion point with $\partial_t \kappa_k=0$, i.e., the bare expansion point $\kappa_k$ is independent of the scale $k$.
+
 
 
 
