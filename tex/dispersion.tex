@@ -338,18 +338,19 @@ We employ the approach of Taylor expansion to solve the flow of the effective po
   V_k(\rho)&=\sum^{N_v}_{n=0}\frac{\lambda_{n,k}}{n!}(\rho-\kappa_k)^n\,,\label{}
 \end{align}
 where a subscript $k$ is affixed to the expansion point $\kappa$, indicating that the expansion point can be RG scale dependent, and $N_v$ is the highest order which is included in the calculations. The convergency is obtained when the calculated results are almost no longer influenced by the increment of $N_v$, after it is above some value. We adopt two commonly used expansion approaches in the literatures. It is more convenient to work with the renormalized variables, to wit,
-\begin{align}\label{}
+\begin{align}
   \bar V_k(\bar \rho)&=\sum^{N_v}_{n=0}\frac{\bar \lambda_{n,k}}{n!}(\bar \rho-\bar \kappa_k)^n\,,\label{eq:barVk}
 \end{align}
 with $\bar V_k(\bar \rho)=V_k(\rho)$, $\bar \lambda_{n,k}=\lambda_{n,k}/(Z^{\perp}_{\phi,k})^n$, $\bar \rho=Z^{\perp}_{\phi,k} \rho$, and $\bar \kappa_k=Z^{\perp}_{\phi,k}\kappa_k$. Inserting \Eq{eq:barVk} into its flow equation (\ref{eq:flowV}), one is led to
-\begin{align}\label{}
+\begin{align}
   &\partial^n_{\bar \rho}\left(\partial_t\big|_{\rho} \bar V_k(\bar \rho)\right)\Big|_{\bar \rho=\bar \kappa_k}\nonumber\\[2ex]
-=&\partial_t \bar \lambda_{n,k}-n\eta_{\phi,k}^{\perp}\bar{\lambda}_{n,k}-(\partial_t \bar \kappa_k+\eta_{\phi,k}^{\perp}\bar \kappa_k)\bar \lambda_{n+1,k}\,,\label{}
+=&(\partial_t -n\eta_{\phi,k}^{\perp})\bar{\lambda}_{n,k}-(\partial_t \bar \kappa_k+\eta_{\phi,k}^{\perp}\bar \kappa_k)\bar \lambda_{n+1,k}\,.\label{eq:drhoV}
 \end{align}
-
-
-
-
+Two different expansion approaches are commonly used in the literature: one is the fixed bare expansion point with $\partial_t \kappa_k=0$, i.e., $\kappa_k$ is independent of the scale, which yields 
+\begin{align}
+  \partial_t \bar \kappa_k+\eta_{\phi,k}^{\perp}\bar \kappa_k&=0\,.\label{eq:dtkappafix}
+\end{align}
+It follows immediately that the second term on the r.h.s. of \Eq{eq:drhoV} is vanishing for the fixed expansion. Consequently, $\bar \lambda_{n,k}$'s of different orders are decoupled and there is no feedback from the high order coupling to low order flows, which results in excellent convergency in the fixed point expansion.
 
 
 
