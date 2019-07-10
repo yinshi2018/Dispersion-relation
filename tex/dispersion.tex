@@ -358,16 +358,30 @@ with $\bar c_k=c/(Z^{\perp}_{\phi,k})^{1/2}$ being the renormalized strength of 
 one arrives at the flow of the physical expansion point, which reads
 \begin{align}
   \partial_t \bar \kappa_k&=-\frac{\bar c_k^2}{\bar{\lambda}_{1,k}^3+\bar c_k^2\bar{\lambda}_{2,k}}\bigg[\partial_{\bar \rho}\left(\partial_t\big|_{\rho} \bar V_k(\bar \rho)\right)\Big|_{\bar \rho=\bar \kappa_k}\nonumber \\[2ex]
-          &+\eta_{\phi,k}^{\perp}\left(\frac{\bar{\lambda}_{1,k}}{2}+\bar\kappa_k\bar{\lambda}_{2,k}\right)\bigg]\,,\label{}
+          &+\eta_{\phi,k}^{\perp}\left(\frac{\bar{\lambda}_{1,k}}{2}+\bar\kappa_k\bar{\lambda}_{2,k}\right)\bigg]\,.\label{}
 \end{align}
+In this work, we will investigate the influence of these two expansion approaches on the fluctuations of the baryon number. 
 
+Furthermore, we also use the Taylor expansion to include the field dependence of the Yukawa coupling, which reads
+\begin{align}
+  \bar h_k(\bar \rho)&=\sum^{N_h}_{n=0}\frac{\bar h_{n,k}}{n!}(\bar \rho -\bar \kappa_k)^n\,,\label{}
+\end{align}
+with 
+\begin{align}
+  \bar h_k(\bar \rho)&=\frac{h_k(\rho)}{Z_{q,k}(Z^{\perp}_{\phi,k})^{1/2}}\,,\quad \text{and}\quad \bar h_{n,k}=\frac{h_{n,k}}{Z_{q,k}(Z^{\perp}_{\phi,k})^{(2n+1)/2}}\,,\label{eq: barhk}
+\end{align}
+where $N_h$ is the order, up to which the Taylor expansion of $\bar h_k(\bar \rho)$ is done. Inserting \Eq{eq: barhk} into \Eq{eq:dth}, one is led to
+\begin{align}
+  &\partial^n_{\bar \rho}\left(\partial_t\big|_{\rho} \bar h_k(\bar \rho)\right)\Big|_{\bar \rho=\bar \kappa_k}\nonumber\\[2ex]
+=&(\partial_t -n\eta_{\phi,k}^{\perp})\bar h_{n,k}-(\partial_t \bar \kappa_k+\eta_{\phi,k}^{\perp}\bar \kappa_k)\bar h_{n+1,k}\,,\label{}
+\end{align}
+through which the Yukawa couplings of high orders can be solved.
 
-
-
-
-
-
-
+It is left to specify the parameters in the low energy effective models: the UV cutoff is chosen to be $\Lambda=$ 700 MeV; the effective potential at $k=\Lambda$ is parameterized as follows
+\begin{align}
+  V_\Lambda(\rho)&=\frac{\lambda_\Lambda}{2}\rho^2+\nu_\Lambda\rho\,,\label{}
+\end{align}
+with $\lambda_\Lambda=$10 and $\nu_\Lambda=(0.556\,\mathrm{GeV})^2$. Furthermore, the strength of the explicit chiral symmetry breaking in \eq{eq:action} is $c=1.97\times 10^{-3}\,(\mathrm{GeV})^3$, and the Yukawa coupling is $h_\Lambda=7.33$. Employing the fixed point expansion and all the truncations discussed in this work, including the splitting of the meson wave function renormalization and the field dependent Yukawa coupling, etc., we obtain the physical observables in the vacuum, which read $f_\pi=$92 MeV, $m_q=$300 MeV, $m_\pi=$136 MeV, and $m_\sigma=$454 MeV. Note that this is the only set of parameters we use in this work, even they result in some quantitative change of the observables in the vacuum by adopting other truncations discussed in the following. We will not tune these parameters to match the physical observables in the vacuum for different truncations, which would facilitate the comparisons among different truncations.
 
 
 
@@ -376,6 +390,18 @@ one arrives at the flow of the physical expansion point, which reads
 
 
 \colwjf{I am here}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -413,61 +439,6 @@ These diagrams are obtained under fix point and physical point expansion of the 
 
 
 
-Here we consider two kinds of expansion point of the effective potential. On one hand, the Taylor expansion of the effective 
-potential is about a field value $\kappa$ which is unrenormalised and fixed. The effective potential can be written as
-\begin{align}\label{}
-\begin{split}
-\bar{V}_k(\bar{\rho})=\sum^{N_v}_{n=0}\frac{\bar{\lambda}_{n,k}}{n!}(\bar{\rho}-\bar{\kappa}_k)^n
-\end{split}
-\end{align}
-with $\bar{\lambda}_{n,k}=\lambda_{n,k}/Z^{\bot n}_{\phi,k}$ and $\bar{\kappa}_k=Z^{\bot}_{\phi,k}\kappa$.
-The other hand, we make the expansion point $\kappa$ depends on the cutoff scales $k$. Then the $\bar{\kappa}_k$ 
-can be written as
-\begin{align}\label{}
-\begin{split}
-\bar{\kappa}_k=Z^{\bot}_{\phi,k}\kappa_k
-\end{split}
-\end{align} 
-Then we give the flow equation of the derivation of the effective potential
-\begin{align}\label{}
-\begin{split}
-\partial^{n}_{\bar{\rho}}&(\partial_t\big|_{\rho}\bar{V}_k(\bar{\rho}))\bigg|_{\bar{\rho}=\bar{\kappa}_k}\\
-=&(\partial_t\bar{\lambda}_{n,k}-n\eta_{\phi,k}\bar{\lambda}_{n,k})-(\partial_t\bar{\kappa}_k+\eta_{\phi,k}\bar{\kappa}_k)\bar{\lambda}_{n+1,k}
-\end{split}
-\end{align} 
-The definition of the pion decay constant is $f_\pi=\langle\sigma\rangle$
-which is equal to the expected value of the $\sigma$ field.\par
-The Yukawa coupling $h_k$ is the coupling coefficient of the quark and meson. Here we also consider the $\rho-$dependent $h$ and calculate its
-impact on the decouple speed of the meson mass. Similar to the expansion of the effective potential, the Yukawa coupling can be expanded at the point
-$\kappa_k$. So the $h_k$ can be written as
-\begin{align}\label{}
-\begin{split}
-\bar{h}_k(\bar{\rho})=\sum^{N_h}_{n=0}\frac{\bar{h}_{n,k}}{n!}(\bar{\rho}-\bar{\kappa}_k)^n
-\end{split}
-\end{align}
-We only study the impact of the expansion of $h$ under the $Z^{\|}_{\phi,k}=Z^{\bot}_{\phi,k}$, so the definition of the $\bar{h}_k(\bar{\rho})$ and the expansion
-coefficients is
-\begin{align}\label{}
-\begin{split}
-\bar{h}_k(\bar{\rho})=\frac{h_k(\rho)}{Z_{q,k}Z^{1/2}_{\phi,k}}
-\end{split}
-\end{align}
-\begin{align}\label{}
-\begin{split}
-\bar{h}_{n,k}=\frac{h_{n,k}}{Z_{q,k}Z^{(2n+1)/2}_{\phi,k}}
-\end{split}
-\end{align}
-The expression of the Yukawa coupling is
-
-
-
-Similar to the effective potential, the flow equation of the derivative Yukawa coupling is given by
-\begin{align}\label{}
-\begin{split}
-\partial^{n}_{\bar{\rho}}&(\partial_t\big|_{\rho}\bar{h}_k(\bar{\rho}))\bigg|_{\bar{\rho}=\bar{\kappa}_k} \\
-=&(\partial_t\bar{h}_{n,k}-n\eta_{\phi,k}\bar{h}_{n,k})-(\partial_t\bar{\kappa}_k+\eta_{\phi,k}\bar{\kappa}_k)\bar{h}_{n+1,k}
-\end{split}
-\end{align} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -485,34 +456,9 @@ and fix point, physical point expansion of the effective potential. }
 \label{fig:r42}
 \end{figure*}
 
-The fluctuation of the baryon number is related to some observables. The kurtosis of the baryon number fluctuation at different collision energy 
-can be observed in the experiment like STAR. So the calculation of the baryon number fluctuation is important work. 
-The definition of the each order baryon number fluctuation can be written as
-\begin{align}\label{}
-\begin{split}
-\chi^{B}_{n}=\frac{\partial^n}{\partial(\mu_B/T)^n}\frac{p}{T^4}
-\end{split}
-\end{align} 
-The baryon chemical potential satisfying the relationship of $\mu_B=3\mu$. The quadratic and quartic fluctuations can be expressed using the 
-average baryon number fluctuation $\langle N_B \rangle$
-\begin{align}\label{}
-\begin{split}
-\chi^{B}_{2}&=\frac{1}{VT^3}\langle \delta {N_B}^2 \rangle\\
-\chi^{B}_{4}&=\frac{1}{VT^3}\left( \langle \delta {N_B}^4 \rangle-3\langle \delta {N_B}^2 \rangle^2 \right)
-\end{split}
-\end{align}
 
-The definition of the kurtosis can be written as
-\begin{align}
-\kappa \sigma^2=\frac{\chi^{B}_{4}}{\chi^{B}_{2}}
-\end{align}\par
-At the same time, we calculated the chemical freeze-out line as the function of the collision energy and the kurtosis of the baryon
-number fluctuation. The value of the kurtosis is determined by the temperature and the baryon chemical potential. We use the 
-correspondence of the collision energy and chemical potential which is give in the Table~\ref{tab:cle}. We obtain the freeze-out 
-temperature by the three and two order of the baryon number fluctuation $\chi^B_3/\chi^B_2$ under the different baryon chemical 
-potential which are corresponding to the different collision energy. Then we can compare the numerical results between the fix point 
-expansion and physical point expansion of the effective potential $V_k(\rho)$ and the results of splitted meson wave function 
-renormalisation. There are many ways to determine the freeze-out temperature. 
+
+There are many ways to determine the freeze-out temperature. 
 \begin{table}[h]
   \centering
   \begin{tabular}[c]{c|clclclclclcl}
@@ -527,32 +473,8 @@ renormalisation. There are many ways to determine the freeze-out temperature.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{numerical results and conclusion}
-In this work, we investigated the baryon number fluctuations and some thermodynamic quantities with in the functional 
-renormalization group. We made a comparison of the results between the approximation of the mesonic wave function 
-renormalizations and without the approximation. The calculation are accomplished under the fix point and physical point expansion of 
-the effective potential.Now we give the initial conditions of our calculation. The initial UV scale is $\Lambda=700$MeV. At 
-$k=\Lambda$ the initial effective potential can be written as
 
-\begin{align}
-V_\Lambda(\rho)=\frac{\lambda_\Lambda}{2}\rho^2+\nu_\Lambda\rho
-\end{align}
-And the parameter we chosen in the equation above is shown in the table below
-\begin{table}[h]
-\begin{tabular}{ccccc}
-\hline
- &$\lambda_\Lambda$& $\nu_\Lambda$ & c & h \\
-\hline
- $\kappa\,Z^{\|}_{\phi}=Z^{\bot}_{\phi}\,h_k$& 10.15 & 8.11$(GeV^2)$ & 0.2568$(GeV^3)$ & 7.274\\
- $\kappa\,Z^{\|}_{\phi}\neq Z^{\bot}_{\phi}\,h_k$& 10.15 & 8.17$(GeV^2)$ & 0.2568$(GeV^3)$ & 7.274\\
- $\kappa_k\,Z^{\|}_{\phi}=Z^{\bot}_{\phi}\,h_k$& 5.00 & 17.86$(GeV^2)$ & 0.3696$(GeV^3)$ & 10.110\\
- $\kappa_k\,Z^{\|}_{\phi}\neq Z^{\bot}_{\phi}\,h_k$& 11.00 & 17.91$(GeV^2)$ & 0.3684$(GeV^3)$ & 10.198\\
- 
- 
-\hline
-\end{tabular}
- \caption{The setting of the initial condition parameters.}
-  \label{tab:para}
-\end{table}
+
 These four parameters are chosen by fitting the observables: $m_\pi=135.9$MeV, $m_\sigma=460.0$MeV, $f_\pi=92.1$MeV, $m_q=298.8$MeV.\par
 In the end, we give the numerical calculation results of the physical quantity. In this section we will show the results of the comparison in the two flavor PQM model. 
 Two comparisons have been made, one is $Z^{\|}_{\phi}=Z^{\bot}_{\phi}$ and $Z^{\|}_{\phi}\neq Z^{\bot}_{\phi}$, the other one is the fix point and physical 
