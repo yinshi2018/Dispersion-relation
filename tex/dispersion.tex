@@ -324,7 +324,7 @@ which is also called as the $n$-th order generalized susceptibility of the baryo
   \chi_3^B&=\frac{1}{VT^3}\langle(\delta N_B)^3\rangle\,,\\[2ex]
   \chi_4^B&=\frac{1}{VT^3}\Big(\langle(\delta N_B)^4\rangle-3\langle(\delta N_B)^2\rangle^2\Big)\,,
 \end{align}
-up to the fourth order. Here $\langle ...\rangle$ denotes the ensemble average and $\delta N_B=N_B-\langle N_B\rangle$.
+up to the fourth order. Here $\langle ...\rangle$ denotes the ensemble average and $\delta N_B=N_B-\langle N_B\rangle$. These generalized susceptibilities are related to the cumulants of the baryon number distribution in the experiments, such as the mean value $M=VT^3\chi_1^{B}$, the variance $\sigma^2=VT^3\chi_2^{B}$, the skewness $S=\chi_3^{B}/(\chi_2^{B}\sigma)$, and the kurtosis $\kappa=\chi_4^{B}/(\chi_2^{B}\sigma^2)$, etc.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -332,6 +332,51 @@ up to the fourth order. Here $\langle ...\rangle$ denotes the ensemble average a
 
 \section{Numerical calculations and results}
 \label{sec:num}
+
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure*}[t]
+\includegraphics[width=1\textwidth]{zphi}
+\caption{Transversal and longitudinal wave function renormalizations for the mesons, $Z_{\phi,k}^{\perp}$, $Z_{\phi,k}^{\parallel}$, as functions of the RG scale $k$ in the vacuum (left panel) and at a finite temperature (right panel), in comparison to the case neglecting the splitting, i.e., $Z_{\phi,k}=Z_{\phi,k}^{\perp}=Z_{\phi,k}^{\parallel}$, as the red line shows. Calculations are performed with the fixed point expansion.}\label{fig:zphi}
+\end{figure*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure*}[t]
+\includegraphics[width=1\textwidth]{mfpi}
+\caption{Meson and quark masses (left panel) and $f_\pi$ (right panel) as functions of the temperature at $\mu_B=0$. Calculated results with the splitting of the meson wave function renormalization are compared to those without the splitting, i.e., $Z_{\phi,k}^{\perp}=Z_{\phi,k}^{\parallel}$. Calculations are performed with the fixed point expansion.}\label{fig:mfpi}
+\end{figure*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[t]
+\includegraphics[width=0.5\textwidth]{trace}
+\caption{Trace anomaly as a function of the temperature for $\mu_B=0$. Calculated results with and without splitting of the wave function renormalization are presented. Calculations are performed with the fixed point expansion.}\label{fig:trace}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure*}[t]
+\includegraphics[width=1\textwidth]{kurtosis}
+\caption{Kurtosis of the baryon number distribution $\kappa \sigma^2=\chi_4^{B}/\chi_2^{B}$ as a function of the temperature with $\mu_B=0$ (left panel) and $\mu_B=400$ MeV (right panel).  We compare the results obtained from the splitting of the meson wave function renormalization with those assuming $Z_{\phi,k}^{\perp}=Z_{\phi,k}^{\parallel}$. Calculations are performed with the approach of the fixed point expansion.}\label{fig:kurtosis}
+\end{figure*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure*}[t]
+\includegraphics[width=1\textwidth]{chi}
+\caption{Fluctuations of the baryon number, $\chi_n^B$'s, up to the fourth order, as functions of the temperature with  $\mu_B=400$ MeV. In the same way, the two cases, $Z_{\phi,k}^{\perp}\ne Z_{\phi,k}^{\parallel}$ and $Z_{\phi,k}^{\perp}=Z_{\phi,k}^{\parallel}$, are compared. Calculations are performed with the approach of the fixed point expansion.}\label{fig:chi}
+\end{figure*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
 
 We employ the approach of Taylor expansion to solve the flow of the effective potential in \Eq{eq:flowV} numerically. Expanding around the expansion point $\kappa$, one is led to 
 \begin{align}\label{}
@@ -388,32 +433,18 @@ with $\lambda_\Lambda=$10 and $\nu_\Lambda=(0.556\,\mathrm{GeV})^2$. Furthermore
 \subsection{Effects of the splitting of the meson wave function renormalization}
 \label{sec:splitting}
 
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure*}[t]
-\includegraphics[width=1\textwidth]{zphi}
-\caption{Transversal and longitudinal wave function renormalizations for the mesons, $Z_{\phi,k}^{\perp}$, $Z_{\phi,k}^{\parallel}$, as functions of the RG scale $k$ in the vacuum (left panel) and at a finite temperature (right panel), in comparison to the case neglecting the splitting, i.e., $Z_{\phi,k}=Z_{\phi,k}^{\perp}=Z_{\phi,k}^{\parallel}$, as the red line shows.}\label{fig:zphi}
-\end{figure*}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure*}[t]
-\includegraphics[width=1\textwidth]{mfpi}
-\caption{Transversal and longitudinal wave function renormalizations for the mesons, $Z_{\phi,k}^{\perp}$, $Z_{\phi,k}^{\parallel}$, as functions of the RG scale $k$ in the vacuum (left panel) and at a finite temperature (right panel), in comparison to the case neglecting the splitting, i.e., $Z_{\phi,k}=Z_{\phi,k}^{\perp}=Z_{\phi,k}^{\parallel}$, as the red line shows.}\label{fig:mfpi}
-\end{figure*}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-
 In this subsection, we investigate the effects of the splitting of meson wave function renormalization on the equation of state (EoS) and the baryon number fluctuations. In order to focus on this research, only the fixed point expansion for the effective potential in \Eq{eq:dtkappafix} is adopted in this subsection.
 
-In \Fig{fig:zphi} we show the running of the transversal and longitudinal wave function renormalizations for the mesons, $Z_{\phi,k}^{\perp}$, $Z_{\phi,k}^{\parallel}$, with the RG scale $k$. The results obtained from the calculation without splitting are also presented for comparison. One can see that the splitting of $Z_{\phi,k}^{\perp}$ and $Z_{\phi,k}^{\parallel}$ takes place even in the vacuum, which is attributed to $3d$ regulators used in this work, as shown in \Eq{eq:Rphi} and \Eq{eq:Rq}, which break the $O(4)$ symmetry. We also find that when the splitting is not taken into account, which is usually adopted in the literature, the difference between $Z_{\phi,k}$ and $Z_{\phi,k}^{\perp}$ is very small. Note that $Z_{\phi,k}$ here is also derived from the spacial component, see \Eq{eq:etaphiperp}. Even though, the small difference between $Z_{\phi,k}$ and $Z_{\phi,k}^{\perp}$ has already indicated that the approximation neglecting the splitting is reasonable.
+In \Fig{fig:zphi} we show the running of the transversal and longitudinal wave function renormalizations for the mesons, $Z_{\phi,k}^{\perp}$, $Z_{\phi,k}^{\parallel}$, with the RG scale $k$. The results obtained from the calculation without splitting are also presented for comparison. One can see that the splitting of $Z_{\phi,k}^{\perp}$ and $Z_{\phi,k}^{\parallel}$ takes place even in the vacuum, which is attributed to $3d$ regulators used in this work, as shown in \Eq{eq:Rphi} and \Eq{eq:Rq}, which break the $O(4)$ symmetry. We also find that when the splitting is not taken into account, which is usually adopted in the literature, the difference between $Z_{\phi,k}$ and $Z_{\phi,k}^{\perp}$ is very small. Note that $Z_{\phi,k}$ here is also derived from the spacial component, see \Eq{eq:etaphiperp}. Even though, the small difference between $Z_{\phi,k}$ and $Z_{\phi,k}^{\perp}$ has already indicated that the approximation neglecting the splitting is reasonable. In \Fig{fig:mfpi} we investigate the influence of the splitting of the meson wave function renormalization on the  meson, quark masses and $f_\pi$. One observes that there is almost no difference between the two cases with and without splitting, except for a small effect for the $\sigma$-meson mass in the low temperature regime. In \Fig{fig:trace} we plot the trace anomaly as a function of the temperature with $\mu_B=0$. In the same way, we compare the results with and without splitting of the meson wave function renormalization, and the results show that the effect of the splitting on the trace anomaly is small.
+
+In \Fig{fig:kurtosis} we investigate the influence of the splitting meson wave function on the kurtosis of the baryon number distribution, i.e., $\kappa \sigma^2=\chi_4^{B}/\chi_2^{B}$. One observes that when the baryon chemical potential is vanishing, the two calculations give almost identical results. With the increase of the chemical potential, e.g., $\mu_B=400$ MeV, as shown in the right panel of \Fig{fig:kurtosis}, the splitting meson wave function has begun to play a role, and there is difference between the two calculations, especially in the region near the phase transition. In order to find where the difference comes from. We present the fluctuations of the baryon number of different orders at $\mu_B=400$ MeV in \Fig{fig:chi}. One can see that the fluctuations of the baryon number of all the orders show here, has been suppressed a bit by the splitting of the meson wave function renormalization during the chiral phase transition. But the magnitude of the difference is mild.
+
+In a short summary,  in this section we have investigated the influences of the splitting meson wave function renormalization on the phase transition, QCD thermodynamics and EoS, and the fluctuations of the baryon number. We find that the influences are very small, except that for the baryon number fluctuations at large baryon chemical potential, even there, the difference is just mild. Therefore, we conclude that the splitting of the meson wave function renormalization can be safely neglected in the studies of equilibrium thermodynamical bulk properties within the low energy effective model. However, we should remind that the situation may be different when the nonequilibrium properties, 
 
 
 
 
-
-
+ 
 
 
 
