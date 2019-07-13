@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.6)  12 JUL 2019 17:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.6)  13 JUL 2019 16:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -387,7 +387,11 @@ Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 136
 Class revtex4-1 Info: cite was not loaded (OK!) on input line 136.
 Class revtex4-1 Info: mcite was not loaded (OK!) on input line 136.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 136.
-(./dispersion.aux)
+(./dispersion.aux
+
+LaTeX Warning: Label `sec:splitting' multiply defined.
+
+)
 \openout1 = `dispersion.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 136.
@@ -404,8 +408,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 136.
 LaTeX Font Info:    ... okay on input line 136.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 136.
 LaTeX Font Info:    ... okay on input line 136.
-
-(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count123
 \scratchdimen=\dimen121
@@ -470,19 +473,19 @@ LaTeX Font Info:    Try loading font information for U+bbold on input line 197.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/bbold/Ubbold.fd) [1{/usr/local/te
 xlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
-<./figures/zphi.pdf, id=160, 650.43pt x 252.945pt>
+<./figures/zphi.pdf, id=165, 650.43pt x 252.945pt>
 File: ./figures/zphi.pdf Graphic file (type pdf)
  <use ./figures/zphi.pdf>
 Package pdftex.def Info: ./figures/zphi.pdf used on input line 339.
 (pdftex.def)             Requested size: 510.0pt x 198.3384pt.
 
-<./figures/mfpi.pdf, id=161, 650.43pt x 252.945pt>
+<./figures/mfpi.pdf, id=166, 650.43pt x 252.945pt>
 File: ./figures/mfpi.pdf Graphic file (type pdf)
  <use ./figures/mfpi.pdf>
 Package pdftex.def Info: ./figures/mfpi.pdf used on input line 348.
 (pdftex.def)             Requested size: 510.0pt x 198.3384pt.
 
-<./figures/trace.pdf, id=162, 325.215pt x 252.945pt>
+<./figures/trace.pdf, id=167, 325.215pt x 252.945pt>
 File: ./figures/trace.pdf Graphic file (type pdf)
  <use ./figures/trace.pdf>
 Package pdftex.def Info: ./figures/trace.pdf used on input line 357.
@@ -492,13 +495,13 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 357--358
  [][] 
  []
 
-<./figures/kurtosis.pdf, id=163, 650.43pt x 252.945pt>
+<./figures/kurtosis.pdf, id=168, 650.43pt x 252.945pt>
 File: ./figures/kurtosis.pdf Graphic file (type pdf)
 
 <use ./figures/kurtosis.pdf>
 Package pdftex.def Info: ./figures/kurtosis.pdf used on input line 366.
 (pdftex.def)             Requested size: 510.0pt x 198.3384pt.
- <./figures/chi.pdf, id=164, 650.43pt x 505.89pt>
+ <./figures/chi.pdf, id=169, 650.43pt x 505.89pt>
 File: ./figures/chi.pdf Graphic file (type pdf)
 
 <use ./figures/chi.pdf>
@@ -518,25 +521,35 @@ lusion: multiple pdfs with page group included in a single page
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
  on input line 437.
 
-
-Overfull \hbox (6.11406pt too wide) in paragraph at lines 508--508
+[6 <./figures/trace.pdf>]
+Overfull \hbox (6.11406pt too wide) in paragraph at lines 518--518
 [] 
  []
 
-[6 <./figures/trace.pdf>] [7 <./figures/kurtosis.pdf>] [8 <./figures/chi.pdf>]
-[9] (./dispersion.bbl) [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 650.
+[7 <./figures/kurtosis.pdf>] [8 <./figures/chi.pdf>] [9] (./dispersion.bbl)
+[10]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 660.
  (./dispersion.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 650.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 650.
-Package rerunfilecheck Info: File `dispersion.out' has not changed.
-(rerunfilecheck)             Checksum: 1C8CDE16DD4BF4D454274343B725F595;846.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 660.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 660.
+
+
+Package rerunfilecheck Warning: File `dispersion.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `dispersion.out':
+(rerunfilecheck)             Before: 0F66A9BC2CAA1C3BB917C9F4D3325BF0;961
+(rerunfilecheck)             After:  D423F0C692F2B5982AD02039D673CC9C;955.
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 8510 strings out of 493014
- 119529 string characters out of 6133352
- 248310 words of memory out of 5000000
- 11817 multiletter control sequences out of 15000+600000
+ 8519 strings out of 493014
+ 119644 string characters out of 6133352
+ 246436 words of memory out of 5000000
+ 11822 multiletter control sequences out of 15000+600000
  17389 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,14n,28p,1636b,398s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -562,10 +575,10 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2016/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on dispersion.pdf (10 pages, 387165 bytes).
+Output written on dispersion.pdf (10 pages, 391346 bytes).
 PDF statistics:
- 665 PDF objects out of 1000 (max. 8388607)
- 474 compressed objects within 5 object streams
- 102 named destinations out of 1000 (max. 500000)
- 114 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 680 PDF objects out of 1000 (max. 8388607)
+ 487 compressed objects within 5 object streams
+ 106 named destinations out of 1000 (max. 500000)
+ 122 words of extra memory for PDF output out of 10000 (max. 10000000)
 
