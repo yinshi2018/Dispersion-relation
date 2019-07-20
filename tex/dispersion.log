@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.6)  20 JUL 2019 10:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.6)  20 JUL 2019 10:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -523,29 +523,29 @@ LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
 File: ./figures/fpi-expan.pdf Graphic file (type pdf)
 
 <use ./figures/fpi-expan.pdf>
-Package pdftex.def Info: ./figures/fpi-expan.pdf used on input line 470.
+Package pdftex.def Info: ./figures/fpi-expan.pdf used on input line 471.
 (pdftex.def)             Requested size: 510.0pt x 198.3384pt.
 
 <./figures/trun-expan.pdf, id=387, 650.43pt x 505.89pt>
 File: ./figures/trun-expan.pdf Graphic file (type pdf)
 
 <use ./figures/trun-expan.pdf>
-Package pdftex.def Info: ./figures/trun-expan.pdf used on input line 479.
+Package pdftex.def Info: ./figures/trun-expan.pdf used on input line 480.
 (pdftex.def)             Requested size: 510.0pt x 396.67679pt.
 
 <./figures/R42QM-expan.pdf, id=388, 325.215pt x 252.945pt>
 File: ./figures/R42QM-expan.pdf Graphic file (type pdf)
 
 <use ./figures/R42QM-expan.pdf>
-Package pdftex.def Info: ./figures/R42QM-expan.pdf used on input line 488.
+Package pdftex.def Info: ./figures/R42QM-expan.pdf used on input line 489.
 (pdftex.def)             Requested size: 255.0pt x 198.3384pt.
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 488--489
+Overfull \hbox (9.0pt too wide) in paragraph at lines 489--490
  [][] 
  []
 
 [7 <./figures/kurtosis.pdf>]
-Overfull \hbox (6.11406pt too wide) in paragraph at lines 553--553
+Overfull \hbox (6.11406pt too wide) in paragraph at lines 554--554
 [] 
  []
 
@@ -553,7 +553,7 @@ Overfull \hbox (6.11406pt too wide) in paragraph at lines 553--553
 .pdf>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 602.
+ on input line 603.
 
 [11 <./figures/R42QM-expan.pdf>] (./dispersion.bbl
 Underfull \hbox (badness 1137) in paragraph at lines 115--123
@@ -567,10 +567,10 @@ Underfull \hbox (badness 3635) in paragraph at lines 115--123
  []
 
 ) [12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 695.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 696.
  (./dispersion.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 695.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 695.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 696.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 696.
 Package rerunfilecheck Info: File `dispersion.out' has not changed.
 (rerunfilecheck)             Checksum: D423F0C692F2B5982AD02039D673CC9C;955.
  ) 
