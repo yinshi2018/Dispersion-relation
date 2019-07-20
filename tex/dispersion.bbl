@@ -104,18 +104,20 @@
   {B301}},\ \bibinfo {pages} {90} (\bibinfo {year} {1993})}\BibitemShut
   {NoStop}%
 %%CITATION = PHLTA,B301,90;%%
-\bibitem [{\citenamefont {Ratti}\ \emph {et~al.}(2006)\citenamefont {Ratti},
-  \citenamefont {Thaler},\ and\ \citenamefont {Weise}}]{Ratti:2005jh}%
+\bibitem [{\citenamefont {Lo}\ \emph {et~al.}(2013)\citenamefont {Lo},
+  \citenamefont {Friman}, \citenamefont {Kaczmarek}, \citenamefont {Redlich},\
+  and\ \citenamefont {Sasaki}}]{Lo:2013hla}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
-  {Ratti}}, \bibinfo {author} {\bibfnamefont {M.~A.}\ \bibnamefont {Thaler}}, \
-  and\ \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Weise}},\ }\href
-  {\doibase 10.1103/PhysRevD.73.014019} {\bibfield  {journal} {\bibinfo
-  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume} {D73}},\ \bibinfo {pages}
-  {014019} (\bibinfo {year} {2006})},\ \Eprint
-  {http://arxiv.org/abs/hep-ph/0506234} {arXiv:hep-ph/0506234 [hep-ph]}
-  \BibitemShut {NoStop}%
-%%CITATION = HEP-PH/0506234;%%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~M.}\ \bibnamefont
+  {Lo}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Friman}}, \bibinfo
+  {author} {\bibfnamefont {O.}~\bibnamefont {Kaczmarek}}, \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {Redlich}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Sasaki}},\ }\href {\doibase
+  10.1103/PhysRevD.88.074502} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev.}\ }\textbf {\bibinfo {volume} {D88}},\ \bibinfo {pages} {074502}
+  (\bibinfo {year} {2013})},\ \Eprint {http://arxiv.org/abs/1307.5958}
+  {arXiv:1307.5958 [hep-lat]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1307.5958;%%
 \bibitem [{\citenamefont {Haas}\ \emph {et~al.}(2013)\citenamefont {Haas},
   \citenamefont {Stiele}, \citenamefont {Braun}, \citenamefont {Pawlowski},\
   and\ \citenamefont {Schaffner-Bielich}}]{Haas:2013qwp}%
