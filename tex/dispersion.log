@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.6)  20 JUL 2019 22:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.6)  21 JUL 2019 16:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -465,44 +465,44 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 160.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+bbold on input line 197.
+LaTeX Font Info:    Try loading font information for U+bbold on input line 198.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/bbold/Ubbold.fd) [1{/usr/local/te
 xlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-<./figures/zphi.pdf, id=139, 650.43pt x 252.945pt>
+<./figures/zphi.pdf, id=165, 650.43pt x 252.945pt>
 File: ./figures/zphi.pdf Graphic file (type pdf)
  <use ./figures/zphi.pdf>
-Package pdftex.def Info: ./figures/zphi.pdf used on input line 273.
+Package pdftex.def Info: ./figures/zphi.pdf used on input line 274.
 (pdftex.def)             Requested size: 510.0pt x 198.3384pt.
 
-<./figures/mfpi.pdf, id=140, 650.43pt x 252.945pt>
+<./figures/mfpi.pdf, id=166, 650.43pt x 252.945pt>
 File: ./figures/mfpi.pdf Graphic file (type pdf)
  <use ./figures/mfpi.pdf>
-Package pdftex.def Info: ./figures/mfpi.pdf used on input line 282.
+Package pdftex.def Info: ./figures/mfpi.pdf used on input line 283.
 (pdftex.def)             Requested size: 510.0pt x 198.3384pt.
 
-<./figures/trace.pdf, id=141, 325.215pt x 252.945pt>
+<./figures/trace.pdf, id=167, 325.215pt x 252.945pt>
 File: ./figures/trace.pdf Graphic file (type pdf)
  <use ./figures/trace.pdf>
-Package pdftex.def Info: ./figures/trace.pdf used on input line 291.
+Package pdftex.def Info: ./figures/trace.pdf used on input line 292.
 (pdftex.def)             Requested size: 255.0pt x 198.3384pt.
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 291--292
+Overfull \hbox (9.0pt too wide) in paragraph at lines 292--293
  [][] 
  []
 
-<./figures/kurtosis.pdf, id=142, 650.43pt x 252.945pt>
+<./figures/kurtosis.pdf, id=168, 650.43pt x 252.945pt>
 File: ./figures/kurtosis.pdf Graphic file (type pdf)
 
 <use ./figures/kurtosis.pdf>
-Package pdftex.def Info: ./figures/kurtosis.pdf used on input line 300.
+Package pdftex.def Info: ./figures/kurtosis.pdf used on input line 301.
 (pdftex.def)             Requested size: 510.0pt x 198.3384pt.
- <./figures/chi.pdf, id=143, 650.43pt x 505.89pt>
+ <./figures/chi.pdf, id=169, 650.43pt x 505.89pt>
 File: ./figures/chi.pdf Graphic file (type pdf)
 
 <use ./figures/chi.pdf>
-Package pdftex.def Info: ./figures/chi.pdf used on input line 309.
+Package pdftex.def Info: ./figures/chi.pdf used on input line 310.
 (pdftex.def)             Requested size: 510.0pt x 396.67679pt.
  [3] [4 <./figures/zphi.pdf> <./figures/mfpi.pdf
 
@@ -511,35 +511,35 @@ lusion: multiple pdfs with page group included in a single page
 >]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 382.
+ on input line 383.
 
-<./figures/fpi-expan.pdf, id=284, 650.43pt x 252.945pt>
+<./figures/fpi-expan.pdf, id=310, 650.43pt x 252.945pt>
 File: ./figures/fpi-expan.pdf Graphic file (type pdf)
 
 <use ./figures/fpi-expan.pdf>
-Package pdftex.def Info: ./figures/fpi-expan.pdf used on input line 393.
+Package pdftex.def Info: ./figures/fpi-expan.pdf used on input line 394.
 (pdftex.def)             Requested size: 510.0pt x 198.3384pt.
 
-<./figures/trun-expan.pdf, id=287, 650.43pt x 505.89pt>
+<./figures/trun-expan.pdf, id=313, 650.43pt x 505.89pt>
 File: ./figures/trun-expan.pdf Graphic file (type pdf)
 
 <use ./figures/trun-expan.pdf>
-Package pdftex.def Info: ./figures/trun-expan.pdf used on input line 402.
+Package pdftex.def Info: ./figures/trun-expan.pdf used on input line 403.
 (pdftex.def)             Requested size: 510.0pt x 396.67679pt.
 
-<./figures/R42QM-expan.pdf, id=288, 325.215pt x 252.945pt>
+<./figures/R42QM-expan.pdf, id=314, 325.215pt x 252.945pt>
 File: ./figures/R42QM-expan.pdf Graphic file (type pdf)
 
 <use ./figures/R42QM-expan.pdf>
-Package pdftex.def Info: ./figures/R42QM-expan.pdf used on input line 411.
+Package pdftex.def Info: ./figures/R42QM-expan.pdf used on input line 412.
 (pdftex.def)             Requested size: 255.0pt x 198.3384pt.
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 411--412
+Overfull \hbox (9.0pt too wide) in paragraph at lines 412--413
  [][] 
  []
 
 
-Overfull \hbox (9.71144pt too wide) in paragraph at lines 453--453
+Overfull \hbox (9.71144pt too wide) in paragraph at lines 454--454
 [] 
  []
 
@@ -547,40 +547,52 @@ Overfull \hbox (9.71144pt too wide) in paragraph at lines 453--453
 [8 <./figures/fpi-expan.pdf>] [9 <./figures/trun-expan.pdf>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 498.
+ on input line 499.
 
 
-Overfull \hbox (6.11406pt too wide) in paragraph at lines 540--540
+Overfull \hbox (6.11406pt too wide) in paragraph at lines 541--541
 [] 
  []
 
-[10 <./figures/R42QM-expan.pdf>] [11] (./dispersion.bbl
-Underfull \hbox (badness 1137) in paragraph at lines 115--123
+[10 <./figures/R42QM-expan.pdf>] [11] (./dispersion.bbl [12]
+Underfull \hbox (badness 1675) in paragraph at lines 174--181
+ []\OT1/cmr/m/n/9 J. M. Pawlowski, []An-nals Phys. \OT1/cmr/bx/n/9 322\OT1/cmr/
+m/n/9 , 2831 (2007)[],
+ []
+
+
+Underfull \hbox (badness 3364) in paragraph at lines 210--219
+ \OT1/cmr/m/n/9 Pawlowski, []Phys. Rev. Lett. \OT1/cmr/bx/n/9 106\OT1/cmr/m/n/9
+ , 022002 (2011)[],
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 303--311
  []\OT1/cmr/m/n/9 P. M. Lo, B. Friman, O. Kacz-marek, K. Redlich,
  []
 
 
-Underfull \hbox (badness 3635) in paragraph at lines 115--123
+Underfull \hbox (badness 3635) in paragraph at lines 303--311
  \OT1/cmr/m/n/9 and C. Sasaki, []Phys. Rev. \OT1/cmr/bx/n/9 D88\OT1/cmr/m/n/9 ,
  074502 (2013)[],
  []
 
-[12]) [13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 682.
+) [13]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 683.
  (./dispersion.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 682.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 682.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 683.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 683.
 Package rerunfilecheck Info: File `dispersion.out' has not changed.
 (rerunfilecheck)             Checksum: BBC7BB2B92420771889F75B49B1EE3F5;1022.
  ) 
 Here is how much of TeX's memory you used:
- 8552 strings out of 493014
- 120212 string characters out of 6133352
- 282716 words of memory out of 5000000
- 11843 multiletter control sequences out of 15000+600000
+ 8635 strings out of 493014
+ 121937 string characters out of 6133352
+ 283687 words of memory out of 5000000
+ 11910 multiletter control sequences out of 15000+600000
  17389 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,14n,28p,2365b,497s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,14n,28p,2365b,500s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/bbold-type1/bbold10.pf
 b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><
@@ -603,10 +615,10 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2016/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on dispersion.pdf (13 pages, 503190 bytes).
+Output written on dispersion.pdf (13 pages, 511917 bytes).
 PDF statistics:
- 915 PDF objects out of 1000 (max. 8388607)
- 570 compressed objects within 6 object streams
- 115 named destinations out of 1000 (max. 500000)
+ 982 PDF objects out of 1000 (max. 8388607)
+ 636 compressed objects within 7 object streams
+ 131 named destinations out of 1000 (max. 500000)
  145 words of extra memory for PDF output out of 10000 (max. 10000000)
 
