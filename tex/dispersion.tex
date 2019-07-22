@@ -157,15 +157,17 @@ prd,
              %  but any date may be explicitly specified
 
 \begin{abstract}
-We study the finite temperature and density two flavor quark-meson model under the functional renormalisation group. The effect of broken $O(4)-$ symmetry of the wave function  renormalisation and expansion point of effective potential on the thermodynamic quantities and baryon number fluctuation are investigate. At the same time, the field dependent Yukawa coupling is also considered. We give results of the pion mass, the quark mass, the trace anomaly, the baryon number fluctuation and the freeze-out curve.
+
+We study the nontrivial dispersion relation of mesons resulting from the splitting of the transversal and longitudinal mesonic wave function renormalizations, and its influences on the QCD phase transition, equation of state, and the fluctuations of baryon number. The calculations are performed in a two-flavor low energy effective model within the functional renormalization group approach. We find that influences of the splitting mesonic wave function renormalizations on the equilibrium thermodynamical bulk properties are mild. Furthermore, we have compare the fixed and running expansion for the effective potential in detail, through which the role of the field-dependent meson and quark wave function renormalizations could be inferred.
+
 \end{abstract}
 
 %\pacs{Valid PACS appear here}% PACS, the Physics and Astronomy
-%\pacs{11.30.Rd, %Chiral symmetries
-%         11.10.Wx, %Finite-temperature field theory
-%        05.10.Cc, %Renormalization group methods
-%         12.38.Mh  %Quark-gluon plasma
-%     }                             % Classification Scheme.
+\pacs{11.30.Rd, %Chiral symmetries
+         11.10.Wx, %Finite-temperature field theory
+         05.10.Cc, %Renormalization group methods
+         12.38.Mh  %Quark-gluon plasma
+     }                             % Classification Scheme.
 %\keywords{Suggested keywords}%Use showkeys class option if keyword
                               %display desired
 \maketitle
@@ -182,14 +184,9 @@ Recent years have seen remarkable progresses in the studies on the QCD phase str
 
 On the theoretical side, lattice QCD simulation is the first-principle approach to explore the properties of QCD at finite temperature and densities. There have been significant progresses in the lattice studies in recent years, such as the phase boundary \cite{Bellwied:2015rza,Bazavov:2018mes}, QCD equation of state at finite baryon chemical potential and the fluctuations and correlations of the conserved charges \cite{Bazavov:2017dus,Bazavov:2017tot,Borsanyi:2018grb}, the chiral phase transition temperature \cite{Ding:2019prx}, etc. Because of the sign problem at finite chemical potential, computation of lattice QCD is still restricted to the regime of small chemical potential in the phase diagram, e.g., $\mu_B/T\le 2\sim 3$. Functional continuum field approaches, such as the Dyson-Schwinger equation \cite{Fischer:2018sdj}, the functional renormalization group (FRG) \cite{Pawlowski:2005xe}, etc., are also very suited for the studies of QCD at finite temperature and densities. These functional approaches are not bothered by the sign problem, thus can be employed to study the whole phase diagram \cite{Schaefer:2004en,Herbst:2013ail,Fischer:2018sdj}, in particular to predict the location of CEP, e.g., see \cite{Braun:2009gm,Fischer:2014ata,Gao:2015kea,Fu:2019a}.
 
-In this work we will employ the FRG to study QCD thermodynamics, phase transition and the baryon number fluctuations. In the FRG approach, quantum fluctuations of different scales are integrated successively, with the renormalization group (RG) scale evolving from the ultraviolet $k=\Lambda$ to the infrared $k=0$.
+In this work we will employ the FRG to study QCD thermodynamics, phase transition and the baryon number fluctuations. In the FRG approach, quantum fluctuations of different scales are integrated successively, with the renormalization group (RG) scale evolving from the ultraviolet $k=\Lambda$ to the infrared $k=0$, see e.g., \cite{Berges:2000ew,Pawlowski:2005xe,Pawlowski:2010ht,Braun:2011pp} for QCD-related reviews. Remarkably, significant progresses have been made in the first-principle QCD studies within the FRG approach in the vacuum \cite{Mitter:2014wpa,Braun:2014ata,Rennecke:2015eba,Cyrol:2016tym,Cyrol:2017ewj,Cyrol:2017qkl} and at finite temperature and densities \cite{Fu:2019a} in recent years. Furthermore, low energy effective models within the FRG approach have provided us with a wealth of knowledges about the properties of the strongly interacting matter at finite temperature and densities, for more details, see e.g. \cite{Schaefer:2004en,Schaefer:2006sr,Skokov:2010wb,Herbst:2010rf,Schaefer:2011ex,Mitter:2013fxa,Herbst:2013ufa,Tripolt:2013jra,Fu:2015naa,Fu:2015amv,Fu:2016tey,Rennecke:2016tkm,Jung:2016yxl,Braun:2017srn,Fu:2018qsk,Fu:2018swz,Sun:2018ozp,Wen:2018nkn,Li:2019nzj}.
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-
-The low-energy effective models, e.g. the quark-meson (QM) model \cite{Schaefer:2004en}, Nambu--Jona-Lasinio (NJL) model, and their Polyakov-loop improved variants: PQM and PNJL, are suitable to be employed to study the QCD phase transitions. They have been investigated quite a lot in literatures, see, e.g., \cite{} for more details. In this work, we adopt the scale-dependent effective action for the two-flavor PQM model, as follows 
+The low-energy effective models, e.g. the quark-meson (QM) model \cite{Schaefer:2004en}, Nambu--Jona-Lasinio (NJL) model, and their Polyakov-loop improved variants: PQM and PNJL, are suitable to be employed to study the QCD phase transitions. They have been investigated quite a lot in literatures, see, e.g., \cite{Fukushima:2003fw,Ratti:2005jh,Fu:2007xc,Schaefer:2007pw,Fu:2009wy,Fu:2010ay} for more details. In this work, we adopt the scale-dependent effective action for the two-flavor PQM model, as follows 
 \begin{align}
 \Gamma_k=&\int_x \bigg\{Z_{q,k}\bar{q} \Big [\gamma_\mu \partial_\mu -\gamma_0(\hat\mu+igA_0) \Big ]q \nonumber\\[2ex]
 &+\frac{1}{2}\Big [Z_{\phi,k}^{\parallel}(\partial_0 \phi)^2+Z_{\phi,k}^{\perp}(\partial_i \phi)^2 \Big]\nonumber\\[2ex]
@@ -200,6 +197,8 @@ with $\mu=(0, 1, ..., 3)$ and $i=(1, 2, 3)$. In \Eq{eq:action} we have used nota
 The reason why we concentrate on the split of the wave function renormalization especially for the mesons is due to the facts as follows. Firstly, in comparison to the quark wave function renormalization $Z_{q,k}$ and the scale dependent Yukawa coupling $h_k$ in \Eq{eq:action}, it is found that the meson wave function renormalization $Z_{\phi,k}$ plays the most significant role beyond the local potential approximation (LPA) \cite{Pawlowski:2014zaa,Fu:2015naa}. In the LPA, the propagators are classical, i.e., $Z_{q,k}=Z_{\phi,k}=1$ and the Yukawa coupling $h$ is a constant and independent of the scale $k$. Secondly, In Ref. \cite{Helmboldt:2014iya} calculations based on the full momentum-dependent two-point correlation functions of mesons are compared with those from LPA and LPA$'$, and here in LPA$'$ a momentum-independent $Z_{\phi,k}$ is included, and it is found that there is a good agreement between the full momentum calculation and the LPA$'$, while not LPA, which indicates that the dispersion relation for the meson, resulting from a scale dependent $Z_{\phi,k}$, have already captured most momentum dependence of the two-point correlation function. 
 
 Considering the importance of the wave function renormalization for the mesons and the success of LPA$'$, in this work we would like to investigate the effects of the splitting of $Z_{\phi,k}$ in the LPA$'$ as shown in \Eq{eq:action}, which is a natural choice at finite temperature as discussed above. Furthermore, we will also study the interplay between the splitting of $Z_{\phi,k}$ and other truncation approaches, e.g., the field dependent Yukawa coupling $h_k(\rho)$ which encodes higher order quark-meson scattering processes \cite{Pawlowski:2014zaa}, fixed point expansion for the effective potential $V_k(\rho)$ in \Eq{eq:action} versus the physical point expansion, etc. Their influences on the QCD phase transition and observables, e.g. fluctuations of the baryon number, will be investigated in detail.
+
+This paper is organized as follows. In \sec{sec:FRG} we give the flow equations for the effective potential, anomalous dimensions, and the Yukawa coupling. The equation of state and the baryon number fluctuations are presented in \sec{sec:EoS}. In \sec{sec:num} we show our numerical results, and finally a summary and outlook is presented in \sec{sec:sum}. Explicit expressions for the anomalous dimensions and the flow of the Yukawa are given in \app{app:anom}, and some useful threshold functions are collected in \app{app:thresholdfun}.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

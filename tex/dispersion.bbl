@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{27}%
+\begin{thebibliography}{57}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -249,17 +249,202 @@
   and\ \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Rennecke}},\
   }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {in preparation}\ }
   (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Pawlowski}\ and\ \citenamefont
-  {Rennecke}(2014)}]{Pawlowski:2014zaa}%
+\bibitem [{\citenamefont {Berges}\ \emph {et~al.}(2002)\citenamefont {Berges},
+  \citenamefont {Tetradis},\ and\ \citenamefont {Wetterich}}]{Berges:2000ew}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Berges}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Tetradis}}, \
+  and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Wetterich}},\ }\href
+  {\doibase 10.1016/S0370-1573(01)00098-9} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rept.}\ }\textbf {\bibinfo {volume} {363}},\ \bibinfo
+  {pages} {223} (\bibinfo {year} {2002})},\ \Eprint
+  {http://arxiv.org/abs/hep-ph/0005122} {arXiv:hep-ph/0005122 [hep-ph]}
+  \BibitemShut {NoStop}%
+%%CITATION = HEP-PH/0005122;%%
+\bibitem [{\citenamefont {Pawlowski}(2011)}]{Pawlowski:2010ht}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
-  {Pawlowski}}\ and\ \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
-  {Rennecke}},\ }\href {\doibase 10.1103/PhysRevD.90.076002} {\bibfield
-  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume}
-  {D90}},\ \bibinfo {pages} {076002} (\bibinfo {year} {2014})},\ \Eprint
-  {http://arxiv.org/abs/1403.1179} {arXiv:1403.1179 [hep-ph]} \BibitemShut
+  {Pawlowski}},\ }\bibfield  {booktitle} {\emph {\bibinfo {booktitle}
+  {{Proceedings, 9th Conference on Quark Confinement and the Hadron Spectrum:
+  Madrid, Spain, 30 Aug-3 Sep 2010}}},\ }\href {\doibase 10.1063/1.3574945}
+  {\bibfield  {journal} {\bibinfo  {journal} {AIP Conf. Proc.}\ }\textbf
+  {\bibinfo {volume} {1343}},\ \bibinfo {pages} {75} (\bibinfo {year}
+  {2011})},\ \Eprint {http://arxiv.org/abs/1012.5075} {arXiv:1012.5075
+  [hep-ph]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1012.5075;%%
+\bibitem [{\citenamefont {Braun}(2012)}]{Braun:2011pp}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Braun}},\ }\href {\doibase 10.1088/0954-3899/39/3/033001} {\bibfield
+  {journal} {\bibinfo  {journal} {J. Phys.}\ }\textbf {\bibinfo {volume}
+  {G39}},\ \bibinfo {pages} {033001} (\bibinfo {year} {2012})},\ \Eprint
+  {http://arxiv.org/abs/1108.4449} {arXiv:1108.4449 [hep-ph]} \BibitemShut
   {NoStop}%
-%%CITATION = ARXIV:1403.1179;%%
+%%CITATION = ARXIV:1108.4449;%%
+\bibitem [{\citenamefont {Mitter}\ \emph {et~al.}(2015)\citenamefont {Mitter},
+  \citenamefont {Pawlowski},\ and\ \citenamefont
+  {Strodthoff}}]{Mitter:2014wpa}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Mitter}}, \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
+  {Pawlowski}}, \ and\ \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Strodthoff}},\ }\href {\doibase 10.1103/PhysRevD.91.054035} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume}
+  {D91}},\ \bibinfo {pages} {054035} (\bibinfo {year} {2015})},\ \Eprint
+  {http://arxiv.org/abs/1411.7978} {arXiv:1411.7978 [hep-ph]} \BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1411.7978;%%
+\bibitem [{\citenamefont {Braun}\ \emph {et~al.}(2016)\citenamefont {Braun},
+  \citenamefont {Fister}, \citenamefont {Pawlowski},\ and\ \citenamefont
+  {Rennecke}}]{Braun:2014ata}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Braun}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Fister}},
+  \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont {Pawlowski}}, \ and\
+  \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Rennecke}},\ }\href
+  {\doibase 10.1103/PhysRevD.94.034016} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume} {D94}},\ \bibinfo {pages}
+  {034016} (\bibinfo {year} {2016})},\ \Eprint {http://arxiv.org/abs/1412.1045}
+  {arXiv:1412.1045 [hep-ph]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1412.1045;%%
+\bibitem [{\citenamefont {Rennecke}(2015)}]{Rennecke:2015eba}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Rennecke}},\ }\href {\doibase 10.1103/PhysRevD.92.076012} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume}
+  {D92}},\ \bibinfo {pages} {076012} (\bibinfo {year} {2015})},\ \Eprint
+  {http://arxiv.org/abs/1504.03585} {arXiv:1504.03585 [hep-ph]} \BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1504.03585;%%
+\bibitem [{\citenamefont {Cyrol}\ \emph {et~al.}(2016)\citenamefont {Cyrol},
+  \citenamefont {Fister}, \citenamefont {Mitter}, \citenamefont {Pawlowski},\
+  and\ \citenamefont {Strodthoff}}]{Cyrol:2016tym}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~K.}\ \bibnamefont
+  {Cyrol}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Fister}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Mitter}}, \bibinfo
+  {author} {\bibfnamefont {J.~M.}\ \bibnamefont {Pawlowski}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {N.}~\bibnamefont {Strodthoff}},\ }\href {\doibase
+  10.1103/PhysRevD.94.054005} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev.}\ }\textbf {\bibinfo {volume} {D94}},\ \bibinfo {pages} {054005}
+  (\bibinfo {year} {2016})},\ \Eprint {http://arxiv.org/abs/1605.01856}
+  {arXiv:1605.01856 [hep-ph]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1605.01856;%%
+\bibitem [{\citenamefont {Cyrol}\ \emph
+  {et~al.}(2018{\natexlab{a}})\citenamefont {Cyrol}, \citenamefont {Mitter},
+  \citenamefont {Pawlowski},\ and\ \citenamefont {Strodthoff}}]{Cyrol:2017ewj}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~K.}\ \bibnamefont
+  {Cyrol}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Mitter}},
+  \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont {Pawlowski}}, \ and\
+  \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Strodthoff}},\ }\href
+  {\doibase 10.1103/PhysRevD.97.054006} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume} {D97}},\ \bibinfo {pages}
+  {054006} (\bibinfo {year} {2018}{\natexlab{a}})},\ \Eprint
+  {http://arxiv.org/abs/1706.06326} {arXiv:1706.06326 [hep-ph]} \BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1706.06326;%%
+\bibitem [{\citenamefont {Cyrol}\ \emph
+  {et~al.}(2018{\natexlab{b}})\citenamefont {Cyrol}, \citenamefont {Mitter},
+  \citenamefont {Pawlowski},\ and\ \citenamefont {Strodthoff}}]{Cyrol:2017qkl}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~K.}\ \bibnamefont
+  {Cyrol}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Mitter}},
+  \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont {Pawlowski}}, \ and\
+  \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Strodthoff}},\ }\href
+  {\doibase 10.1103/PhysRevD.97.054015} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume} {D97}},\ \bibinfo {pages}
+  {054015} (\bibinfo {year} {2018}{\natexlab{b}})},\ \Eprint
+  {http://arxiv.org/abs/1708.03482} {arXiv:1708.03482 [hep-ph]} \BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1708.03482;%%
+\bibitem [{\citenamefont {Schaefer}\ and\ \citenamefont
+  {Wambach}(2008)}]{Schaefer:2006sr}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.-J.}\ \bibnamefont
+  {Schaefer}}\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Wambach}},\ }\bibfield  {booktitle} {\emph {\bibinfo {booktitle} {{Helmholtz
+  International Summer School on Dense Matter in Heavy Ion Collisions and
+  Astrophysics Dubna, Russia, August 21-September 1, 2006}}},\ }\href {\doibase
+  10.1134/S1063779608070083} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Part. Nucl.}\ }\textbf {\bibinfo {volume} {39}},\ \bibinfo {pages} {1025}
+  (\bibinfo {year} {2008})},\ \Eprint {http://arxiv.org/abs/hep-ph/0611191}
+  {arXiv:hep-ph/0611191 [hep-ph]} \BibitemShut {NoStop}%
+%%CITATION = HEP-PH/0611191;%%
+\bibitem [{\citenamefont {Skokov}\ \emph {et~al.}(2010)\citenamefont {Skokov},
+  \citenamefont {Stokic}, \citenamefont {Friman},\ and\ \citenamefont
+  {Redlich}}]{Skokov:2010wb}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Skokov}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Stokic}},
+  \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Friman}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {K.}~\bibnamefont {Redlich}},\ }\href {\doibase
+  10.1103/PhysRevC.82.015206} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev.}\ }\textbf {\bibinfo {volume} {C82}},\ \bibinfo {pages} {015206}
+  (\bibinfo {year} {2010})},\ \Eprint {http://arxiv.org/abs/1004.2665}
+  {arXiv:1004.2665 [hep-ph]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1004.2665;%%
+\bibitem [{\citenamefont {Herbst}\ \emph {et~al.}(2011)\citenamefont {Herbst},
+  \citenamefont {Pawlowski},\ and\ \citenamefont {Schaefer}}]{Herbst:2010rf}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~K.}\ \bibnamefont
+  {Herbst}}, \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
+  {Pawlowski}}, \ and\ \bibinfo {author} {\bibfnamefont {B.-J.}\ \bibnamefont
+  {Schaefer}},\ }\href {\doibase 10.1016/j.physletb.2010.12.003} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Lett.}\ }\textbf {\bibinfo {volume}
+  {B696}},\ \bibinfo {pages} {58} (\bibinfo {year} {2011})},\ \Eprint
+  {http://arxiv.org/abs/1008.0081} {arXiv:1008.0081 [hep-ph]} \BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1008.0081;%%
+\bibitem [{\citenamefont {Schaefer}\ and\ \citenamefont
+  {Wagner}(2012)}]{Schaefer:2011ex}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~J.}\ \bibnamefont
+  {Schaefer}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Wagner}},\ }\href {\doibase 10.1103/PhysRevD.85.034027} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume}
+  {D85}},\ \bibinfo {pages} {034027} (\bibinfo {year} {2012})},\ \Eprint
+  {http://arxiv.org/abs/1111.6871} {arXiv:1111.6871 [hep-ph]} \BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1111.6871;%%
+\bibitem [{\citenamefont {Mitter}\ and\ \citenamefont
+  {Schaefer}(2014)}]{Mitter:2013fxa}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Mitter}}\ and\ \bibinfo {author} {\bibfnamefont {B.-J.}\ \bibnamefont
+  {Schaefer}},\ }\href {\doibase 10.1103/PhysRevD.89.054027} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume}
+  {D89}},\ \bibinfo {pages} {054027} (\bibinfo {year} {2014})},\ \Eprint
+  {http://arxiv.org/abs/1308.3176} {arXiv:1308.3176 [hep-ph]} \BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1308.3176;%%
+\bibitem [{\citenamefont {Herbst}\ \emph {et~al.}(2014)\citenamefont {Herbst},
+  \citenamefont {Mitter}, \citenamefont {Pawlowski}, \citenamefont {Schaefer},\
+  and\ \citenamefont {Stiele}}]{Herbst:2013ufa}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~K.}\ \bibnamefont
+  {Herbst}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Mitter}},
+  \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont {Pawlowski}}, \bibinfo
+  {author} {\bibfnamefont {B.-J.}\ \bibnamefont {Schaefer}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {R.}~\bibnamefont {Stiele}},\ }\href {\doibase
+  10.1016/j.physletb.2014.02.045} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Lett.}\ }\textbf {\bibinfo {volume} {B731}},\ \bibinfo {pages} {248}
+  (\bibinfo {year} {2014})},\ \Eprint {http://arxiv.org/abs/1308.3621}
+  {arXiv:1308.3621 [hep-ph]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1308.3621;%%
+\bibitem [{\citenamefont {Tripolt}\ \emph {et~al.}(2014)\citenamefont
+  {Tripolt}, \citenamefont {Strodthoff}, \citenamefont {von Smekal},\ and\
+  \citenamefont {Wambach}}]{Tripolt:2013jra}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.-A.}\ \bibnamefont
+  {Tripolt}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Strodthoff}},
+  \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {von Smekal}}, \ and\
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Wambach}},\ }\href
+  {\doibase 10.1103/PhysRevD.89.034010} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume} {D89}},\ \bibinfo {pages}
+  {034010} (\bibinfo {year} {2014})},\ \Eprint {http://arxiv.org/abs/1311.0630}
+  {arXiv:1311.0630 [hep-ph]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1311.0630;%%
 \bibitem [{\citenamefont {Fu}\ and\ \citenamefont
   {Pawlowski}(2015)}]{Fu:2015naa}%
   \BibitemOpen
@@ -271,6 +456,202 @@
   {http://arxiv.org/abs/1508.06504} {arXiv:1508.06504 [hep-ph]} \BibitemShut
   {NoStop}%
 %%CITATION = ARXIV:1508.06504;%%
+\bibitem [{\citenamefont {Fu}\ and\ \citenamefont
+  {Pawlowski}(2016)}]{Fu:2015amv}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.-j.}\ \bibnamefont
+  {Fu}}\ and\ \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
+  {Pawlowski}},\ }\href {\doibase 10.1103/PhysRevD.93.091501} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume}
+  {D93}},\ \bibinfo {pages} {091501} (\bibinfo {year} {2016})},\ \Eprint
+  {http://arxiv.org/abs/1512.08461} {arXiv:1512.08461 [hep-ph]} \BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1512.08461;%%
+\bibitem [{\citenamefont {Fu}\ \emph {et~al.}(2016)\citenamefont {Fu},
+  \citenamefont {Pawlowski}, \citenamefont {Rennecke},\ and\ \citenamefont
+  {Schaefer}}]{Fu:2016tey}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.-j.}\ \bibnamefont
+  {Fu}}, \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont {Pawlowski}},
+  \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Rennecke}}, \ and\
+  \bibinfo {author} {\bibfnamefont {B.-J.}\ \bibnamefont {Schaefer}},\ }\href
+  {\doibase 10.1103/PhysRevD.94.116020} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume} {D94}},\ \bibinfo {pages}
+  {116020} (\bibinfo {year} {2016})},\ \Eprint
+  {http://arxiv.org/abs/1608.04302} {arXiv:1608.04302 [hep-ph]} \BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1608.04302;%%
+\bibitem [{\citenamefont {Rennecke}\ and\ \citenamefont
+  {Schaefer}(2017)}]{Rennecke:2016tkm}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Rennecke}}\ and\ \bibinfo {author} {\bibfnamefont {B.-J.}\ \bibnamefont
+  {Schaefer}},\ }\href {\doibase 10.1103/PhysRevD.96.016009} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume}
+  {D96}},\ \bibinfo {pages} {016009} (\bibinfo {year} {2017})},\ \Eprint
+  {http://arxiv.org/abs/1610.08748} {arXiv:1610.08748 [hep-ph]} \BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1610.08748;%%
+\bibitem [{\citenamefont {Jung}\ \emph {et~al.}(2017)\citenamefont {Jung},
+  \citenamefont {Rennecke}, \citenamefont {Tripolt}, \citenamefont {von
+  Smekal},\ and\ \citenamefont {Wambach}}]{Jung:2016yxl}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Jung}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Rennecke}},
+  \bibinfo {author} {\bibfnamefont {R.-A.}\ \bibnamefont {Tripolt}}, \bibinfo
+  {author} {\bibfnamefont {L.}~\bibnamefont {von Smekal}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Wambach}},\ }\href {\doibase
+  10.1103/PhysRevD.95.036020} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev.}\ }\textbf {\bibinfo {volume} {D95}},\ \bibinfo {pages} {036020}
+  (\bibinfo {year} {2017})},\ \Eprint {http://arxiv.org/abs/1610.08754}
+  {arXiv:1610.08754 [hep-ph]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1610.08754;%%
+\bibitem [{\citenamefont {Braun}\ \emph {et~al.}(2017)\citenamefont {Braun},
+  \citenamefont {Leonhardt},\ and\ \citenamefont {Pospiech}}]{Braun:2017srn}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Braun}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Leonhardt}}, \
+  and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Pospiech}},\ }\href
+  {\doibase 10.1103/PhysRevD.96.076003} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume} {D96}},\ \bibinfo {pages}
+  {076003} (\bibinfo {year} {2017})},\ \Eprint
+  {http://arxiv.org/abs/1705.00074} {arXiv:1705.00074 [hep-ph]} \BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1705.00074;%%
+\bibitem [{\citenamefont {Fu}\ \emph {et~al.}(2018{\natexlab{a}})\citenamefont
+  {Fu}, \citenamefont {Pawlowski},\ and\ \citenamefont
+  {Rennecke}}]{Fu:2018qsk}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.-j.}\ \bibnamefont
+  {Fu}}, \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont {Pawlowski}}, \
+  and\ \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Rennecke}},\
+  }\href@noop {} {\  (\bibinfo {year} {2018}{\natexlab{a}})},\ \Eprint
+  {http://arxiv.org/abs/1808.00410} {arXiv:1808.00410 [hep-ph]} \BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1808.00410;%%
+\bibitem [{\citenamefont {Fu}\ \emph {et~al.}(2018{\natexlab{b}})\citenamefont
+  {Fu}, \citenamefont {Pawlowski},\ and\ \citenamefont
+  {Rennecke}}]{Fu:2018swz}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.-j.}\ \bibnamefont
+  {Fu}}, \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont {Pawlowski}}, \
+  and\ \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Rennecke}},\
+  }\href@noop {} {\  (\bibinfo {year} {2018}{\natexlab{b}})},\ \Eprint
+  {http://arxiv.org/abs/1809.01594} {arXiv:1809.01594 [hep-ph]} \BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1809.01594;%%
+\bibitem [{\citenamefont {Sun}\ \emph {et~al.}(2018)\citenamefont {Sun},
+  \citenamefont {Wen},\ and\ \citenamefont {Fu}}]{Sun:2018ozp}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.-x.}\ \bibnamefont
+  {Sun}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Wen}}, \ and\
+  \bibinfo {author} {\bibfnamefont {W.-j.}\ \bibnamefont {Fu}},\ }\href
+  {\doibase 10.1103/PhysRevD.98.074028} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume} {D98}},\ \bibinfo {pages}
+  {074028} (\bibinfo {year} {2018})},\ \Eprint
+  {http://arxiv.org/abs/1805.12025} {arXiv:1805.12025 [hep-ph]} \BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1805.12025;%%
+\bibitem [{\citenamefont {Wen}\ \emph {et~al.}(2019)\citenamefont {Wen},
+  \citenamefont {Huang},\ and\ \citenamefont {Fu}}]{Wen:2018nkn}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Wen}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Huang}}, \ and\
+  \bibinfo {author} {\bibfnamefont {W.-J.}\ \bibnamefont {Fu}},\ }\href
+  {\doibase 10.1103/PhysRevD.99.094019} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume} {D99}},\ \bibinfo {pages}
+  {094019} (\bibinfo {year} {2019})},\ \Eprint
+  {http://arxiv.org/abs/1809.04233} {arXiv:1809.04233 [hep-ph]} \BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1809.04233;%%
+\bibitem [{\citenamefont {Li}\ \emph {et~al.}(2019)\citenamefont {Li},
+  \citenamefont {Fu},\ and\ \citenamefont {Liu}}]{Li:2019nzj}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {X.}~\bibnamefont
+  {Li}}, \bibinfo {author} {\bibfnamefont {W.-J.}\ \bibnamefont {Fu}}, \ and\
+  \bibinfo {author} {\bibfnamefont {Y.-X.}\ \bibnamefont {Liu}},\ }\href
+  {\doibase 10.1103/PhysRevD.99.074029} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume} {D99}},\ \bibinfo {pages}
+  {074029} (\bibinfo {year} {2019})},\ \Eprint
+  {http://arxiv.org/abs/1902.03866} {arXiv:1902.03866 [hep-ph]} \BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1902.03866;%%
+\bibitem [{\citenamefont {Fukushima}(2004)}]{Fukushima:2003fw}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Fukushima}},\ }\href {\doibase 10.1016/j.physletb.2004.04.027} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Lett.}\ }\textbf {\bibinfo {volume}
+  {B591}},\ \bibinfo {pages} {277} (\bibinfo {year} {2004})},\ \Eprint
+  {http://arxiv.org/abs/hep-ph/0310121} {arXiv:hep-ph/0310121 [hep-ph]}
+  \BibitemShut {NoStop}%
+%%CITATION = HEP-PH/0310121;%%
+\bibitem [{\citenamefont {Ratti}\ \emph {et~al.}(2006)\citenamefont {Ratti},
+  \citenamefont {Thaler},\ and\ \citenamefont {Weise}}]{Ratti:2005jh}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Ratti}}, \bibinfo {author} {\bibfnamefont {M.~A.}\ \bibnamefont {Thaler}}, \
+  and\ \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Weise}},\ }\href
+  {\doibase 10.1103/PhysRevD.73.014019} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume} {D73}},\ \bibinfo {pages}
+  {014019} (\bibinfo {year} {2006})},\ \Eprint
+  {http://arxiv.org/abs/hep-ph/0506234} {arXiv:hep-ph/0506234 [hep-ph]}
+  \BibitemShut {NoStop}%
+%%CITATION = HEP-PH/0506234;%%
+\bibitem [{\citenamefont {Fu}\ \emph {et~al.}(2008)\citenamefont {Fu},
+  \citenamefont {Zhang},\ and\ \citenamefont {Liu}}]{Fu:2007xc}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.-j.}\ \bibnamefont
+  {Fu}}, \bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont {Zhang}}, \ and\
+  \bibinfo {author} {\bibfnamefont {Y.-x.}\ \bibnamefont {Liu}},\ }\href
+  {\doibase 10.1103/PhysRevD.77.014006} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume} {D77}},\ \bibinfo {pages}
+  {014006} (\bibinfo {year} {2008})},\ \Eprint {http://arxiv.org/abs/0711.0154}
+  {arXiv:0711.0154 [hep-ph]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:0711.0154;%%
+\bibitem [{\citenamefont {Schaefer}\ \emph {et~al.}(2007)\citenamefont
+  {Schaefer}, \citenamefont {Pawlowski},\ and\ \citenamefont
+  {Wambach}}]{Schaefer:2007pw}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.-J.}\ \bibnamefont
+  {Schaefer}}, \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
+  {Pawlowski}}, \ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Wambach}},\ }\href {\doibase 10.1103/PhysRevD.76.074023} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume}
+  {D76}},\ \bibinfo {pages} {074023} (\bibinfo {year} {2007})},\ \Eprint
+  {http://arxiv.org/abs/0704.3234} {arXiv:0704.3234 [hep-ph]} \BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:0704.3234;%%
+\bibitem [{\citenamefont {Fu}\ \emph {et~al.}(2010)\citenamefont {Fu},
+  \citenamefont {Liu},\ and\ \citenamefont {Wu}}]{Fu:2009wy}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.-j.}\ \bibnamefont
+  {Fu}}, \bibinfo {author} {\bibfnamefont {Y.-x.}\ \bibnamefont {Liu}}, \ and\
+  \bibinfo {author} {\bibfnamefont {Y.-L.}\ \bibnamefont {Wu}},\ }\href
+  {\doibase 10.1103/PhysRevD.81.014028} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume} {D81}},\ \bibinfo {pages}
+  {014028} (\bibinfo {year} {2010})},\ \Eprint {http://arxiv.org/abs/0910.5783}
+  {arXiv:0910.5783 [hep-ph]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:0910.5783;%%
+\bibitem [{\citenamefont {Fu}\ and\ \citenamefont {Wu}(2010)}]{Fu:2010ay}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.-j.}\ \bibnamefont
+  {Fu}}\ and\ \bibinfo {author} {\bibfnamefont {Y.-l.}\ \bibnamefont {Wu}},\
+  }\href {\doibase 10.1103/PhysRevD.82.074013} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume} {D82}},\ \bibinfo {pages}
+  {074013} (\bibinfo {year} {2010})},\ \Eprint {http://arxiv.org/abs/1008.3684}
+  {arXiv:1008.3684 [hep-ph]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1008.3684;%%
+\bibitem [{\citenamefont {Pawlowski}\ and\ \citenamefont
+  {Rennecke}(2014)}]{Pawlowski:2014zaa}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
+  {Pawlowski}}\ and\ \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Rennecke}},\ }\href {\doibase 10.1103/PhysRevD.90.076002} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume}
+  {D90}},\ \bibinfo {pages} {076002} (\bibinfo {year} {2014})},\ \Eprint
+  {http://arxiv.org/abs/1403.1179} {arXiv:1403.1179 [hep-ph]} \BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1403.1179;%%
 \bibitem [{\citenamefont {Helmboldt}\ \emph {et~al.}(2015)\citenamefont
   {Helmboldt}, \citenamefont {Pawlowski},\ and\ \citenamefont
   {Strodthoff}}]{Helmboldt:2014iya}%
@@ -320,33 +701,6 @@
   {076004} (\bibinfo {year} {2013})},\ \Eprint {http://arxiv.org/abs/1302.1993}
   {arXiv:1302.1993 [hep-ph]} \BibitemShut {NoStop}%
 %%CITATION = ARXIV:1302.1993;%%
-\bibitem [{\citenamefont {Schaefer}\ \emph {et~al.}(2007)\citenamefont
-  {Schaefer}, \citenamefont {Pawlowski},\ and\ \citenamefont
-  {Wambach}}]{Schaefer:2007pw}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.-J.}\ \bibnamefont
-  {Schaefer}}, \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
-  {Pawlowski}}, \ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
-  {Wambach}},\ }\href {\doibase 10.1103/PhysRevD.76.074023} {\bibfield
-  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume}
-  {D76}},\ \bibinfo {pages} {074023} (\bibinfo {year} {2007})},\ \Eprint
-  {http://arxiv.org/abs/0704.3234} {arXiv:0704.3234 [hep-ph]} \BibitemShut
-  {NoStop}%
-%%CITATION = ARXIV:0704.3234;%%
-\bibitem [{\citenamefont {Fu}\ \emph {et~al.}(2016)\citenamefont {Fu},
-  \citenamefont {Pawlowski}, \citenamefont {Rennecke},\ and\ \citenamefont
-  {Schaefer}}]{Fu:2016tey}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.-j.}\ \bibnamefont
-  {Fu}}, \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont {Pawlowski}},
-  \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Rennecke}}, \ and\
-  \bibinfo {author} {\bibfnamefont {B.-J.}\ \bibnamefont {Schaefer}},\ }\href
-  {\doibase 10.1103/PhysRevD.94.116020} {\bibfield  {journal} {\bibinfo
-  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume} {D94}},\ \bibinfo {pages}
-  {116020} (\bibinfo {year} {2016})},\ \Eprint
-  {http://arxiv.org/abs/1608.04302} {arXiv:1608.04302 [hep-ph]} \BibitemShut
-  {NoStop}%
-%%CITATION = ARXIV:1608.04302;%%
 \bibitem [{\citenamefont {Litim}(2000)}]{Litim:2000ci}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~F.}\ \bibnamefont
