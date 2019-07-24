@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2018)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: dispersion.aux
 The style file: apsrev4-1.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -26,45 +26,45 @@ Control: production of eprint (0) enabled
 Warning--missing journal in Ding:2019prx
 Warning--missing journal in Fu:2018qsk
 Warning--missing journal in Fu:2018swz
-You've used 59 entries,
+You've used 60 entries,
             5847 wiz_defined-function locations,
-            2114 strings with 27466 characters,
-and the built_in function-call counts, 59374 in all, are:
-= -- 3902
-> -- 1424
-< -- 385
-+ -- 454
-- -- 349
-* -- 9643
-:= -- 5764
-add.period$ -- 57
-call.type$ -- 59
-change.case$ -- 228
-chr.to.int$ -- 64
-cite$ -- 62
-duplicate$ -- 5556
-empty$ -- 4394
-format.name$ -- 836
-if$ -- 11686
+            2123 strings with 27646 characters,
+and the built_in function-call counts, 60175 in all, are:
+= -- 3964
+> -- 1434
+< -- 390
++ -- 458
+- -- 351
+* -- 9759
+:= -- 5851
+add.period$ -- 58
+call.type$ -- 60
+change.case$ -- 232
+chr.to.int$ -- 65
+cite$ -- 63
+duplicate$ -- 5634
+empty$ -- 4457
+format.name$ -- 841
+if$ -- 11842
 int.to.chr$ -- 4
-int.to.str$ -- 66
-missing$ -- 698
-newline$ -- 279
-num.names$ -- 171
-pop$ -- 2157
+int.to.str$ -- 67
+missing$ -- 708
+newline$ -- 283
+num.names$ -- 174
+pop$ -- 2189
 preamble$ -- 1
-purify$ -- 285
+purify$ -- 290
 quote$ -- 0
-skip$ -- 2104
+skip$ -- 2135
 stack$ -- 0
-substring$ -- 1599
-swap$ -- 5378
-text.length$ -- 160
+substring$ -- 1622
+swap$ -- 5448
+text.length$ -- 161
 text.prefix$ -- 0
 top$ -- 10
-type$ -- 804
+type$ -- 816
 warning$ -- 4
-while$ -- 176
+while$ -- 179
 width$ -- 0
-write$ -- 615
+write$ -- 625
 (There were 4 warnings)
